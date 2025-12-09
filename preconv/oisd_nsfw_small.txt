@@ -1,9 +1,9 @@
-# Version: 202512090309
+# Version: 202512090602
 # Title: oisd nsfw_small
 # Description: Block. Don't break.
 # Syntax: Domains (wildcards) without *.
-# Entries: 20603
-# Last modified: 2025-12-09T03:09:17+0000
+# Entries: 20601
+# Last modified: 2025-12-09T06:02:41+0000
 # Expires: 1 hours
 # License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 # Maintainer: Stephan van Ruth
@@ -1746,7 +1746,6 @@
 +.babijos.com
 +.babosas.com
 +.babushky.club
-+.babylonbee.com
 +.babylongirls.co.uk
 +.babylonloveshop.com
 +.backpage.com
@@ -5389,7 +5388,6 @@
 +.fb69.net
 +.fboom.me
 +.fc1adult.com
-+.fc2.com
 +.fc2av.com
 +.fc2id.com
 +.fc2jav.com
