@@ -317,7 +317,7 @@ jobs:
           echo "[Convert] 4/7 stamparm maltrail domains"
 
           # maltrail-malware
-          clean_name="ipsum-level1"
+          clean_name="maltrail-malware"
           malware_path="${PRECONV_DIR}/${clean_name}.txt"
           echo "  [stamparm maltrail] maltrail-malware-domains.txt -> ${clean_name}.mrs"
 
