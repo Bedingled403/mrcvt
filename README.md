@@ -1,5 +1,5 @@
 ### Domains (wildcards, use `+.` instead of `*.`)
-#### Hagezi
+#### HaGeZi
 
 |  | Github | jsDelivr |
 | ------------- | ------------- | ------------- |
@@ -28,11 +28,12 @@
 | dga14.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/hagezi/dga14.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/hagezi/dga14.mrs) |
 | dga30.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/hagezi/dga30.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/hagezi/dga30.mrs) |
 
-#### StamParm
+#### stamparm
 
 |  | Github | jsDelivr |
 | ------------- | ------------- | ------------- |
-| maltrail-malware.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/stamparm/maltrail-malware.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/stamparm/maltrail-malware.mrs) |
+| maltrail-malware.mrs<br>(from [maltrail-malware-domains](https://github.com/stamparm/aux/blob/master/maltrail-malware-domains.txt)) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/stamparm/maltrail-malware.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/stamparm/maltrail-malware.mrs) |
+| maltrail-static-domains.mrs<br>(malware,malicious,suspicious,mass scanner)<br>(from [maltrail-static-trails](https://github.com/stamparm/aux/blob/master/maltrail-static-trails.txt)) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/stamparm/maltrail-static-domains.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/stamparm/maltrail-static-domains.mrs) |
 
 #### OISD
 
@@ -45,17 +46,38 @@
 
 
 ### IPs
-#### Hagezi
+#### HaGeZi
 
 |  | Github | jsDelivr |
 | ------------- | ------------- | ------------- |
 | tif-ips.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/hagezi/tif-ips.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/hagezi/tif-ips.mrs) |
 
-#### StamParm
+#### stamparm
 
 |  | Github | jsDelivr |
 | ------------- | ------------- | ------------- |
 | ipsum-level1.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/stamparm/ipsum-level1.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/stamparm/ipsum-level1.mrs) |
+| ipsum-level2.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/stamparm/ipsum-level2.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/stamparm/ipsum-level2.mrs) |
+| ipsum-level3.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/stamparm/ipsum-level3.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/stamparm/ipsum-level3.mrs) |
+| ipsum-level4.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/stamparm/ipsum-level4.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/stamparm/ipsum-level4.mrs) |
+| maltrail-static-ips.mrs<br>(malware,malicious,suspicious,mass scanner)<br>(from [maltrail-static-trails](https://github.com/stamparm/aux/blob/master/maltrail-static-trails.txt)) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/stamparm/maltrail-static-ips.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/stamparm/maltrail-static-ips.mrs) |
+
+#### FireHol
+
+|  | Github | jsDelivr |
+| ------------- | ------------- | ------------- |
+| firehol_level1.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/firehol/firehol_level1.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/firehol/firehol_level1.mrs) |
+| firehol_level2.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/firehol/firehol_level2.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/firehol/firehol_level2.mrs) |
+| firehol_level3.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/firehol/firehol_level3.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/firehol/firehol_level3.mrs) |
+| firehol_level4.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/firehol/firehol_level4.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/firehol/firehol_level4.mrs) |
+| firehol_anonymous.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/firehol/firehol_anonymous.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/firehol/firehol_anonymous.mrs) |
+| dm_tor.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/firehol/dm_tor.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/firehol/dm_tor.mrs) |
+| et_tor.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/firehol/et_tor.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/firehol/et_tor.mrs) |
+| tor_exits.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/firehol/tor_exits.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/firehol/tor_exits.mrs) |
+| tor_exits_1d.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/firehol/tor_exits_1d.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/firehol/tor_exits_1d.mrs) |
+| tor_exits_7d.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/firehol/tor_exits_7d.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/firehol/tor_exits_7d.mrs) |
+| tor_exits_30d.mrs | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/firehol/tor_exits_30d.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/firehol/tor_exits_30d.mrs) |
+
 
 ### Additions
 [Preconv Rulesets](https://github.com/Bedingled403/mrcvt/tree/rules/preconv)
