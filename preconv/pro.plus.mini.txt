@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 11 Dec 2025 18:26 UTC
-# Version: 2025.1211.1826.38
+# Last modified: 11 Dec 2025 22:19 UTC
+# Version: 2025.1211.2219.02
 # Syntax: Domains (without subdomains)
-# Number of entries: 65511
+# Number of entries: 65515
 #
 +.0-cis.com
 +.000370.com
@@ -8802,6 +8802,7 @@
 +.b0f1d2.com
 +.b0fc9f16155c4fb5ee361a508d2dbd9d.info
 +.b0g7um.lol
++.b0n8fr.icu
 +.b0x.top
 +.analytics.intern.b1-systems.de
 +.b102aac5247857c251dfcf3d4b539285.com
@@ -14519,7 +14520,6 @@
 +.api.cloudsponge.com
 +.collect.cloudsponge.com
 +.cloudspring.cfd
-+.cloudstoragesigma01.com
 +.cloudstream-apk.com
 +.sentry.cloudsuite.io
 +.cloudtask.com
@@ -14685,7 +14685,6 @@
 +.cnv.cx
 +.cnvlink.com
 +.cnvr.net
-+.cnwucnf.top
 +.cnzz.cn
 +.cnzz.com
 +.cnzz.net
@@ -16698,6 +16697,7 @@
 +.copilot-live.xyz
 +.copitinamon.com
 +.copper6.com
++.coppergateventures.ink
 +.copperlineinteractive.info
 +.coptiopn.pro
 +.copycarpenter.com
@@ -25876,7 +25876,6 @@
 +.ghostsinstance.com
 +.ghtanothingfrui.org
 +.ghtinc.com
-+.ghtroms5399.lat
 +.ghyiiottrrjmeui.com
 +.ghzigitdvmsbb.site
 +.gd-bn-analytics.gi-de.com
@@ -28119,6 +28118,7 @@
 +.log.h5scene.com
 +.track.h5sv6m.com
 +.h5v.eu
++.h6b4ttcx643zcxqw4gcec.cfd
 +.h6x1od.lol
 +.h80j.xyz
 +.smetrics.ha.com
@@ -29532,6 +29532,7 @@
 +.hollow-mess.com
 +.hollowafterthought.com
 +.hollowbrooknetwork.link
++.hollowrocksystems.ink
 +.hollowsuspicion.com
 +.hollymediaa.biz
 +.holm.ru
@@ -30182,6 +30183,7 @@
 +.adserver.hwupgrade.it
 +.hxazz.lol
 +.hxzf4er.com
++.hy168mtcer1wku.rest
 +.hyadain.com
 +.so8.hyatt.com
 +.hybomrbktmtee.website
@@ -44902,6 +44904,7 @@
 +.pelcro.com
 +.pelie.pl
 +.pelikan-network.ir
++.pelink.digital
 +.pelis-123.org
 +.pelitesestrich.com
 +.analytics.pella.com
@@ -45190,7 +45193,6 @@
 +.matomo.pfalz.de
 +.pfcoin.site
 +.s2s-analytics.pff.com
-+.pffija658.lat
 +.pfgweb-qa.com
 +.pfionline.com
 +.smetrics.pfizerforall.com
@@ -48606,7 +48608,6 @@
 +.racunn.com
 +.log.rada.vn
 +.radagun.com
-+.radar-help.site
 +.radarmapps.ru
 +.radexports.com
 +.analytics.radial.com
@@ -52284,7 +52285,6 @@
 +.sentry.offline.shelopes.com
 +.creative.shemale.show
 +.shemedia.com
-+.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shengxinlw.com
@@ -61141,6 +61141,7 @@
 +.ads.vizio.com
 +.rlog4.vizio.com
 +.vizioriamm.site
++.viziuneluxaris.com
 +.analytics.internal-tools.vizor-games.com
 +.vizu.com
 +.vizury.com
@@ -63559,10 +63560,12 @@
 +.xdisplay.site
 +.xdiwbc.com
 +.xdplt.com
++.xdpnnqurquvuc.online
 +.xdrig.com
 +.xdrun.com
 +.xdyit.com
 +.xe1teq.ru
++.xedebrt.digital
 +.xedo.me
 +.xefucrsu.live
 +.xelements.cn
@@ -64728,6 +64731,7 @@
 +.adv.yuetnc.com
 +.yufxt.top
 +.yuga.ru
++.yuhuan.cc
 +.yuiiy.com
 +.yukclick.me
 +.yukishigure.com
