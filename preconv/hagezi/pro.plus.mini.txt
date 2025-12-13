@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 13 Dec 2025 14:20 UTC
-# Version: 2025.1213.1420.31
+# Last modified: 13 Dec 2025 18:19 UTC
+# Version: 2025.1213.1819.21
 # Syntax: Domains (without subdomains)
-# Number of entries: 65304
+# Number of entries: 65330
 #
 +.0.org
 +.0-02.net
@@ -1732,6 +1732,7 @@
 +.88ba.click
 +.88cdn.com
 +.88f2ccd9454b6fe0e71a.com
++.88k24uvcnogvwyq14g66pl8w.cfd
 +.88lmfff666.com
 +.88p2p.com
 +.88win2.com
@@ -1785,6 +1786,7 @@
 +.analytics-fe-np01-iad.8x8.com
 +.analytics-fe-p01-iad.8x8.com
 +.bugsnag.8x8.com
++.8zxr3v962wjmf9wr53gf9.rest
 +.90003cfd.cfd
 +.904c9c5cec1528f4.com
 +.905trk.com
@@ -4065,6 +4067,7 @@
 +.adtazblack.com
 +.adtcdn.com
 +.adtdp.com
++.pixel.adte.com
 +.adtec.ru
 +.adtech.de
 +.adtech.fr
@@ -6729,6 +6732,7 @@
 +.smetrics.antena3.com
 +.antennash.com
 +.antennasync.me
++.px.anteriad.com
 +.antevenio.com
 +.anthe-znn.com
 +.smetrics.anthem.com
@@ -9455,7 +9459,6 @@
 +.bcprm.com
 +.bcptal.shop
 +.bcsgsrv.com
-+.bcvccom.info
 +.bcwcodes.com
 +.sanalytics.bd.com
 +.t.bd.nl
@@ -10324,6 +10327,7 @@
 +.epi.st.bitban.com
 +.joly.st.bitban.com
 +.bitblue-gainward-engine.com
++.bitboxinsurance.com
 +.fmhy.bitbucket.io
 +.bitbucket-apple.xyz
 +.bitbucket-google.xyz
@@ -10690,7 +10694,6 @@
 +.blueofficeotomasyon.xyz
 +.blizzard.blueoxtech.com
 +.bluepeakbi.one
-+.blueprivatkunden.com
 +.bluequbit-official.com
 +.bluerechnung.com
 +.blueseed.tv
@@ -10789,6 +10792,7 @@
 +.bnp4.com
 +.bnp8.com
 +.sstats.bnpparibasfortis.be
++.bnqektutom.com
 +.bnqt.com
 +.bntrace.com
 +.bnvxx.com
@@ -12193,7 +12197,6 @@
 +.vampn.calpaktravel.com
 +.calsmythic.com
 +.caltat.com
-+.caltgc.xyz
 +.caltille.com
 +.smetrics.calvinklein.us
 +.tltev.calvinklein.us
@@ -12258,6 +12261,7 @@
 +.canadianpharmacyleaf.com
 +.canal-apple.xyz
 +.canal-viber-linkedin.xyz
++.ads-proxy-aka.prod.bo.canal.canalplustech.pro
 +.metrics.canarias7.es
 +.cancannicolas.com
 +.canceltrustingunderuse.com
@@ -12296,7 +12300,6 @@
 +.canoerepenttorment.com
 +.b2binfo.canon-europe.com
 +.sentry.is.canonical.com
-+.canpnh.xyz
 +.canstrm.com
 +.cansupeker.com
 +.cant3am.com
@@ -13024,7 +13027,6 @@
 +.target.centerpointenergy.com
 +.www.centertrack.com
 +.smetrics.centerwellpharmacy.com
-+.centjp.xyz
 +.centotag.io
 +.centr-security.com
 +.central-bia.digital
@@ -13218,7 +13220,6 @@
 +.load.ss.chatbotapp.ai
 +.api.chatboxn.com
 +.chatbro.com
-+.chatdigital-pj.com
 +.stats.chateauversailles.fr
 +.analysis.chatglm.cn
 +.chatgpt-ask.ru
@@ -13236,7 +13237,6 @@
 +.app.chatplus.jp
 +.chatpulse.shop
 +.chatrazvrat.ru
-+.chatsatensdimentoss.work
 +.analytics.chatspell.co
 +.chatterfretten.com
 +.chatursply.com
@@ -14156,6 +14156,7 @@
 +.service-analytics.warbyparker.com.cdn.cloudflare.net
 +.wup-1172d361.ind.v2.we-stats.com.cdn.cloudflare.net
 +.wup-db166e4b.ind.v2.we-stats.com.cdn.cloudflare.net
++.wup-ac77ffef.us.v2.we-stats.com.cdn.cloudflare.net
 +.sdk.fra-01.braze.eu.cdn.cloudflare.net
 +.analytics.efa.michigan.gov.cdn.cloudflare.net
 +.ad.gt.cdn.cloudflare.net
@@ -14581,6 +14582,7 @@
 +.cnv.cx
 +.cnvlink.com
 +.cnvr.net
++.cnwucnf.top
 +.cnxudpbqadnzg.space
 +.cnzz.cn
 +.cnzz.com
@@ -15232,7 +15234,6 @@
 +.cobol-organ-google.xyz
 +.app.cobrowser.com
 +.cobwebcomprehension.com
-+.cobxlm.xyz
 +.cobyrose.com
 +.gtm.coca-cola.com
 +.smetrics.coca-cola.com
@@ -16271,7 +16272,6 @@
 +.sentry.configura.com
 +.confirm-id115.com
 +.confirm-office.com
-+.confirmationrdv-leboncoin.fr
 +.confirmid-828132.com
 +.digitalfeedback.euro.confirmit.com
 +.digitalfeedback.us.confirmit.com
@@ -16623,7 +16623,6 @@
 +.copyrightcontent.org
 +.banners.copyscape.com
 +.copytrack.com
-+.coqqxn.xyz
 +.coralcranes.com
 +.corallworld.com
 +.coralsoothingcontribute.com
@@ -16990,7 +16989,6 @@
 +.creatorlink.net
 +.creatortraffic.com
 +.crecon.com
-+.credi-agricole.fr
 +.analytics.credible.com
 +.credit-agriicole.com
 +.metrics.creditacceptance.com
@@ -18264,7 +18262,6 @@
 +.declaration-amf.fr
 +.declare-your-crypto.com
 +.declareddetect.com
-+.decmzf.xyz
 +.decode-amazon.xyz
 +.decode-delivery-computer.xyz
 +.decorizer.xyz
@@ -18528,7 +18525,6 @@
 +.demdex.com
 +.demdex.net
 +.demenageur.com
-+.email.demio.com
 +.atoms.democratandchronicle.com
 +.cm.democratandchronicle.com
 +.democraticexit.com
@@ -21144,6 +21140,7 @@
 +.efimecocer.site
 +.ad.efin.eu
 +.tracking.efinancialcareers.com
++.tagging.eflowinternal.com
 +.efmmege.click
 +.matomo-service.efmt.app
 +.matomo.eforsyning.dk
@@ -24910,6 +24907,7 @@
 +.g792337340.co
 +.g792337341.co
 +.g792337342.co
++.g8k1ueykx6cnm8yqm6.rest
 +.g8tor.com
 +.g8way.io
 +.g9508048080.co
@@ -26279,6 +26277,7 @@
 +.glutenmuttsensuous.com
 +.glymanicale.com
 +.glyphs.cfd
++.glystererne.cyou
 +.gmai.com
 +.gmaiilgogle.icu
 +.gmaill.com
@@ -27982,6 +27981,7 @@
 +.gyro-n.com
 +.gys5.com
 +.gytujflc.biz
++.gywj5v4m77crh1mr3qmyifuj.cfd
 +.gyyx.cn
 +.gz-data.com
 +.gzeromedia.com
@@ -28959,6 +28959,8 @@
 +.api-gl.cdo.heytapmobile.com
 +.api-id.cdo.heytapmobile.com
 +.api-in.cdo.heytapmobile.com
++.cldata-ads-fr.heytapmobile.com
++.cldata-ads-ru.heytapmobile.com
 +.conf-in-dc.heytapmobile.com
 +.u-id.cpc.heytapmobile.com
 +.dc.heytapmobile.com
@@ -28990,6 +28992,7 @@
 +.slb-apisnd-in.heytapmobile.com
 +.sms-ads-in.heytapmobile.com
 +.sms-ads-ru.heytapmobile.com
++.stgdata-ads-fr.heytapmobile.com
 +.api-id.theme.heytapmobile.com
 +.report-sg.uc.heytapmobile.com
 +.heywire.com
@@ -31409,7 +31412,6 @@
 +.instantdeceived.com
 +.instantfox.co
 +.instantfwding.com
-+.www.instantholidaymagic.com
 +.instanthq.com
 +.instantradioplay.com
 +.ping.instantsearchplus.com
@@ -32507,6 +32509,8 @@
 +.johnshopkinshealthalerts.com
 +.ssgtm.johnsonoutdoors.com
 +.jj.join.webcam
++.join-bullishsol.xyz
++.join-franklin.xyz
 +.join-hyena.com
 +.joinads.me
 +.joincheckout.com
@@ -32790,6 +32794,7 @@
 +.sp.justwatch.com
 +.widget.justwatch.com
 +.widgets.jutarnji.hr
++.jutroen.app
 +.juui-adguard.pro
 +.node.juve.de
 +.juvenilesoftlysoda.com
@@ -32832,6 +32837,7 @@
 +.k-2-j-d.com
 +.k-analytix.com
 +.k-colorful.jp
++.gtm.ksync.k-rauta.fi
 +.k-words.io
 +.k0ikana.com
 +.k0jw6qzyh.com
@@ -33604,6 +33610,7 @@
 +.kraken3yvbvzmhytnrnuhsy772i6dfobofu652e27f5hx6y5cpj7rgydkrab1.ru
 +.krakencassino.com
 +.krakencleanpro.com
++.krakenledger.com
 +.krakenoptimize.com
 +.krateo.ai
 +.kraxpro.com
@@ -34076,6 +34083,7 @@
 +.larvaelimans.com
 +.las4srv.com
 +.lasagnetangue.com
++.lasavusuja.com
 +.sentry.lascade.com
 +.trk.clouddev.laserfiche.com
 +.trk.laserfiche.com
@@ -34594,6 +34602,7 @@
 +.lidburger.com
 +.liddersecundumiak.cyou
 +.lidian.info
++.lidoearn.me
 +.data.a.lids.com
 +.lidsaich.net
 +.lidstatic.com
@@ -36044,7 +36053,6 @@
 +.magpi.com
 +.magsrv.com
 +.mahbuba-begum-instagram.fun
-+.maheksatelier.com
 +.mahimeta.com
 +.mahleinc.com
 +.mahubraces.com
@@ -36949,6 +36957,7 @@
 +.tracking.meetsocial.com
 +.report-ps.meettech.net
 +.meetwebclub.com
++.meetwithleader.com
 +.meetworldwide.xyz
 +.ad.meetyouintl.com
 +.meetyuorlove.net
@@ -38323,7 +38332,6 @@
 +.mosaefr.cc
 +.mosaicdataservices.com
 +.moscmzvpxnjjq.website
-+.logs.mosevura.com
 +.af.moshimo.com
 +.i.moshimo.com
 +.image.moshimo.com
@@ -39122,6 +39130,7 @@
 +.mysite.com
 +.smetrics.mysleepyhead.com
 +.prodhome1analyticslistener.mysoluto.com
++.myspiritualss.shop
 +.mystaffingpro.com
 +.mystartsearch.com
 +.mystat.hu
@@ -40699,6 +40708,7 @@
 +.nuorderwholesale.com
 +.nuphartimet.shop
 +.nur.gratis
++.gtm.nursece4less.com
 +.nurseryinflectedshare.com
 +.nut.cc
 +.network.nutaku.net
@@ -41152,6 +41162,7 @@
 +.official-permit.com
 +.officialdvpn-discord.ru
 +.officialemail.cloud
++.officialrenewritualsupplement.shop
 +.product-analytics.officient.io
 +.offmantiner.com
 +.tracking.offshore-energy.biz
@@ -41327,6 +41338,7 @@
 +.olibaba.com
 +.olimp.com
 +.olimpbet.kz
++.gtm-pl.olini.pl
 +.olive-ft.jp
 +.olivedinflats.space
 +.sgtm.olivegarden.com
@@ -43880,6 +43892,7 @@
 +.trk.osdrtb.net
 +.osfin.ru
 +.osfultrbriolenai.info
++.oshacampelis.com
 +.solutions.oshaeducationcenter.com
 +.oshhkdluh.biz
 +.oshoz.com
@@ -45253,6 +45266,7 @@
 +.t.picsart.com
 +.pideghamiwoort.com
 +.pidocsuper.site
++.pidoqepove.com
 +.f.pie.org
 +.s.pie.org
 +.pie-recipes.com
@@ -46803,7 +46817,6 @@
 +.propu.sh
 +.propub.ru
 +.analytics.propz.de
-+.proqei.xyz
 +.proranktracker.com
 +.proresupdate.com
 +.prosecutordistinction.com
@@ -48608,6 +48621,7 @@
 +.plausible.ravanallc.com
 +.client.rave-api.com
 +.ravelin.net
++.live.ravelin.click
 +.stats.ravelry.com
 +.analytics.ravelz.com
 +.ravendarix-app.com
@@ -48900,6 +48914,7 @@
 +.red-ant-analytics-api-dev.redant.cloud
 +.redav.online
 +.redazeiacu.site
++.redbackcoacted.cfd
 +.track.redbao88.com
 +.redbasketball.com
 +.eventsink.api.redbee.live
@@ -49695,6 +49710,9 @@
 +.ritmoportvex.com
 +.analytics.seg.ritual.com
 +.ritualex.com
++.rituals-of-yue.com
++.rituals-outletvip.shop
++.rituals-vip.shop
 +.rivaliq.com
 +.rivcash.com
 +.riven3.online
@@ -50028,6 +50046,7 @@
 +.rovememoirs.com
 +.analytics.rover.io
 +.metrics.prod.ext-svc.rover.com
++.roverify.org
 +.ads-cloud.rovio.com
 +.videoads-cloud.rovio.com
 +.rovno.xyz
@@ -50973,7 +50992,6 @@
 +.analytics.sberhealth.ru
 +.pixel-cdp.sberhealth.ru
 +.sbermarketing.ru
-+.sbexv.xyz
 +.sbfplay99.com
 +.sbfsdvc.com
 +.sbhight.com
@@ -51013,6 +51031,7 @@
 +.scan.page
 +.scan6show.com
 +.scanguard.com
++.scanledgerwallet.com
 +.log.scanqrcodedesign.live
 +.scanscout.com
 +.scanstockphoto.com
@@ -51353,7 +51372,6 @@
 +.secretlyunjust.com
 +.www.secretosx.com
 +.secretturtle.com
-+.sectechpromos.com
 +.securboamerica.com
 +.secure-daddy.com
 +.tracker.secure-hotel-booking.com
@@ -51705,6 +51723,7 @@
 +.serviceausconnect.com
 +.servicecolismondial.com
 +.servicedirect.com
++.statistics.serviceform.com
 +.servicemagic.com
 +.servicemonsterr.com
 +.services-transcash.fr
@@ -51771,6 +51790,7 @@
 +.setupad.net
 +.setyourtape.com
 +.seur-com.cc
++.seur-gov.qpon
 +.seurons-es.top
 +.seurvn.click
 +.seurvw.click
@@ -52047,6 +52067,7 @@
 +.sentry.offline.shelopes.com
 +.creative.shemale.show
 +.shemedia.com
++.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shengxinlw.com
@@ -52442,6 +52463,7 @@
 +.matomo.similarweb.io
 +.similesgleby.com
 +.simility.com
++.simizohodir.com
 +.simmeringsuitableunwoven.com
 +.simognozqow.com
 +.sgtm.simonandschuster.com
@@ -53329,6 +53351,7 @@
 +.wct.softonic-id.com
 +.softpinegrove.garden
 +.softrain.click
++.softritualsco.shop
 +.sentry.softtels.com
 +.tracking.softtels.com
 +.softupdate-online.top
@@ -53546,6 +53569,7 @@
 +.soseereeds.net
 +.collector.boutique.sosh.fr
 +.soslstice.finance
++.sosltsice.finance
 +.analytics.sostrenegrene.com
 +.sosyomat.com
 +.sotchoum.com
@@ -53802,7 +53826,6 @@
 +.spinightcasinos.fr
 +.spininitial.tech
 +.spinnaker-js.com
-+.spinsy.fr
 +.spinsy-casino-online.fr
 +.ext.spinwheelapp.com
 +.spiny.ai
@@ -54970,7 +54993,6 @@
 +.smetrics.sunshinehealth.com
 +.sunspireinitiatives.link
 +.track.sunsunw.com
-+.sunswap.nexus
 +.suntcontent.se
 +.banner.sunyrockland.edu
 +.suoffice.cn
@@ -55368,6 +55390,7 @@
 +.tracker.t-rb.org
 +.ms-ads-image.t-static.ru
 +.t0d0p0r4m0r.xyz
++.t0h6mv.icu
 +.t101.cn
 +.t13.io
 +.t1a.jp
@@ -57092,6 +57115,7 @@
 +.swa.tjmaxx.tjx.com
 +.tjyz98.com
 +.crashreporter.tk.de
++.tk-eurituals.shop
 +.tk-gregoric.si
 +.tk0x1.com
 +.tkagencia.com
@@ -60091,7 +60115,6 @@
 +.verification-gmail.com
 +.verification5435321.com
 +.verificationforaccountportal.com
-+.verificationrdv-leboncoin.fr
 +.verifios-id.com
 +.verifiyme-id.com
 +.analytics.veriforceone.com
@@ -61294,6 +61317,7 @@
 +.w0we.com
 +.w13mk6.ru
 +.w28qgxobj6mlv2u.rest
++.w2socks.xyz
 +.w3counter.com
 +.analytics.w3goodies.com
 +.w3roi.com
@@ -62291,6 +62315,7 @@
 +.whoaremyfriends.net
 +.whoisezh.com
 +.whoisvisiting.com
++.wholeingredient.com
 +.wholepagecache.com
 +.wholituaten.com
 +.whomadeyoumirabelli.com
@@ -63548,6 +63573,7 @@
 +.xipkxz.icu
 +.xirendalosthramulexivoranta.mom
 +.xiti.com
++.xjembet.com
 +.xjicecx.ru
 +.xjjbd.com
 +.xjmsxhbfstxmo.space
@@ -64220,6 +64246,7 @@
 +.analytics-sdk.yle.fi
 +.locations.api.yle.fi
 +.apm.aws.yle.fi
++.tag-manager-production.c3.yle.fi
 +.dax.yle.fi
 +.haavi.yle.fi
 +.tag-manager.yle.fi
@@ -64493,7 +64520,6 @@
 +.adv.yuetnc.com
 +.yufxt.top
 +.yuga.ru
-+.yuhuan.cc
 +.yuiiy.com
 +.yukclick.me
 +.yukishigure.com
