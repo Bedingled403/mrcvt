@@ -73,6 +73,7 @@ jobs:
           set -euo pipefail
           echo "[Setup] Creating working directories"
           mkdir -p "$OUTPUT_DIR" "$PRECONV_DIR" "$HAGEZI_DIR" "$STAMPARM_DIR" "$OISD_DIR" "$FIREHOL_DIR"
+          mkdir -p "${PRECONV_DIR}/${HAGEZI_DIR}" "${PRECONV_DIR}/${STAMPARM_DIR}" "${PRECONV_DIR}/${OISD_DIR}" "${PRECONV_DIR}/${FIREHOL_DIR}"
 
       - name: Download and install Mihomo
         run: |
@@ -229,6 +230,7 @@ jobs:
           }
 
           HAGEZI_BASE="https://raw.githubusercontent.com/hagezi/dns-blocklists/main"
+          HAGEZI_CDN_BASE="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest"
           STAMPARM_BASE="https://raw.githubusercontent.com/stamparm"
           OISD_BASE="https://raw.githubusercontent.com/sjhgvr/oisd/main"
           FIREHOL_BASE="https://raw.githubusercontent.com/firehol/blocklist-ipsets/master"
@@ -264,7 +266,7 @@ jobs:
           for src in "${onlydomains_files[@]}"; do
             dest="${onlydomains_outmap[$src]:-$src}"
             clean_name="${dest%-onlydomains.txt}"
-            file_path="${PRECONV_DIR}/${clean_name}.txt"
+            file_path="${PRECONV_DIR}/${HAGEZI_DIR}/${clean_name}.txt"
             echo "  [HaGeZi wildcard only domains] ${src} -> ${clean_name}.mrs"
 
             download "${HAGEZI_BASE}/wildcard/${src}" "$file_path"
@@ -290,7 +292,7 @@ jobs:
 
           for src in "${domain_files[@]}"; do
             clean_name="$(get_clean_name "$src")"
-            file_path="${PRECONV_DIR}/${clean_name}.txt"
+            file_path="${PRECONV_DIR}/${HAGEZI_DIR}/${clean_name}.txt"
             echo "  [HaGeZi domains] ${src} -> ${clean_name}.mrs"
 
             download "${HAGEZI_BASE}/domains/${src}" "$file_path"
@@ -303,13 +305,27 @@ jobs:
           ############################
           echo "[Convert] 3/7 HaGeZi IPs"
 
-          clean_name="tif-ips"
-          file_path="${PRECONV_DIR}/${clean_name}.txt"
-          echo "  [HaGeZi IPs] tif.txt -> ${clean_name}.mrs"
+          ip_files=(
+            tif.txt
+            doh.txt
+          )
 
-          download "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/tif.txt" "$file_path"
-          normalize_iplist "$file_path" "$file_path"
-          convert_ipcidr "$file_path" "${HAGEZI_DIR}/${clean_name}.mrs"
+          declare -A ips_outmap=(
+            [tif.txt]=tif-ips.txt
+            [doh.txt]=doh-ips.txt
+          )
+
+          for src in "${ip_files[@]}"; do
+            dest="${ips_outmap[$src]:-$src}"
+            clean_name="$(get_clean_name "$dest")"
+            file_path="${PRECONV_DIR}/${HAGEZI_DIR}/${clean_name}.txt"
+
+            echo "  [HaGeZi IPs] ${src} -> ${clean_name}.mrs"
+
+            download "${HAGEZI_CDN_BASE}/ips/${src}" "$file_path"
+            normalize_iplist "$file_path" "$file_path"
+            convert_ipcidr "$file_path" "${HAGEZI_DIR}/${clean_name}.mrs"
+          done
 
           ####################################
           # 4. stamparm maltrail domains
@@ -318,7 +334,7 @@ jobs:
 
           # maltrail-malware
           clean_name="maltrail-malware"
-          malware_path="${PRECONV_DIR}/${clean_name}.txt"
+          malware_path="${PRECONV_DIR}/${STAMPARM_DIR}/${clean_name}.txt"
           echo "  [stamparm maltrail] maltrail-malware-domains.txt -> ${clean_name}.mrs"
 
           download "${STAMPARM_BASE}/aux/master/maltrail-malware-domains.txt" "$malware_path"
@@ -328,13 +344,15 @@ jobs:
           # maltrail-static-trails -> domains + ips
           static_raw="${OUTPUT_DIR}/maltrail-static-trails-raw.txt"
           domains_clean_name="maltrail-static-domains"
+          domains_path="${PRECONV_DIR}/${STAMPARM_DIR}/${domains_clean_name}.txt"
           ips_clean_name="maltrail-static-ips"
+          ips_path="${PRECONV_DIR}/${STAMPARM_DIR}/${ips_clean_name}.txt"
           echo "  [stamparm maltrail] maltrail-static-trails.txt -> ${domains_clean_name}.mrs + ${ips_clean_name}.mrs"
           
           download "${STAMPARM_BASE}/aux/master/maltrail-static-trails.txt" "$static_raw"
-          normalize_domains_iplist "$static_raw" "${PRECONV_DIR}/${domains_clean_name}.txt" "${PRECONV_DIR}/${ips_clean_name}.txt"
-          convert_domain "${PRECONV_DIR}/${domains_clean_name}.txt" "${STAMPARM_DIR}/${domains_clean_name}.mrs"
-          convert_ipcidr "${PRECONV_DIR}/${ips_clean_name}.txt" "${STAMPARM_DIR}/${ips_clean_name}.mrs"
+          normalize_domains_iplist "$static_raw" "$domains_path" "$ips_path"
+          convert_domain "$domains_path" "${STAMPARM_DIR}/${domains_clean_name}.mrs"
+          convert_ipcidr "$ips_path" "${STAMPARM_DIR}/${ips_clean_name}.mrs"
 
           ############################
           # 5. stamparm ipsum
@@ -358,7 +376,7 @@ jobs:
           for src in "${ip_files[@]}"; do
             dest="${ipsum_outmap[$src]:-$src}"
             clean_name="$(get_clean_name "$dest")"
-            file_path="${PRECONV_DIR}/${clean_name}.txt"
+            file_path="${PRECONV_DIR}/${STAMPARM_DIR}/${clean_name}.txt"
             echo "  [stamparm ipsum] ${src} -> ${clean_name}.mrs"
 
             download "${STAMPARM_BASE}/ipsum/master/levels/${src}" "$file_path"
@@ -388,7 +406,7 @@ jobs:
           for src in "${wildcard_files[@]}"; do
             dest="${oisd_wildcard_outmap[$src]:-$src}"
             clean_name="$(get_clean_name "$dest")"
-            file_path="${PRECONV_DIR}/${clean_name}.txt"
+            file_path="${PRECONV_DIR}/${OISD_DIR}/${clean_name}.txt"
 
             echo "  [OISD wildcard] ${src} -> ${clean_name}.mrs"
 
@@ -418,7 +436,7 @@ jobs:
 
           for src in "${ipsets_files[@]}"; do
             clean_name="$(get_clean_name "$src")"
-            file_path="${PRECONV_DIR}/${clean_name}.txt"
+            file_path="${PRECONV_DIR}/${FIREHOL_DIR}/${clean_name}.txt"
 
             echo "  [FireHol blocklist-ipsets] ${src} -> ${clean_name}.mrs"
 
