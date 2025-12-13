@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 12 Dec 2025 19:14 UTC
-# Version: 2025.1212.1914.11
+# Last modified: 12 Dec 2025 22:31 UTC
+# Version: 2025.1212.2231.08
 # Syntax: Domains (without subdomains)
-# Number of entries: 76952
+# Number of entries: 76991
 #
 +.0-cis.com
 +.tracker.guguan.000.pe
@@ -7152,6 +7152,7 @@
 +.amazonvsebay.com
 +.metrics.amazonworkdocs.com
 +.amazoon.site
++.ambazsfzo.com
 +.ambeerskoo.com
 +.amberlightfoundry.pro
 +.api.mediation.amberweather.com
@@ -10473,7 +10474,6 @@
 +.amqbl.ballarddesigns.com
 +.ballardshoes.com
 +.ballarinigdj.shop
-+.ballcontrol.click
 +.balletstudiobogota.com
 +.ballettjoypops.com
 +.ballhallsports.com
@@ -12601,7 +12601,6 @@
 +.blutonic.net
 +.bluyypff.xyz
 +.bluza3d.pl
-+.blvas.online
 +.blxreward.com
 +.bm-ads.io
 +.bm23.com
@@ -13004,6 +13003,7 @@
 +.borniontext.live
 +.borrowhourglass.com
 +.borsa-zoom.info
++.borysbutiks.com
 +.bos-live-operations.com
 +.matomo.bosa.be
 +.btm.bosch.com
@@ -15541,15 +15541,27 @@
 +.chagnougroalry.net
 +.chain-twitter-frontend.xyz
 +.chaingaroom.net
++.chaingn.xyz
++.chainhn.xyz
++.chainht.xyz
 +.chainhy.xyz
++.chainiy.xyz
++.chainjz.xyz
++.chainkw.xyz
 +.chainky.xyz
 +.chainlink-vault.com
++.chainln.xyz
 +.chainlotemax.com
++.chainmm.xyz
++.chainnc.xyz
 +.chainopera.foundation
 +.chainrh.xyz
 +.chainsol.live
 +.chainsupdate.top
++.chainva.xyz
 +.chainwz.xyz
++.chainyf.xyz
++.chainyo.xyz
 +.chainzv.xyz
 +.chaip.top
 +.webcontr.chairgo.de
@@ -17352,7 +17364,6 @@
 +.cnv-exchanges.org
 +.cnvlink.com
 +.cnvr.net
-+.cnwucnf.top
 +.cnzz.cn
 +.cnzz.com
 +.cnzz.net
@@ -19497,6 +19508,7 @@
 +.confirm052-booking.com
 +.data.insights.confirmation.com
 +.confirmation-id703.com
++.confirmationrdv-leboncoin.fr
 +.digitalfeedback.euro.confirmit.com
 +.digitalfeedback.us.confirmit.com
 +.confirmsubscription.com
@@ -20372,6 +20384,7 @@
 +.creatorlink.net
 +.creatortraffic.com
 +.crecon.com
++.credi-agricole.fr
 +.analytics.credible.com
 +.credit-agriicole.com
 +.metrics.creditacceptance.com
@@ -20383,6 +20396,7 @@
 +.creditloan.com
 +.somni.creditonebank.com
 +.target.creditonebank.com
++.creditprets.ca
 +.webmet.creditreform.de
 +.creditron.org
 +.customer-analytics.creditsafe.com
@@ -22819,6 +22833,7 @@
 +.digiwb.org
 +.analytics.digiwise.ir
 +.digyamonica.xyz
++.diiystore.com
 +.dijital-ziraatbireyselinternet.sbs
 +.dijitalgibportal.com
 +.dijitalgiris-ziraatbireyselinternet.sbs
@@ -22863,6 +22878,7 @@
 +.dimtairdumpoorg.net
 +.dimufywhy.com
 +.stat.dinamalar.com
++.dinamica-arvexis.com
 +.dinarimerhealthcoach.com
 +.dinaro.cfd
 +.dindeedtheriver.com
@@ -25092,6 +25108,7 @@
 +.pixel.magentamarketing.com.edgekey.net
 +.marketo.com.edgekey.net
 +.mookie1.com.edgekey.net
++.conduit-beacon-usw2.mtvnservices.com.edgekey.net
 +.ads-pd.nbcuni.com.edgekey.net
 +.analytics.nike.com.edgekey.net
 +.track.opentable.com.edgekey.net
@@ -25676,6 +25693,7 @@
 +.seg.eltiempo.com
 +.eltontry.com
 +.eltoro.com
++.eluateejectee.com
 +.elumenguides.elumenapp.com
 +.analytics.elv.com
 +.elvartroelvenoferroxtisundra.cyou
@@ -27357,6 +27375,7 @@
 +.factual.com
 +.factures-marches.fr
 +.facultativethus.com
++.facxupsw.com
 +.fad2033c08.com
 +.fada12888888.work
 +.fadb.xyz
@@ -27495,7 +27514,6 @@
 +.fandoriquest.com
 +.plausible.fangamer.eu
 +.fangdd.com
-+.fangdjuie.top
 +.fangirlmag.com
 +.nuk-widgets.fanhubmedia.com
 +.analytics.collateralunderwriter.fanniemae.com
@@ -28378,7 +28396,6 @@
 +.fixingscarrow.cfd
 +.fixittoday.biz
 +.fixlogincenter.com
-+.fixpro.space
 +.fixserver.ru
 +.fixsolucoes.com
 +.fizgigsrealty.qpon
@@ -33648,6 +33665,7 @@
 +.h0bbittr0ts.ru
 +.h12-media.com
 +.h13p9v.ru
++.h2b7vc.lol
 +.h2office.ru
 +.h3bet.net
 +.h3eaulperhapsfuzkhurried.shop
@@ -33829,7 +33847,6 @@
 +.hktracker.hankookilbo.com
 +.hbugs.hankypanky.com
 +.hanmaker.com
-+.hanmhmnahmnamnhmanhmnahasermet.xyz
 +.hanmumjhi.com
 +.analytics.hannaandersson.com
 +.drsbf.hannaandersson.com
@@ -37501,7 +37518,6 @@
 +.ads.inmobi.com
 +.appgw.inmobi.com
 +.brand.inmobi.com
-+.choice.inmobi.com
 +.ck.inmobi.com
 +.config.inmobi.com
 +.da.inmobi.com
@@ -38616,7 +38632,6 @@
 +.j0ss4np1c5.site
 +.j1nmci.hair
 +.j2.ru
-+.j238g.xyz
 +.j239o.xyz
 +.j239r.xyz
 +.j239y.xyz
@@ -39352,6 +39367,7 @@
 +.jtoutfitters.com
 +.www15.jtv.com
 +.ju2ymymh4zlsk.com
++.juanpingers.com
 +.jubacbpqxhmnp.site
 +.jubbie.de
 +.jubilantaura.com
@@ -39962,6 +39978,7 @@
 +.kensaq.com
 +.kenshoo.com
 +.kentestyle.com
++.kentselprojelerehberi.cfd
 +.kenwellsgrpo.com
 +.kenwoodkujd.shop
 +.kep-adresi.com
@@ -40436,6 +40453,7 @@
 +.kobel.services
 +.kochava.com
 +.k030.koco.com
++.kodama.network
 +.beam.koddi.com
 +.koddos.com
 +.log.kodexglobal.com
@@ -40605,6 +40623,7 @@
 +.kraftonevent.com
 +.kraken-17at.org
 +.kraken-app-assistenza.com
++.kraken189.com
 +.kraken19at-t.ru
 +.krakencassino.com
 +.krakencleanpro.com
@@ -40617,6 +40636,7 @@
 +.kraromendel.top
 +.krateo.ai
 +.kravdin.app
++.kraxpro.com
 +.krayons.biz
 +.krbbxyokiltfv.space
 +.krclip.com
@@ -41516,6 +41536,7 @@
 +.leftliquid.com
 +.lefumip.com
 +.lwozzk.legacy.com
++.legal-fss.online
 +.smetrics.legalandgeneral.com
 +.legalaxy.com
 +.legalcentermedia.com
@@ -41793,6 +41814,7 @@
 +.li1mi8rat.ru
 +.li9jiy.net
 +.liadm.com
++.liamoli.icu
 +.ab.lianjia.com
 +.ad.data.lianjia.com
 +.dig.lianjia.com
@@ -42664,6 +42686,7 @@
 +.localiqtracking.com
 +.umami.localised.com
 +.localiser-id-verifier.fr
++.localiser-verifiez.fr
 +.localiserverifier.fr
 +.localizarmy-device.com
 +.localizecdn.com
@@ -43596,6 +43619,7 @@
 +.acc.magixite.com
 +.analytics.config.maglabmws.com
 +.stats.maglr.com
++.magmafinance.pro
 +.magnatapg.com
 +.magnetadservices.com
 +.magnetic.com
@@ -44223,6 +44247,7 @@
 +.maticooads.com
 +.matictrade.com
 +.matimati.site
++.matipodecreer.com
 +.matlab-twitch.xyz
 +.matlab-webex-egress.xyz
 +.matomo.cloud
@@ -45367,7 +45392,6 @@
 +.discovery.micstatic.com
 +.fa.micstatic.com
 +.pylon.micstatic.com
-+.micuentadisney.com
 +.ld-analytics.micyjz.com
 +.mid-centralfinancialunion.com
 +.mid-coast-tire.com
@@ -45823,6 +45847,7 @@
 +.js.miyuki-web.net
 +.miztv.top
 +.mizuno-running.net
++.mizunochaussure.fr
 +.mj5tuzqkvu84ryvvvh6hnrf8egh8zfrzzy.cyou
 +.mj6fmw8bjc.top
 +.piwik.mja.io
@@ -46873,6 +46898,7 @@
 +.asmassets.mtvnservices.com
 +.btg.mtvnservices.com
 +.conduit-beacon.mtvnservices.com
++.conduit-beacon-usw2.mtvnservices.com
 +.cdn-aka.ts.mtvnservices.com
 +.mu-tandinh.com
 +.muahack.com
@@ -47041,6 +47067,7 @@
 +.mwebsoft.com
 +.mwelfagimaj.com
 +.mwjlyzj.com
++.event.mwm-bs.com
 +.metrics.mwm-bs.com
 +.mediation.mwmadnetworks.com
 +.prod.event.mwm-asset-manager.mwmwebapis.com
@@ -53818,7 +53845,6 @@
 +.portalhc.com
 +.portallinera.network
 +.portalonlinecred.digital
-+.portalseguro-1.site
 +.portalsg1-quaylume.asia
 +.portalsghub-quaylume.asia
 +.portalsupportcenters.com
@@ -55561,6 +55587,7 @@
 +.qmzty.com
 +.qncdaagct.biz
 +.qnp16tstw.com
++.qnq1ikqiq1g3ytwiph5.cfd
 +.qnquajjjjdekm.site
 +.qnsr.com
 +.qntm.pro
@@ -57052,7 +57079,6 @@
 +.refriesbharata.com
 +.reftagger.com
 +.refuel4.com
-+.refuelsblaasop.com
 +.refugeandrome.com
 +.refund-sp-group.info
 +.refundyoursoldex.xyz
@@ -57848,6 +57874,7 @@
 +.risquesluts.com
 +.ritarita.es
 +.sentry.ritm.media
++.ritmo-fintex.com
 +.analytics.seg.ritual.com
 +.ritualex.com
 +.rivaliq.com
@@ -60801,7 +60828,6 @@
 +.sentry.offline.shelopes.com
 +.creative.shemale.show
 +.shemedia.com
-+.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shengxinlw.com
@@ -61130,6 +61156,7 @@
 +.stats.si-erp.cloud
 +.data-e9eee8419a.si-shk.de
 +.sia-live.live
++.siaeraca.online
 +.sialsilures.qpon
 +.track.siamgpstrack.com
 +.siava.ru
@@ -64032,6 +64059,7 @@
 +.stroeermediabrands.de
 +.afl-static-cdn.newbiz-prod.stroeerws.de
 +.strollthrillingmeltdown.com
++.strom-monrevox.com
 +.stromcalam.pro
 +.strong-foot.com
 +.strong-screw.com
@@ -64238,6 +64266,7 @@
 +.suite66.com
 +.suited45trk.com
 +.suitedeatercrutch.com
++.suivietattest-mdts.fr
 +.sujlhaxilfk.com
 +.sukaporn.com
 +.suke10.com
@@ -64425,6 +64454,7 @@
 +.support-appled.com
 +.support-arrowheadcu.org
 +.support-gmeet.com
++.support-kraken-contract.com
 +.support-marketplice-03813.app
 +.support-pages.com
 +.support509.com
@@ -64880,6 +64910,7 @@
 +.rtb2-useast.t3dsp.com
 +.cl.t3n.de
 +.data-cb9b83f47f.t3n.de
++.jobs.t3n.de
 +.t3r3bncx-katlmanlkcrk.com
 +.t4p-upd.info
 +.t4trade.com
@@ -65874,7 +65905,6 @@
 +.log.terralinkv.online
 +.terratraf.com
 +.static.terratraf.io
-+.terraxs.cfd
 +.terrhq.ru
 +.terribleenthusiasm.com
 +.terrificdark.com
@@ -67151,6 +67181,7 @@
 +.toki-sosyalkonut.com
 +.toki2025.online
 +.toki500nakliyat.sbs
++.tokievim2025.com
 +.tokimekimaildesu.net
 +.tokimekitaine.net
 +.tokiresmibasvuru.cfd
@@ -68286,6 +68317,7 @@
 +.tronenergy.top
 +.tronghiep.com
 +.tronosis.com
++.tronsaver.org
 +.sentry.tronscan.org
 +.troopsassistedstupidity.com
 +.notifications.trophyapi.com
@@ -68939,6 +68971,7 @@
 +.tzeanalyse.cyou
 +.tzeaudit.cyou
 +.tzecapital-enhance.com
++.tzeeb7npn7uiwpp.rest
 +.tzegilo.com
 +.tzerevue.cyou
 +.tzpojbvnixqna.website
@@ -70603,6 +70636,7 @@
 +.verification-gmail.com
 +.verification5435321.com
 +.verificationforaccountportal.com
++.verificationrdv-leboncoin.fr
 +.verifios-id.com
 +.verifios-id.help
 +.verifiyme-id.com
@@ -71865,6 +71899,7 @@
 +.vrbcash.com
 +.vrbrothers.com
 +.vrf.ru
++.vrfideyoidnty.com
 +.vrheads.com
 +.email.vriendenloterij.nl
 +.vrixon.com
@@ -73189,6 +73224,7 @@
 +.whitelabelpros.com
 +.whitelist-monad.info
 +.whitelistbasedsumi.com
++.whitelisted-worldlibertyfi.com
 +.beacon.whitemarbleconsulting.com
 +.whitemountaincapital.com
 +.stats.whitenoisemarket.com
@@ -73880,6 +73916,7 @@
 +.metrics.worldwidegolfshops.com
 +.worldwidely.xyz
 +.worldwidepartners.com
++.wormhole1.com
 +.wormholec.com
 +.wormholefi.com
 +.worrisomedifference.com
@@ -75940,6 +75977,7 @@
 +.yuga.ru
 +.yugukj.com
 +.yuh3.com
++.yuhuan.cc
 +.yuiiy.com
 +.yukclick.me
 +.yukishigure.com
@@ -76070,6 +76108,7 @@
 +.zahlentis-software.com
 +.zahlung.name
 +.events.zahs.tv
++.zaidhadi.com
 +.zaimads.com
 +.zaios.network
 +.zaiosdrop.xyz
