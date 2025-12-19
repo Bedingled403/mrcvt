@@ -1,0 +1,111 @@
+name: Update Mihomo
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+  push:                                         # for test
+    branches: [main]                            # for test
+    paths:                                      # for test
+      - '.github/workflows/update-mihomo.yml'   # for test
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -euo pipefail {0}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        with:
+          ref: ${{ github.ref_name }}                                   # the branch that triggers the workflow
+
+      - name: Check latest Mihomo version
+        id: check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Save scripts to /tmp/scripts
+          cp -r scripts /tmp/scripts
+          
+          # Load shared functions
+          source /tmp/scripts/functions.sh
+
+          # Get latest version from upstream
+          latest=$(dl "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" \
+            | grep -oP '"tag_name":\s*"\K[^"]+')
+          echo "latest=$latest" >> "$GITHUB_OUTPUT"
+          
+          # Get current cached version (allow failure, cache branch may not exist)
+          current=$(dl "https://raw.githubusercontent.com/${{ github.repository }}/cache/VERSION" \
+            2>/dev/null || echo "")
+          echo "current=$current" >> "$GITHUB_OUTPUT"
+          
+          if [[ "$current" != "$latest" ]]; then
+            echo "needs_update=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::New version available: ${current:-none} -> $latest"
+          else
+            echo "needs_update=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Already up to date: $latest"
+          fi
+
+      - name: Download and cache Mihomo
+        if: steps.check.outputs.needs_update == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LATEST_VERSION: ${{ steps.check.outputs.latest }}
+        run: |
+          source /tmp/scripts/functions.sh
+          
+          # Get download url for deb pkg
+          deb_url=$(dl "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" \
+            | grep -oP '"browser_download_url":\s*"\K[^"]+mihomo-linux-amd64-v[^"]+\.deb' \
+            | head -1)
+          
+          if [[ -z "$deb_url" ]]; then
+            echo "::error::Failed to get download URL"
+            exit 1
+          fi
+          
+          # Download deb pkg
+          echo "Downloading: $deb_url"
+          dl "$deb_url" mihomo.deb
+          
+          # Update VERSION
+          echo "$LATEST_VERSION" > VERSION
+          
+          echo "::notice::Downloaded mihomo $LATEST_VERSION"
+
+      - name: Push to cache branch
+        if: steps.check.outputs.needs_update == 'true'
+        env:
+          LATEST_VERSION: ${{ steps.check.outputs.latest }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          mkdir cache-repo && cd cache-repo     # Create orphan branch directory explicitly
+          git init
+          cp ../mihomo.deb .
+          cp ../VERSION .
+          
+          # Create README
+          cat > README.md << 'EOF'
+          # Mihomo Cache
+          
+          This branch stores cached mihomo binary for CI/CD pipeline.
+          
+          **Do not manually modify this branch.**
+          EOF
+          
+          # Commit and push
+          git add -A
+          git commit -m "chore: update mihomo to $LATEST_VERSION"
+          git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:cache
+          
+          echo "::notice::Pushed to cache branch"
