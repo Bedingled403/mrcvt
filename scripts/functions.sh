@@ -13,7 +13,7 @@ _FUNCTIONS_LOADED=1
 # source "$SCRIPT_DIR/normalize.sh"
 # source "$SCRIPT_DIR/convert.sh"
 
-# Default value can be overridden by ENV
+# Default values (can be overridden by ENV)
 : "${DL_RETRY:=1}"
 : "${DL_RETRY_DELAY:=3}"
 : "${DL_TIMEOUT:=60}"
@@ -43,6 +43,7 @@ _FUNCTIONS_LOADED=1
 # }
 
 # Usage: dl [-r retry] [-d delay] [-t timeout] <url> [output]
+# - Use GITHUB_TOKEN for authorization
 # - Includes retry mechanism for reliability
 # - Allows single overrides of named options
 # - If `output` is omitted, outputs to stdout
@@ -74,7 +75,11 @@ dl() {
     --retry "$retry"
     --retry-delay "$retry_delay"
     --retry-all-errors
+    -H "User-Agent: GitHub-Actions"
   )
+  
+  # If GITHUB_TOKEN exists, add authorization header
+  [[ -n "${GITHUB_TOKEN:-}" ]] && args+=(-H "Authorization: token $GITHUB_TOKEN")
   
   if [[ -n "$out" ]]; then
     curl "${args[@]}" "$url" -o "$out"
@@ -91,7 +96,6 @@ dl() {
 # - If separator is omitted, use " " by default
 # - Preserves leading comments, skips mid-file comments
 # - Extracts first column, removes port, adds "+." prefix
-
 norm_domain() {
   local sep="${1:-[[:space:]]+}"
   awk -F"$sep" '
@@ -112,7 +116,6 @@ norm_domain() {
 # - Reads from stdin, writes to stdout
 # - If separator is omitted, use " " by default
 # - Normalizes IPv4 addresses to CIDR notation
-
 norm_ip() {
   local sep="${1:-[[:space:]]+}"
   awk -F"$sep" '
@@ -141,7 +144,6 @@ norm_ip() {
 # Usage: proc_domain <url> <output.mrs> [separator]
 # - Downloads, normalizes, and converts domain list
 # - If separator is omitted, use " " by default
-
 proc_domain() {
   local url="$1" out="$2" sep="${3:-[[:space:]]+}"
   local txt="${out%.mrs}.txt"
@@ -153,7 +155,6 @@ proc_domain() {
 # Usage: proc_ip <url> <output.mrs> [separator]
 # - Downloads, normalizes, and converts IP list
 # - If separator is omitted, use " " by default
-
 proc_ip() {
   local url="$1" out="$2" sep="${3:-[[:space:]]+}"
   local txt="${out%.mrs}.txt"
@@ -165,7 +166,6 @@ proc_ip() {
 # Usage: proc_mixed <url> <domain_output.mrs> <ip_output.mrs> [separator]
 # - Downloads once, splits into domain and IP lists
 # - If separator is omitted, use " " by default
-
 proc_mixed() {
   local url="$1" dom_out="$2" ip_out="$3" sep="${4:-[[:space:]]+}"
   local dom_txt="${dom_out%.mrs}.txt"
@@ -186,7 +186,6 @@ proc_mixed() {
 # ============================================================
 # Usage: switch_to_rules_branch
 # - Switches to rules branch, creates if not exists
-
 switch_to_rules_branch() {
   echo "[Git] Switching to rules branch"
   if git ls-remote --exit-code origin rules &>/dev/null; then
@@ -197,21 +196,17 @@ switch_to_rules_branch() {
 }
 
 # Usage: install_mihomo
-# - Installs latest Mihomo from GitHub releases
-
+# - Download and install Mihomo from cached branch in this repository
+# - ENV: GITHUB_REPOSITORY, GITHUB_TOKEN
 install_mihomo() {
-  echo "[Setup] Installing Mihomo"
-  local deb_url
-  deb_url=$(dl "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" |
-    grep -oP '"browser_download_url":\s*"\K[^"]+mihomo-linux-amd64-v[^"]+\.deb' | head -1)
+  echo "[Setup] Installing Mihomo from cache branch"
   
-  if [[ -z "$deb_url" ]]; then
-    echo "::error::Failed to get Mihomo download URL"
-    return 1
-  fi
+  local repo="${GITHUB_REPOSITORY:?GITHUB_REPOSITORY not set}"
+  local deb_url="https://raw.githubusercontent.com/${repo}/cache/mihomo.deb"
   
   dl "$deb_url" /tmp/mihomo.deb
   sudo dpkg -i /tmp/mihomo.deb 2>/dev/null || sudo apt-get install -f -y
   rm -f /tmp/mihomo.deb
-  echo "[Setup] Mihomo installed successfully"
+  
+  echo "[Setup] Mihomo installed: $(mihomo -v 2>&1 | head -1)"
 }
