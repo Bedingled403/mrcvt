@@ -30,8 +30,10 @@ jobs:
           fetch-depth: 0
 
       - name: Prepare environment
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # pass token
         run: |
-          # Save scripts to /tmp/scripts（before branch switched）
+          # Save scripts to /tmp/scripts (before branch switched)
           cp -r scripts /tmp/scripts
           
           # Load shared functions
@@ -48,7 +50,7 @@ jobs:
           mkdir -p "$DOMAIN_DIR"/{hagezi,stamparm,oisd} \
                    "$IPCIDR_DIR"/{hagezi,stamparm,firehol}
           
-          # Install mihomo
+          # Install mihomo (from cached branch)
           install_mihomo
 
       - name: Convert rulesets
