@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * 0"
   workflow_dispatch:
   push:                                         # for test
-    branches: [main]                            # for test
+    branches: [dev]                             # for test
     paths:                                      # for test
       - '.github/workflows/update-mihomo.yml'   # for test
 
