@@ -96,6 +96,8 @@ dl() {
 # - If separator is omitted, use " " by default
 # - Preserves leading comments, skips mid-file comments
 # - Extracts first column, removes port, adds "+." prefix
+# - Match: tld (e.g. org, .org), domain (e.g. example.com, .example.com), domain:port (e.g. example.com:443 / .example.com:443 -> +.example.com)
+# - Reject: pure IP (e.g. 1.2.3.4, .1.2.3.4), path (e.g. /malware.rar, example.com/file.7z), obviously invalid cases (e.g. 123, example..com, .)
 norm_domain() {
   local sep="${1:-[[:space:]]+}"
   awk -F"$sep" '
@@ -107,7 +109,10 @@ norm_domain() {
       sub(/[[:space:]]*#.*$/, "", h)
       gsub(/^[[:space:]]+|[[:space:]]+$/, "", h)
       sub(/:[0-9]+$/, "", h)
-      if (h ~ /^[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)+(:[0-9]{1,5})?$/) print "+." h      # Match domain / domain:port
+      if (h ~ /^(\.)?[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*$/ && h !~ /^[0-9.]+$/) {           # Standard AWKs (such as POSIX awk or stock awk on macOS) do not support zero-width assertions
+        if (h ~ /^\./) print "+" h
+        else print "+." h
+      }
     }
   '
 }
@@ -116,6 +121,8 @@ norm_domain() {
 # - Reads from stdin, writes to stdout
 # - If separator is omitted, use " " by default
 # - Normalizes IPv4 addresses to CIDR notation
+# - Match: pure ipv4 (with port) (e.g. 1.2.3.4, 1.2.3.4:80 -> 1.2.3.4/32), ipv4 cidr (with port) (e.g. 1.2.3.4/32, 1.2.3.4:80/32 -> 1.2.3.4/32)
+# - Reject: pure ipv6, ipv6 cidr, obviously invalid cases
 norm_ip() {
   local sep="${1:-[[:space:]]+}"
   awk -F"$sep" '
@@ -126,12 +133,13 @@ norm_ip() {
       ds = 1; h = $1
       sub(/[[:space:]]*#.*$/, "", h)
       gsub(/^[[:space:]]+|[[:space:]]+$/, "", h)
-      if (match(h, /^[0-9]+(\.[0-9]+){3}/)) {
+      if (match(h, /^[0-9]{1,3}(\.[0-9]{1,3}){3}/)) {
         ip = substr(h, 1, RLENGTH)
         rest = substr(h, RLENGTH + 1)
         cidr = 32
         if (rest ~ /^\/[0-9]+$/) cidr = substr(rest, 2) + 0
         else if (rest != "" && rest !~ /^:[0-9]+$/) next
+
         if (cidr >= 0 && cidr <= 32) print ip "/" cidr
       }
     }
@@ -204,9 +212,13 @@ install_mihomo() {
   local repo="${GITHUB_REPOSITORY:?GITHUB_REPOSITORY not set}"
   local deb_url="https://raw.githubusercontent.com/${repo}/cache/mihomo.deb"
   
-  dl "$deb_url" /tmp/mihomo.deb
-  sudo dpkg -i /tmp/mihomo.deb 2>/dev/null || sudo apt-get install -f -y
-  rm -f /tmp/mihomo.deb
+  local tmp_deb="/tmp/mihomo_$$.deb"                               # Prevent conflicts during concurrent execution
+  dl "$deb_url" "$tmp_deb"
+  if ! sudo dpkg -i "$tmp_deb"; then
+    echo "[Setup] dpkg failed, attempting to fix dependencies..."  # Attempt to fix deps if dpkg failed
+    sudo apt-get update && sudo apt-get install -f -y              # Add `apt-get update`: In a clean environment in GitHub Actions, running install -f directly sometimes fails because the local package index is missing.
+  fi
   
+  rm -f "$tmp_deb"
   echo "[Setup] Mihomo installed: $(mihomo -v 2>&1 | head -1)"
 }
