@@ -2,15 +2,16 @@ name: Update Mihomo
 
 on:
   schedule:
-    - cron: "0 1 * * 0"                         # try to avoid race condition with main workflow
+    - cron: "0 1 * * 0"                         # Try to avoid race condition with main workflow
   workflow_dispatch:
-  push:                                         # for test
-    branches: [dev]                             # for test
-    paths:                                      # for test
-      - '.github/workflows/update-mihomo.yml'   # for test
+  push:                                         # For test
+    branches: [dev]                             # For test
+    paths:                                      # For test
+      - '.github/workflows/update-mihomo.yml'   # For test
 
-permissions:
-  contents: write
+env:
+  GIT_USER_NAME: "github-actions[bot]"
+  GIT_USER_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
 
 jobs:
   update:
@@ -19,11 +20,14 @@ jobs:
       run:
         shell: bash -euo pipefail {0}
 
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
         with:
-          ref: ${{ github.ref_name }}                                   # the branch that triggers the workflow
+          ref: ${{ github.ref_name }}                                   # The branch that triggers the workflow
 
       - name: Check latest Mihomo version
         id: check
@@ -86,8 +90,8 @@ jobs:
         env:
           LATEST_VERSION: ${{ steps.check.outputs.latest }}
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "${{ env.GIT_USER_NAME }}"
+          git config --local user.email "${{ env.GIT_USER_EMAIL }}"
           
           mkdir cache-repo && cd cache-repo     # Create orphan branch directory explicitly
           git init
