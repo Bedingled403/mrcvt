@@ -15,6 +15,8 @@ permissions:
 env:
   DOMAIN_DIR: domain
   IPCIDR_DIR: ipcidr
+  GIT_USER_NAME: "github-actions[bot]"
+  GIT_USER_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
 
 jobs:
   convert:
@@ -131,8 +133,8 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ env.GIT_USER_NAME }}"
+          git config --local user.email "${{ env.GIT_USER_EMAIL }}"
           git add "$DOMAIN_DIR" "$IPCIDR_DIR"
 
           if git diff --cached --quiet; then
@@ -140,8 +142,9 @@ jobs:
             exit 0
           fi
 
-          echo "[Git] Committing changes with message: ${RELEASE_NAME}"
-          git commit -m "$RELEASE_NAME"
+          COMMIT_MESSAGE="release: ${RELEASE_NAME}"
+          echo "[Git] Committing changes with message: ${COMMIT_MESSAGE}"
+          git commit -m "$COMMIT_MESSAGE"
 
           echo "[Git] Pushing to rules branch (force push)"
           git push origin HEAD:rules --force                          # Avoid the infinite accumulation of large files in history
