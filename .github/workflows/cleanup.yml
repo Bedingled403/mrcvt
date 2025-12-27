@@ -1,0 +1,46 @@
+name: Cleanup Branch History
+
+on:
+  schedule:
+    - cron: '0 1 1 */1 *'                       # try to avoid race condition with main workflow
+  workflow_dispatch:
+  push:                                         # for test
+    branches: [dev]                             # for test
+    paths:                                      # for test
+      - '.github/workflows/cleanup.yml'         # for test
+
+env:
+  TARGET_BRANCH: rules
+  COMMIT_MESSAGE: "chore: cleanup branch history [skip ci]"
+  GIT_USER_NAME: "github-actions[bot]"
+  GIT_USER_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
+
+jobs:
+  squash-history:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -euo pipefail {0}
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout target branch
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        with:
+          ref: ${{ env.TARGET_BRANCH }}
+          # just get the latest commit, but make sure it is atomic before doing the destructive operation
+          fetch-depth: 1
+
+      - name: Reset history safely
+        run: |
+          git config --local user.name "${{ env.GIT_USER_NAME }}"
+          git config --local user.email "${{ env.GIT_USER_EMAIL }}"
+
+          # Defensive Programming: Pull the latest code again to minimize the difference caused by the time window
+          git pull origin ${{ env.TARGET_BRANCH }} --rebase
+          
+          git checkout --orphan temp-branch
+          git commit -m "${{ env.COMMIT_MESSAGE }}"
+          git push -f origin temp-branch:${{ env.TARGET_BRANCH }}
