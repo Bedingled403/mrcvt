@@ -2,7 +2,7 @@ name: Update Mihomo
 
 on:
   schedule:
-    - cron: "0 0 * * 0"
+    - cron: "0 1 * * 0"                         # try to avoid race condition with main workflow
   workflow_dispatch:
   push:                                         # for test
     branches: [dev]                             # for test
