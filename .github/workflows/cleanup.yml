@@ -2,15 +2,14 @@ name: Cleanup Branch History
 
 on:
   schedule:
-    - cron: '0 1 1 */1 *'                       # try to avoid race condition with main workflow
+    - cron: '0 1 1 */1 *'                       # Try to avoid race condition with main workflow
   workflow_dispatch:
-  push:                                         # for test
-    branches: [dev]                             # for test
-    paths:                                      # for test
-      - '.github/workflows/cleanup.yml'         # for test
+  push:                                         # For test
+    branches: [dev]                             # For test
+    paths:                                      # For test
+      - '.github/workflows/cleanup.yml'         # For test
 
 env:
-  TARGET_BRANCH: rules
   COMMIT_MESSAGE: "chore: cleanup branch history [skip ci]"
   GIT_USER_NAME: "github-actions[bot]"
   GIT_USER_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
@@ -18,29 +17,48 @@ env:
 jobs:
   squash-history:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash -euo pipefail {0}
+    
+    strategy:
+      # fail-fast: `false` means that even if the cleanup of the previous branch fails, it will not affect the continued cleanup of the next branch.
+      fail-fast: false
+      matrix:
+        # List all the branches that need to be cleaned up here
+        branch: [rules]
 
     permissions:
       contents: write
 
     steps:
-      - name: Checkout target branch
+      - name: Checkout ${{ matrix.branch }}
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
         with:
-          ref: ${{ env.TARGET_BRANCH }}
-          # just get the latest commit, but make sure it is atomic before doing the destructive operation
-          fetch-depth: 1
+          ref: ${{ matrix.branch }}
+          # You must fetch the full history or set `fetch-depth: 0`; otherwise, tagging might point to an incorrect commit object. 
+          # For KISS and performance, you can maintain the default (ref only), which still allows for tagging, 
+          # as a tag simply points to the current SHA.
 
-      - name: Reset history safely
+      - name: Configure Git
         run: |
           git config --local user.name "${{ env.GIT_USER_NAME }}"
           git config --local user.email "${{ env.GIT_USER_EMAIL }}"
 
-          # Defensive Programming: Pull the latest code again to minimize the difference caused by the time window
-          git pull origin ${{ env.TARGET_BRANCH }} --rebase
-          
+      - name: Create Rolling Backup
+        run: |
+          # Name backup tag
+          BACKUP_TAG="backup/${{ matrix.branch }}-last"
+          echo "Backing up current state to tag: $BACKUP_TAG"
+
+          # Delete remote old tags (if any) and old local tags (to prevent naming conflicts)
+          # `|| true` ensures that if the tag does not exist, it will not exit with an error
+          git push origin :refs/tags/$BACKUP_TAG || true
+          git tag -d $BACKUP_TAG || true
+
+          # Tag current commit and push new tag
+          git tag $BACKUP_TAG
+          git push origin $BACKUP_TAG
+
+      - name: Reset history safely for ${{ matrix.branch }}
+        run: |
           git checkout --orphan temp-branch
           git commit -m "${{ env.COMMIT_MESSAGE }}"
-          git push -f origin temp-branch:${{ env.TARGET_BRANCH }}
+          git push -f origin temp-branch:${{ matrix.branch }}
