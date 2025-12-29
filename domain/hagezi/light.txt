@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 28 Dec 2025 18:09 UTC
-# Version: 2025.1228.1809.38
+# Last modified: 28 Dec 2025 22:08 UTC
+# Version: 2025.1228.2208.00
 # Syntax: Domains (without subdomains)
-# Number of entries: 39263
+# Number of entries: 39282
 #
 +.00055edc1917.com
 +.000free.us
@@ -1098,6 +1098,7 @@
 +.51240.com
 +.512j.com
 +.514d937233.com
++.51510s9a8.sbs
 +.51510x988.cyou
 +.515151s99s.cyou
 +.51519158s8sjs18.cfd
@@ -1506,9 +1507,11 @@
 +.811-google.com
 +.81318a5bdde86bcdbf816824a78a1e72.online
 +.819222f244de3e95.com
++.819mng4kn6wybgg.cfd
 +.81ca2db2cd.com
 +.822834c0c6d63bb3201f2d183ddae3ec9c4c8f3be007bc9f4c9caab78858a36.link
 +.822e01e68565.com
++.82324.xyz
 +.823cac1b162f2d13f78215be731ff101.xyz
 +.api.82636fbcf18ce47b3196359e206931345b74d723.com
 +.assets.82636fbcf18ce47b3196359e206931345b74d723.com
@@ -1783,6 +1786,7 @@
 +.a14net.com
 +.a1a12f031613.info
 +.a1c47293b69ec173.com
++.a1n5ux.sbs
 +.a22615fbe61b28e65d404622a6c24f9fe461dbe36327c47677b33a8a054b12e.link
 +.a26a17109ad1.info
 +.a27270574a.com
@@ -9319,6 +9323,7 @@
 +.s.cntqk.com
 +.cntxcdm.com
 +.cnvlink.com
++.cnwucnf.top
 +.cnzz.net
 +.c.cnzz.com
 +.ei.cnzz.com
@@ -10587,7 +10592,6 @@
 +.counterfeitlearnedpacify.com
 +.counteronline.de
 +.counterstation.de
-+.countingmainly.com
 +.countlessdispleased.com
 +.countly.com
 +.telemetry.countr.de
@@ -10848,6 +10852,8 @@
 +.crystalfallsq.cfd
 +.crystalheightsq.cfd
 +.crystalslot.com
++.cs-finals.com
++.cs2beneluxbattle.com
 +.cs2kit.com
 +.www.csaladititkok.com
 +.analytics.csasecurityapp.com
@@ -14052,7 +14058,6 @@
 +.encuentrodemusicos.com
 +.analytics.encycarpedia.com
 +.hv.encystkokil.com
-+.endeble-arranque.online
 +.endecimmis.world
 +.analytics.endgamegear.com
 +.analyticsapi.endicia.com
@@ -14635,6 +14640,7 @@
 +.f1f5ca55fff1844ac66a7388862c7e86.xyz
 +.f1f99d110ba6.com
 +.f1nancier.com
++.f215u.xyz
 +.f26fd1acce3e.info
 +.f2723dc71af3b9383a82658f0aabb9668ab19fa74d7662e15d48ec69f0cd1f8.link
 +.f2e0a955bb84.cloud
@@ -15956,6 +15962,7 @@
 +.tracking.g2crowd.com
 +.g32x.xyz
 +.g32z.xyz
++.g33f.xyz
 +.g4blin.ru
 +.g4i62.com
 +.g4nd.com
@@ -18792,6 +18799,7 @@
 +.evt.ilovepdf.com
 +.ilquige.com
 +.ddl.alma.iltalehti.fi
++.gto.iltalehti.fi
 +.limone.iltrovatore.it
 +.ilyf4amifh.com
 +.1.im.cz
@@ -18859,6 +18867,7 @@
 +.app-log-oversea.immomo.com
 +.schedule-media.immomo.com
 +.sla-media.immomo.com
++.immordisad.world
 +.immutabledynamixsoftware.com
 +.imobilco.ru
 +.support-json.imoim.net
@@ -19649,8 +19658,10 @@
 +.adstat.izuiyou.com
 +.j0ss4np1c5.site
 +.j0t4sv.lol
++.j249f.xyz
 +.i.mxplayer.j2inter.com
 +.j4l9olpzcp86khvil.cfd
++.j5qtmf.bond
 +.j7kv55pr70.com
 +.j81yk8jp71gj2mgpb.rest
 +.j93557g.com
@@ -20497,7 +20508,6 @@
 +.telemetry.desktop.kiro.dev
 +.pay.kirvano.com
 +.kiseki.com
-+.kisoetr.cfd
 +.kissmetrics.com
 +.kissmetrics.io
 +.kit22.com
@@ -20845,6 +20855,7 @@
 +.adsinteractive-794b.kxcdn.com
 +.v1-c73e.kxcdn.com
 +.kxdhulgpyokoq.space
++.ky41vgyy6hgwy5.rest
 +.ky595images.com
 +.kyc-ebay.com
 +.lb.kyc-holdings.com
@@ -23778,6 +23789,7 @@
 +.muzarchive.top
 +.muzikguide.com
 +.muzzleexterminator.com
++.mv2swk.lat
 +.mvbcsloqebjfv.site
 +.datadog-service.mvfglobal.com
 +.mvmasters02.com
@@ -25420,6 +25432,7 @@
 +.st.onemazdausa.com
 +.onemboaran.com
 +.onemob.mobi
++.onenessparmack.com
 +.onenightfriend.com
 +.onepage.website
 +.click.oneplus.cn
@@ -26416,6 +26429,7 @@
 +.peasantexcess.cfd
 +.peasrch.com
 +.pecantinglytripod.com
++.peccaammog.rest
 +.ui.pecuniaaleshot.top
 +.pedangaishons.com
 +.pedidoszedelivery.shop
@@ -28435,6 +28449,7 @@
 +.ads-us.r2drtb.com
 +.r30address.com
 +.r30deai.com
++.r32y.xyz
 +.cdn3.r34comix.com
 +.r3f.technology
 +.r4you.co
@@ -29767,6 +29782,7 @@
 +.rural-report.pro
 +.ruralhistorian.com
 +.rurelanderpurgan.com
++.rustblooprint.net
 +.rustdelta.com
 +.rustdesk.io
 +.rusteventide.com
@@ -30810,6 +30826,7 @@
 +.shellnescarlett.com
 +.trk.shelly.cloud
 +.creative.shemale.show
++.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenshiads.com
@@ -32192,6 +32209,7 @@
 +.ads.ss.com
 +.hits.ss.com
 +.ss-image-delivery.com
++.ss677999.cyou
 +.ssacdn.com
 +.ssads.net
 +.ssaiwvjpyevjq.site
@@ -36647,6 +36665,7 @@
 +.physical-products-newrelic-logger.large-assortment.vpsvc.com
 +.log-forwarder.product-page-layouts.vpsvc.com
 +.vq4b0q.fun
++.vqoqlebqqzvyq.top
 +.vqqaelqkkzyry.top
 +.vqserve.com
 +.vrbrothers.com
@@ -37592,6 +37611,7 @@
 +.wordsdelivery.com
 +.wordsreceivingdisappointment.com
 +.workcahoots.com
++.uxi-ingestion.us.mlde.workday.com
 +.workdelivery.ru
 +.workerconnect.biz
 +.az-neverblock.aznude.workers.dev
@@ -38691,7 +38711,6 @@
 +.yucatecyogins.rest
 +.yuckyducks.xyz
 +.yudvl.org
-+.yuhuan.cc
 +.yuiiy.com
 +.yukclick.me
 +.yukishigure.com
