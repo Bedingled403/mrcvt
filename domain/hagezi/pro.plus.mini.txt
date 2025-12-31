@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 31 Dec 2025 02:17 UTC
-# Version: 2025.1231.0217.24
+# Last modified: 31 Dec 2025 06:18 UTC
+# Version: 2025.1231.0618.28
 # Syntax: Domains (without subdomains)
-# Number of entries: 67201
+# Number of entries: 67184
 #
 +.tracker.guguan.000.pe
 +.00055edc1917.com
@@ -949,7 +949,6 @@
 +.1xbett.mobi
 +.1xbetthailand.com
 +.1xlite-447029.top
-+.1xplayers.com
 +.1xsinga.com
 +.1xslot.com
 +.1xslot-ua.com
@@ -7199,6 +7198,7 @@
 +.ainb12291zh.com
 +.ainb12300zh.com
 +.ainb12301zh.com
++.ainb12310zh.com
 +.ainokotoba1515.com
 +.ainouzaudre.net
 +.ainsyndication.com
@@ -9919,6 +9919,7 @@
 +.associationmediagroup.com
 +.assortion.com
 +.asstok.com
++.assumhw.cyou
 +.assured-tool.com
 +.services.assureid.net
 +.assyctifor.com
@@ -17073,6 +17074,7 @@
 +.cnvlink.com
 +.cnvr.net
 +.cnvtyajtiwiss.space
++.cnwucnf.top
 +.cnzz.cn
 +.cnzz.com
 +.cnzz.net
@@ -22345,6 +22347,7 @@
 +.dramaticdirection.com
 +.dranationius.com
 +.drankticket.com
++.drapefa.cyou
 +.draperyrevolvertiara.com
 +.www.dratbeyond.com
 +.dratetillage.com
@@ -24031,7 +24034,6 @@
 +.empresas-inicioapp.com
 +.emptiprutze.world
 +.broker.emqx.io
-+.emrccoutaa.top
 +.emsecure.net
 +.emsservice.de
 +.tracker.emstat.fr
@@ -24773,7 +24775,6 @@
 +.exclusive-delivery.com
 +.exclusive-paper.com
 +.excoino.com
-+.cl.s13.exct.net
 +.excuse08062025.shop
 +.exdiroplect.com
 +.exdynsrv.com
@@ -25874,7 +25875,6 @@
 +.filezilla.fr
 +.ads.filezilla-project.org
 +.filezoness.com
-+.filezup.pro
 +.filimaik.com
 +.fillerrodding.shop
 +.filletfiguredconstrain.com
@@ -26203,7 +26203,6 @@
 +.flippantpoetry.com
 +.frontend-logger.flippback.com
 +.flipplayer.com
-+.app.flipsnack.com
 +.flirt.com
 +.flirt4free.com
 +.flirthits.com
@@ -26926,6 +26925,7 @@
 +.frfqbhmmxrele.space
 +.i.frg.im
 +.frge.io
++.fricaec.cyou
 +.piwik.frida-frankfurt.de
 +.analytics.fridayparts.com
 +.fridayrefractscorer.com
@@ -30293,7 +30293,6 @@
 +.hetapus.com
 +.hetarust.com
 +.hetaruvg.com
-+.www.hetenyikorhaz.hu
 +.hetnu.com
 +.matomo.hetzner.cloud
 +.matomo.hetzner.com
@@ -31257,7 +31256,6 @@
 +.hse-ctv.com
 +.app.hbbtv.hse24.com
 +.perf.hsforms.com
-+.share-na2.hsforms.com
 +.hskwq.com
 +.hsleadflows.net
 +.px.hsmedia.ru
@@ -31272,7 +31270,6 @@
 +.cdn-assets.hswstatic.com
 +.ht-systems.ru
 +.htagpa.tech
-+.mx2.htc.net
 +.htdvt.com
 +.htintpa.tech
 +.htkaoyan.com
@@ -32646,6 +32643,7 @@
 +.insplanet.com
 +.inspxtrc.com
 +.tracking.insta-tool.net
++.www.insta2pro.net
 +.api-data-collection.insta360.cn
 +.sentry-sg.insta360.com
 +.widget.instabot.io
@@ -33429,7 +33427,6 @@
 +.j249w.xyz
 +.j249y.xyz
 +.j250c.xyz
-+.j250e.xyz
 +.j250s.xyz
 +.i.mxplayer.j2inter.com
 +.j3v25u.com
@@ -36210,13 +36207,7 @@
 +.linkedme.cc
 +.linkedverifycase104839.com
 +.linkedverifycase18910.com
-+.linkedverifycase298560.site
-+.linkedverifycase392715.site
-+.linkedverifycase475829.site
-+.linkedverifycase581024.site
 +.linkedverifycase751908.com
-+.linkedverifycase760431.site
-+.linkedverifycase843927.site
 +.linker.ba
 +.linker.bg
 +.linker.hr
@@ -36855,6 +36846,7 @@
 +.3054662674.loopearplugs.com
 +.loopflavour.com
 +.datainsights.loopia.se
++.loopkbw.cyou
 +.looplik.com
 +.loopme.me
 +.loopmeedge.net
@@ -41018,7 +41010,6 @@
 +.neon-green-apple.com
 +.analytics.neoncleaner.com
 +.neondrift.cfd
-+.neonflaretech.cfd
 +.stats.neonheightsservers.com
 +.neonsbegstercollide.cfd
 +.neored.ai
@@ -44924,7 +44915,6 @@
 +.collector.boutique.orange.fr
 +.rum.perfops.cdb.cdn.orange.com
 +.rum.perfops.mdb.cdn.orange.com
-+.consent.orange.fr
 +.datalayer.orange.fr
 +.orange-business-contact-everyone.com
 +.orange-kart.com
@@ -49186,7 +49176,6 @@
 +.qoqa-kadiev-0820.com
 +.qoraly.cfd
 +.qortex.ai
-+.qp0tvp7r.cfd
 +.m.qpic.cn
 +.mmgame.qpic.cn
 +.qqpublic.qpic.cn
@@ -49582,6 +49571,7 @@
 +.quietshalecompany.com
 +.quietyellowday.com
 +.pixel.quikly.com
++.quilescliona.com
 +.smetrics.quill.com
 +.collector.quillbot.com
 +.gtm.quillbot.com
@@ -49721,7 +49711,6 @@
 +.track-us.r2drtb.com
 +.r30address.com
 +.r30deai.com
-+.r33d.xyz
 +.cdn3.r34comix.com
 +.r3engage.com
 +.r3f.technology
@@ -50817,6 +50806,7 @@
 +.ads.reward-hunt.com
 +.reward-recallnetwork.xyz
 +.reward-search-deal-foryou.autos
++.reward-style.com
 +.rewardany.com
 +.rewardchampionsmartdraw.autos
 +.rewardchancebigwinweekly.autos
@@ -51419,7 +51409,6 @@
 +.corvidae.rs-online.com
 +.stats.rs-online.com
 +.rs-stripe.com
-+.a.rs6.net
 +.rsa.pub
 +.rsapvqmdrgaoa.online
 +.rsautorepair.com
@@ -52893,7 +52882,6 @@
 +.secureaddisplay.com
 +.secureanalytic.com
 +.securebankinggroup.com
-+.securebankinggroup.org
 +.stats.securebrowser.com
 +.securecbb3support.com
 +.securecd-smrtnd.com
@@ -53273,8 +53261,6 @@
 +.statistics.serviceform.com
 +.url8730.servicefusion-info.com
 +.servicemagic.com
-+.services-opposition.fr
-+.services-oppositions.fr
 +.sentry.services-travel.com
 +.servicetarget.com
 +.servicetick.com
@@ -53606,6 +53592,7 @@
 +.sentry.offline.shelopes.com
 +.creative.shemale.show
 +.shemedia.com
++.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenshiads.com
@@ -53720,7 +53707,6 @@
 +.shooltuca.net
 +.bnrs-engine.shoop.de
 +.shoordaird.com
-+.click.shootproof.com
 +.shop.pe
 +.shop-address-linkedin.xyz
 +.shop-webex.xyz
@@ -54302,6 +54288,7 @@
 +.skierjollyobsolete.com
 +.skifisniffy.info
 +.skijoreafront.help
++.gitlab.skillbox.ru
 +.skillcharging.com
 +.skillfuldrop.com
 +.skillprogeny.com
@@ -55276,7 +55263,6 @@
 +.southcoastglobalmedicalcenter.com
 +.track.southernliving.com
 +.southflannelclassic.com
-+.southfreak.in
 +.tracking.southofheaven.nl
 +.southwatts.com
 +.smetrics.southwest.com
@@ -56462,7 +56448,6 @@
 +.stylishbuds.com
 +.datastream.stylitics.com
 +.stylnowy.pl
-+.styluse.cfd
 +.stylux.io
 +.traffic.styria.hr
 +.styria-digital.com
@@ -56618,6 +56603,7 @@
 +.sunstargaslit.help
 +.track.sunsunw.com
 +.suntcontent.se
++.sunwinn.earth
 +.suobcefgchua.xyz
 +.suoffice.cn
 +.suparfast.com
@@ -58527,7 +58513,6 @@
 +.tiktok-verifiedbadge.com
 +.tiktok-voice-generator.com
 +.tiktok-workpathfinder.com
-+.tiktok1.work
 +.tiktokcapacetes.shop
 +.p16-ad-site-sign-sg.tiktokcdn.com
 +.p19-ad-site-sign-sg.tiktokcdn.com
@@ -60395,7 +60380,6 @@
 +.twrmnd.com
 +.twyn.com
 +.twyne.io
-+.tx-hoverboard.com
 +.txknxnp.org
 +.livetech.shopee.co.id.txlivecdn.com
 +.livetech.shopee.ph.txlivecdn.com
@@ -60677,6 +60661,7 @@
 +.ukonlineslots.com
 +.ukpzqpkdjzojc.online
 +.counter.ukr.net
++.ukrayzd.cyou
 +.stats.uksh.de
 +.ukw.jp
 +.ukweb30.us
@@ -62618,7 +62603,6 @@
 +.html5-ads.vk-apps.com
 +.stats.vk-portal.net
 +.vkcdnservice.com
-+.vkezgxtq.shop
 +.vknd8q3trk.com
 +.vkonrakte.com
 +.stat.gc.vkplay.ru
@@ -62917,6 +62901,7 @@
 +.vtgroup.top
 +.vtmarkets.com
 +.vtmarkets.net
++.vtook3j0l.com
 +.vtoshop.com
 +.vtracy.de
 +.vtrtl.de
@@ -63015,7 +63000,6 @@
 +.w13mk6.ru
 +.w3counter.com
 +.analytics.w3goodies.com
-+.w45p.xyz
 +.w4gb0ubgf.com
 +.w4h5ae.ru
 +.w4jj99ggt.xyz
@@ -66335,7 +66319,6 @@
 +.yuga.ru
 +.yugukj.com
 +.yugvawefin.cloud
-+.yuhuan.cc
 +.yuiiy.com
 +.yuirr4o.shop
 +.yukclick.me

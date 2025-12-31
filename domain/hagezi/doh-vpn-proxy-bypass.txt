@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 31 Dec 2025 02:34 UTC
-# Version: 2025.1231.0234.41
+# Last modified: 31 Dec 2025 06:35 UTC
+# Version: 2025.1231.0635.12
 # Syntax: Domains (without subdomains)
-# Number of entries: 6284
+# Number of entries: 6281
 #
 +.ss.0001.xyz
 +.003153.xyz
@@ -676,7 +676,6 @@
 +.calm-tree-976.blanktext.net
 +.dns.blaumer.dev
 +.blewpass.com
-+.withcanlite.bling.org
 +.us1.blissdns.net
 +.doh.blitarian.com
 +.blocka.net
@@ -766,7 +765,6 @@
 +.sabine.bruno2000.link
 +.help.brynlewis.com
 +.adguard.bse4792.site
-+.canliteisawsome.bsfa.info
 +.edu.bsfa.info
 +.travel.bsfa.info
 +.doh.bt.com
@@ -3073,7 +3071,6 @@
 +.dns.justinnetworkingsolutions.com
 +.chemistrytheoandalgebra.justlearning.net
 +.coolmanbartx.justlearning.net
-+.fcps.justlearning.net
 +.nxmevip.justlearning.net
 +.saugatproxm.justlearning.net
 +.solgorknh.justlearning.net
