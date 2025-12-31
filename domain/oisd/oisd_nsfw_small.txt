@@ -1,9 +1,9 @@
-# Version: 202512311507
+# Version: 202512312007
 # Title: oisd nsfw_small
 # Description: Block. Don't break.
 # Syntax: Domains (wildcards) without *.
 # Entries: 18085
-# Last modified: 2025-12-31T15:07:39+0000
+# Last modified: 2025-12-31T20:07:12+0000
 # Expires: 1 hours
 # License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 # Maintainer: Stephan van Ruth
@@ -9347,7 +9347,6 @@
 +.meet-an-inmate.com
 +.meetadultmodel.com
 +.meetandfuckgames.com
-+.meetfighters.com
 +.meetic.com
 +.meetic.pt
 +.meetinchat.com
@@ -14814,6 +14813,7 @@
 +.tcams.me
 +.tchatche.com
 +.tchatslocaux.com
++.tdm.com.mo
 +.tdxflix.com
 +.teacherfucksteens.com
 +.teacherpics.com
