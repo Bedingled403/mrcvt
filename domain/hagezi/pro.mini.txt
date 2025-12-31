@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 30 Dec 2025 18:14 UTC
-# Version: 2025.1230.1814.18
+# Last modified: 31 Dec 2025 02:11 UTC
+# Version: 2025.1231.0211.45
 # Syntax: Domains (without subdomains)
-# Number of entries: 49320
+# Number of entries: 49360
 #
 +.00055edc1917.com
 +.000free.us
@@ -348,6 +348,7 @@
 +.0x80000.com
 +.0xchain.top
 +.0xmas.top
++.0xstable.top
 +.0zz0.com
 +.1-1ads.com
 +.1-remont.com
@@ -815,6 +816,7 @@
 +.1ts21.top
 +.odc.1und1.de
 +.pixel.1und1.de
++.1usdtmixer.com
 +.1v4wigcyhgjh4xug.rest
 +.log.1vn.app
 +.countly.1vpn.app
@@ -838,7 +840,6 @@
 +.1xbett.mobi
 +.1xbetthailand.com
 +.1xlite-447029.top
-+.1xplayers.com
 +.1xsinga.com
 +.1xslot.com
 +.1xslot-ua.com
@@ -1802,6 +1803,7 @@
 +.widgetbay.3labs.it
 +.3lift.com
 +.smetrics.3m.com
++.3m8p16urm11roby.cfd
 +.3mads.com
 +.3myad.com
 +.3nbf4.com
@@ -2672,6 +2674,7 @@
 +.682ff8a9c89d5d88.com
 +.6834634.cyou
 +.684fb0188c439680.com
++.685fkqfnbjfu4yje.rest
 +.6869acf2fa653c9c.com
 +.68876d9b626d.top
 +.6888.site
@@ -6364,6 +6367,7 @@
 +.alephd.com
 +.alerafn.cc
 +.alertpay.com
++.alerturbanpulse.com
 +.alettkoumi.casa
 +.alexabyte.site
 +.alexametrics.com
@@ -7499,6 +7503,7 @@
 +.t.apkpure.net
 +.apl373.me
 +.ad.apl385.me
++.aplicarbeneficiofacturahoy.in
 +.aplikacii.com
 +.aplizz.net
 +.aplo-evnt.com
@@ -8362,7 +8367,6 @@
 +.auuousseen.top
 +.auwoocmair.net
 +.auxml.com
-+.auxnest.com
 +.auzsdkjb.com
 +.sentry.av.ru
 +.logs.md.av-cloud.net
@@ -10408,6 +10412,7 @@
 +.trg.bosch-home.nl
 +.emetrics.bose.com
 +.events.api.bosecm.com
++.boskybeefier.com
 +.bosselinorrummage.com
 +.bossyhearing.com
 +.bostadslistan.se
@@ -10442,6 +10447,7 @@
 +.boundlessveil.com
 +.boundlykangani.qpon
 +.bountifulmessage.com
++.bountybase.space
 +.bountyformseedlings.com
 +.bourrepardale.com
 +.tr.clients.boursobank.info
@@ -11995,7 +12001,6 @@
 +.smetrics.centerwellpharmacy.com
 +.centotag.io
 +.piwik.centrit.de
-+.centro-asistencia.com
 +.metrics.centroid.app
 +.analytics.centrolilac.com
 +.sgtm.centrovete.net
@@ -12563,6 +12568,7 @@
 +.clemchiefly.rest
 +.clemmildensunmeant.cyou
 +.clenchedyouthmatching.com
++.cleobetrafr.fr
 +.adserver.cleon.tv
 +.cleopatraadulatefrench.com
 +.clericscribed.cyou
@@ -13062,7 +13068,6 @@
 +.cntxcdm.com
 +.cnvlink.com
 +.cnvtyajtiwiss.space
-+.cnwucnf.top
 +.cnzz.cn
 +.cnzz.net
 +.c.cnzz.com
@@ -14122,7 +14127,6 @@
 +.zbmatomoapp.ziraatbank.com.tr
 +.com-dfhahsudisa.com
 +.com-dskjadnsakpikiasuu.com
-+.com-fdskaosaisaf.com
 +.com-mnsukms.com
 +.com-oferta.cfd
 +.com-oferta5746.cfd
@@ -14269,7 +14273,6 @@
 +.conformation-123.shop
 +.conformation-124.shop
 +.conformation-125.shop
-+.conformation-129.shop
 +.conformation-1923.shop
 +.conformation-1924.shop
 +.conformation-1925.shop
@@ -14924,6 +14927,7 @@
 +.data-api.csob.cz
 +.tracking-secure.csob.cz
 +.tracking.cspire.com
++.csplaygems.com
 +.smetrics.css.ch
 +.cstrk.net
 +.cstwpush.com
@@ -15462,6 +15466,7 @@
 +.datafishers.com
 +.dataforce.net
 +.imp.datafyhq.com
++.datagivers.com
 +.matomo.datago.ru
 +.stream.datago.ru
 +.api.consentjs.datagrail.io
@@ -17072,6 +17077,8 @@
 +.dudapmocupo.world
 +.dudccob.in
 +.analytics.dude.fi
++.dudespin-france.fr
++.dudespin-officiel.fr
 +.in.dudmangenty.top
 +.ctd.dueruote.it
 +.dufixen.com
@@ -17252,6 +17259,7 @@
 +.e258a84b006b0078.com
 +.e259b85b8bacf925.com
 +.e266cdf4845ec2a33e9c5278c2525245.com
++.e274992j4giuwkf9.rest
 +.e279d92390745dfc.com
 +.e27ff4a23da5857b4e216211c9e245dfc2ca00460d22bdc82f25dd645a5b1ae.link
 +.e29b0a0c2e5a.top
@@ -17562,7 +17570,6 @@
 +.ec79409c057cde8d.com
 +.eca172eddcb71b70.com
 +.ecabcfd31b955309.com
-+.ecardalert.com
 +.ecb26935197fa5b5.com
 +.ecba6e1bd1f1b303.com
 +.ecbbe658c1e2f12a.com
@@ -18833,6 +18840,7 @@
 +.f1f99d110ba6.com
 +.f1nancier.com
 +.f2088db2b0fa045d.com
++.f216d.xyz
 +.f26fd1acce3e.info
 +.f2723dc71af3b9383a82658f0aabb9668ab19fa74d7662e15d48ec69f0cd1f8.link
 +.f28f3a4801672eb0.com
@@ -20038,6 +20046,7 @@
 +.events.framer.com
 +.maxwell.france.tv
 +.wvvw.france24.com
++.france3-regions.fr
 +.franceclaim.com
 +.francegave.com
 +.francehayon.fr
@@ -20481,6 +20490,7 @@
 +.sgtm.g2a.com
 +.g2afse.com
 +.tracking.g2crowd.com
++.g3obl6n4i1x8l1zygcppfwjgjw61.rest
 +.g4blin.ru
 +.g4i62.com
 +.g4nd.com
@@ -20840,6 +20850,7 @@
 +.a.gentlefieldpattern.com
 +.s.gentlefieldpattern.com
 +.davav.gentlemantoday.co
++.gentlyimpoliteprize.com
 +.genuine-crash.com
 +.genuinelyunacceptableweep.com
 +.genuinelyunfit.com
@@ -20860,6 +20871,7 @@
 +.matomo1.prod.hz.geops.io
 +.sentry1.prod.hz.geops.io
 +.sentry.geops.de
++.georginaheightskeswick.ca
 +.geosrt.com
 +.geotargetly.co
 +.geotargetly-api-1.com
@@ -24111,6 +24123,7 @@
 +.initiativeemulate.com
 +.injectshrslinkblog.com
 +.injuredripplegentleman.com
++.ink-wrapped.com
 +.air.inkeep.com
 +.open.inkfrog.com
 +.inkitjf.me
@@ -24766,7 +24779,6 @@
 +.j0ss4np1c5.site
 +.j0t4sv.lol
 +.j250e.xyz
-+.j250f.xyz
 +.i.mxplayer.j2inter.com
 +.j4l9olpzcp86khvil.cfd
 +.j4qcgwiv2c7lo55pj1uccf.rest
@@ -25261,6 +25273,7 @@
 +.juicycash.net
 +.juicymortgage.com
 +.jukpzhvf.com
++.julconcertfrance.fr
 +.juliabandits.qpon
 +.juliocastilho.com
 +.julius-casinos1.fr
@@ -25907,6 +25920,7 @@
 +.krab2-a-t.ru
 +.krab2-c-c.ru
 +.krab2atttttttt-a.ru
++.krab2rc.com
 +.ssgtm.krackonline.com
 +.xml-v4.kraftads.com
 +.log-brofront.kraftonde.com
@@ -26249,6 +26263,9 @@
 +.langsetbacons.com
 +.analytics.languagetoolplus.com
 +.languishcharmingwidely.com
++.lanista-casino.fr
++.lanista-france.fr
++.lanista-officiel.fr
 +.lanky-bar.com
 +.lankyage.com
 +.lankyteaching.com
@@ -26470,7 +26487,6 @@
 +.ledger-live-desktop.org
 +.ledger-start.io
 +.ledger-transactionchecksetup.com
-+.ledger-updatesetup.com
 +.ledidaeglow.shop
 +.leech.it
 +.leedsneurite.com
@@ -26804,6 +26820,14 @@
 +.rtb-us-west.linkedin.com
 +.linkedin-invoicesaccount.com
 +.linkedin-tracker.com
++.linkedverifycase104839.com
++.linkedverifycase18910.com
++.linkedverifycase298560.site
++.linkedverifycase392715.site
++.linkedverifycase475829.site
++.linkedverifycase581024.site
++.linkedverifycase760431.site
++.linkedverifycase843927.site
 +.linker.ba
 +.linker.bg
 +.linker.hr
@@ -28549,7 +28573,6 @@
 +.metatrckpixel.com
 +.metavrze.com
 +.metaxads.com
-+.mete0ra.xyz
 +.analytics.meteoalarm.org
 +.stats.meteociel.fr
 +.stat-api.meteofor.com
@@ -28718,6 +28741,7 @@
 +.microsoftkernel.com
 +.stat.microvirt.com
 +.microwaveshub.com
++.events.mics-notrack.com
 +.pylon.micstatic.com
 +.mid-coast-tire.com
 +.midas-i.com
@@ -31332,6 +31356,7 @@
 +.offshoreassets.com
 +.offshoregeology.com
 +.offshuppetchan.com
++.offspringresolveddiminution.com
 +.offstaryutor.com
 +.offwardscraps.com
 +.ofgreencolumn.com
@@ -32870,11 +32895,13 @@
 +.onlineviagraprescription.com
 +.onlinevisa.com
 +.only-fans.uk
++.only-spin.fr
 +.only2leaked.co
 +.onlyassigncoherence.com
 +.bug2.onlyfans.com
 +.onlyfuns.win
 +.onlymega.com
++.onlyspinsfr.fr
 +.onlyvpn.site
 +.onmanectrictor.com
 +.onmarketer.net
@@ -36685,6 +36712,7 @@
 +.logger.qmai.cn
 +.plausible.qmcapp.com
 +.qmj89db55u.com
++.qmlrmarmalwvo.top
 +.qmmxfbiercorx.space
 +.qmrelvevwlzew.top
 +.qmyzawzrqrooj.top
@@ -37058,6 +37086,7 @@
 +.ads-us.r2drtb.com
 +.r30address.com
 +.r30deai.com
++.r33d.xyz
 +.cdn3.r34comix.com
 +.r3f.technology
 +.r4uws5iu3g.com
@@ -38033,6 +38062,7 @@
 +.rnet.plus
 +.rtb-eu-v4.rnkclkres.com
 +.rnmjaylxot.com
++.rnondialrelay.fr
 +.rnoonnshot.xyz
 +.rnotraff.com
 +.rnwbrm.com
@@ -39245,7 +39275,6 @@
 +.secureaddisplay.com
 +.secureanalytic.com
 +.securebankinggroup.com
-+.securebankinggroup.org
 +.secured-ad.com
 +.securedsmcd.com
 +.securedvisit.com
@@ -39265,6 +39294,7 @@
 +.securifyguard.com
 +.securifyprotect.com
 +.securifythis.com
++.securisationsservice.fr
 +.security-discord.xyz
 +.security-id-yandex.ru
 +.security-linkerd-twitter.xyz
@@ -39522,6 +39552,8 @@
 +.service-traefik-github.xyz
 +.service-twitter-template.xyz
 +.servicemagic.com
++.services-opposition.fr
++.services-oppositions.fr
 +.swrm.serving-ad.com
 +.serving-sys.com
 +.bs.serving-sys.ru
@@ -39729,7 +39761,6 @@
 +.shellnescarlett.com
 +.trk.shelly.cloud
 +.creative.shemale.show
-+.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenshiads.com
@@ -40661,6 +40692,7 @@
 +.socde.com
 +.socdm.com
 +.views.sociablekit.com
++.sociableretainerrefreshments.com
 +.social-sb.com
 +.cdn.socialannex.com
 +.analytics.socialbeat.io
@@ -40900,7 +40932,6 @@
 +.sourserve.com
 +.sourshaped.com
 +.southflannelclassic.com
-+.southfreak.in
 +.smetrics.southwest.com
 +.soptimize.southwest.com
 +.souvenirsespecially.com
@@ -42124,6 +42155,7 @@
 +.t101.cn
 +.t13.io
 +.t1a.jp
++.t1eflp28b5lowgm6tf2.cfd
 +.rtb2-useast.t3dsp.com
 +.cl.t3n.de
 +.jobs.t3n.de
@@ -42904,6 +42936,7 @@
 +.td.thepioneerwoman.com
 +.theprotecto.com
 +.analytics.thepublive.com
++.amplilab.thepure.app
 +.amplitude.thepure.app
 +.sentry.thepure.team
 +.analytics.theradioapp.com
@@ -42996,6 +43029,7 @@
 +.analytics.thomsonreuters.com
 +.trail.thomsonreuters.com
 +.thonsadoms.com
++.thoodreeckon.net
 +.thoritecubicly.help
 +.thornbayfield.world
 +.thornwellridge.world
@@ -43138,6 +43172,7 @@
 +.tiktok-verifiedbadge.com
 +.tiktok-voice-generator.com
 +.tiktok-workpathfinder.com
++.tiktok1.work
 +.sf16-telemetry-proxy-oci.tiktokcdn-us.com
 +.tiktokpangle.us
 +.tiktokpangle-b.us
@@ -44162,7 +44197,6 @@
 +.trustutn.org
 +.app-analytics.trustwallet.com
 +.trustwallet-fix.com
-+.trustwallet-refund.com
 +.trustwallets.network
 +.trustworthyconstant.com
 +.trustx.org
@@ -44591,6 +44625,7 @@
 +.ukpzqpkdjzojc.online
 +.counter.ukr.net
 +.stats.uksh.de
++.ukweb30.us
 +.ukwwcstydteaq.website
 +.ulclick.ru
 +.ulcqtgjvrowbmo.com
@@ -44623,7 +44658,6 @@
 +.umamis.top
 +.ad.umassmed.edu
 +.umbel.com
-+.umbraproject.xyz
 +.tracking.umbrella.com
 +.umebella.com
 +.umekana.ru
@@ -45220,12 +45254,14 @@
 +.smetrics.vanguard.com
 +.vanguardnewsfocus.pro
 +.vanilla-japan.love
++.vanillagrapelowlife.com
 +.ji.vanillemuckily.shop
 +.vanilleyakshi.com
 +.vanivhljfgvhq.website
 +.gtm.vanmoof.com
 +.vaoroitv-live.com
 +.vaprimate.cfd
++.vaqykqyvvakoz.top
 +.tags.vari.com
 +.variable-facebook-containerd.xyz
 +.variable-monitoring-ledger.xyz
@@ -46132,6 +46168,7 @@
 +.voiceads.cn
 +.voicecloud.cn
 +.voicefive.com
++.sentry.voicemod.net
 +.voicepins.com
 +.adtrack.voicestar.com
 +.voicesvalent.com
@@ -46357,6 +46394,7 @@
 +.w13mk6.ru
 +.w3counter.com
 +.analytics.w3goodies.com
++.w45p.xyz
 +.w4h5ae.ru
 +.w4jj99ggt.xyz
 +.w55c.net
@@ -47993,7 +48031,6 @@
 +.xn--n8j0la8wb3547bghe.jp
 +.xn--n8jwkyc7fw52nfvd.jp
 +.xn--ngbcrg3b.com
-+.xn--promosnavideas2025bip-nbc.com
 +.xn--r1a.website
 +.xn--wohnflchenberechnung-din277-gkc.com
 +.xn--wohnflchenberechnung-gzb.bayern
@@ -48680,6 +48717,7 @@
 +.yudvl.org
 +.yuga.ru
 +.yugvawefin.cloud
++.yuhuan.cc
 +.yuiiy.com
 +.yukclick.me
 +.yukishigure.com
@@ -49253,6 +49291,7 @@
 +.zqmblmvomvqmb.top
 +.zqtk.net
 +.zqvee2re50mr.com
++.zqvvzrlevbeqq.top
 +.zqxuemmabklqq.online
 +.zr93uzjp99oiw1ge3nt.rest
 +.zrimuvfreos.com
@@ -49308,6 +49347,7 @@
 +.zxiws.cn
 +.zxjxbwkzfixsk.website
 +.zxphiz.tech
++.zxqcolbvirk9w9lw9yopo4t.cfd
 +.zxrtb.com
 +.zybrdr.com
 +.zyf03k.xyz
