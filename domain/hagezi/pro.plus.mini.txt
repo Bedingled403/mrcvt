@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 31 Dec 2025 18:18 UTC
-# Version: 2025.1231.1818.57
+# Last modified: 31 Dec 2025 22:18 UTC
+# Version: 2025.1231.2218.27
 # Syntax: Domains (without subdomains)
-# Number of entries: 68573
+# Number of entries: 68580
 #
 +.00055edc1917.com
 +.000cc36be8eb.top
@@ -12239,12 +12239,10 @@
 +.bdo8.cyou
 +.bdo9.love
 +.bdob.click
-+.bdobest.cyou
 +.bdof.help
 +.bdog.click
 +.bdogroup.click
 +.bdoi.help
-+.bdoi.love
 +.bdoj.shop
 +.bdoo.qpon
 +.bdoo2o.cyou
@@ -12606,6 +12604,7 @@
 +.bet-boom.com
 +.bet365affiliates.com
 +.banner.bet365partners.com
++.betacer.com
 +.betads.xyz
 +.analytics.betaflight.com
 +.betakescodman.cyou
@@ -13399,6 +13398,7 @@
 +.bloomreach.co
 +.bloomz.com
 +.bloople.net
++.bloquer-ma-carte.fr
 +.blossoms.com
 +.blotecardthumb.com
 +.blousekudo.com
@@ -15005,6 +15005,7 @@
 +.h-adashx.ut.cainiao.com
 +.cainsburlap.com
 +.ads.prod.caiso.com
++.caisse-depot.fr
 +.sdc-agg.caissedesdepots.fr
 +.caitoasece.com
 +.caiwbc.com
@@ -15127,6 +15128,7 @@
 +.camonster.io
 +.campaigntracker.io
 +.campartner.com
++.camperholiday.autos
 +.campers.click
 +.campfirecroutondecorator.com
 +.campiinsor.world
@@ -17582,6 +17584,7 @@
 +.cnvlink.com
 +.cnvr.net
 +.cnvtyajtiwiss.space
++.cnwucnf.top
 +.cnzz.cn
 +.cnzz.com
 +.cnzz.net
@@ -19233,7 +19236,6 @@
 +.compete.com
 +.trk.b.competitivecyclist.com
 +.ocpsa.competitivecyclist.com
-+.compgv.top
 +.compiledonatevanity.com
 +.compilework.com
 +.compitte.com
@@ -21903,6 +21905,7 @@
 +.claranet-logger1.dginfra.net
 +.claranet-logger2.dginfra.net
 +.claranet-logger3.dginfra.net
++.dgip-gov.fr
 +.tracker-zhuqiy.dgj055.icu
 +.dgpclgy.ru
 +.dgpot.com
@@ -25087,6 +25090,7 @@
 +.espace-consultation.fr
 +.espace-plus.net
 +.espace-poursuite-gov-fr.com
++.espacesrequire-client.fr
 +.mqtt-telemetry-prod.esper.cloud
 +.espesso.foundation
 +.espleestrick.com
@@ -26188,7 +26192,6 @@
 +.favbet.com
 +.favbet999.com
 +.favelsmali.sbs
-+.favfav.xyz
 +.favicon.com
 +.pv-collector.prod.favish.com
 +.favoritua.com
@@ -29744,7 +29747,6 @@
 +.performanceparameters.googleapis.com
 +.searchlabspartnerservice-pa.googleapis.com
 +.vkcdnservice.appspot.com.storage.googleapis.com
-+.xga-serving-pa.googleapis.com
 +.xgapromomanager-pa.googleapis.com
 +.log.googlebuffer.com
 +.googlecommerce.com
@@ -32307,6 +32309,7 @@
 +.i3j6h7j9cj.com
 +.ios-pclog.i4.cn
 +.i45x0w.com
++.i8h7uteg7fwz4p1w.cfd
 +.gdl.i9dhjx.ru
 +.gtg.i9sports.com
 +.ia-dmp.com
@@ -34027,6 +34030,7 @@
 +.cai.iteldrive.com
 +.clog.iteldrive.com
 +.itemdb.com
++.itemsdetails.com
 +.itemskip.pro
 +.api.iterable.com
 +.assets.iterable.com
@@ -35219,7 +35223,6 @@
 +.kbkb.bet
 +.kbnmnl.com
 +.matomo.kbs.de
-+.kcbmcuz.top
 +.e459.kcci.com
 +.kccostume.com
 +.kcfdom.com
@@ -35792,6 +35795,7 @@
 +.koussostng.click
 +.kowalski-butik.com
 +.koxiquw.com
++.kozerex.com
 +.kpbmqxucd.com
 +.smetrics.kpmg.com
 +.kpmnbookingnow.com
@@ -37474,6 +37478,7 @@
 +.localglobaldates.com
 +.localiqtracking.com
 +.umami.localised.com
++.localiser-iphone.fr
 +.localizacioncloud.life
 +.stats.locallabs.com
 +.locallogic.co
@@ -40023,6 +40028,7 @@
 +.mjjtobmrqyolqqbqukpl.com
 +.mjriazemzybdg.online
 +.xw4vk.mjt.lu
++.mjupoierfw8nnbq.rest
 +.trace.mjyx.com
 +.mkjigsaw.com
 +.mks98.com
@@ -40647,6 +40653,7 @@
 +.analytics.moz.com
 +.cs.moz.com
 +.mozaka.com
++.mozerex.com
 +.dataops.mozgcp.net
 +.ads.prod.webservices.mozgcp.net
 +.ads.mozilla.org
@@ -41407,7 +41414,6 @@
 +.mythosupflow.com
 +.mythtime.xyz
 +.mytim.bond
-+.mytim.fun
 +.sentry-aws.mytime.com
 +.geoip.mytokenpocket.vip
 +.mytop-in.net
@@ -46164,12 +46170,9 @@
 +.otoarizasi.com
 +.otoi3ug83g3h.cfd
 +.otomachi.jp
-+.otoragar.top
 +.otorcgar.top
 +.otorfgar.top
 +.otorogar.top
-+.otorrgar.top
-+.otorwgar.top
 +.otoshiana.com
 +.otoyueuprumok.icu
 +.sentry.otpless.app
@@ -53226,6 +53229,7 @@
 +.salator.ru
 +.salbraddrepilly.com
 +.vc-service.saleago.com
++.salebooks.shop
 +.salecycle.com
 +.salemove.com
 +.salemsurround.com
@@ -53473,6 +53477,7 @@
 +.gtm.saostar.vn
 +.plausible.saostar.vn
 +.tracking.saostar.vn
++.saovax.com
 +.smetrics.sap.com
 +.sap-ag.de
 +.sape.ru
@@ -54577,7 +54582,6 @@
 +.seu-rsszs.cc
 +.seufeedback.shop
 +.seuhtkskudvkf.site
-+.seur.agency
 +.seures-inde.cfd
 +.seures-inde.cyou
 +.seuresceiskdzonline.icu
@@ -54873,6 +54877,7 @@
 +.sentry.offline.shelopes.com
 +.creative.shemale.show
 +.shemedia.com
++.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenshiads.com
@@ -58963,6 +58968,7 @@
 +.trk.em.teepublic.com
 +.teethundercoverhowever.com
 +.ads.teevee.com
++.tefalkitchendeals.club
 +.tefs.com
 +.teggcraws.com
 +.tegmenttina.cfd
@@ -62554,6 +62560,7 @@
 +.urbanlaurel.com
 +.urbanspoon.com
 +.ssgtm.urbanstems.com
++.urbantrendpulse.com
 +.urchin.com
 +.wlog.urcmx.com
 +.urdatingassistant.com
@@ -62936,6 +62943,7 @@
 +.varioth.com
 +.variousformatscontent.com
 +.variousjoyfully.com
++.varkelmbqlmyj.top
 +.dmztm.varley.com
 +.vmstats.varrando.com
 +.vartoken.com
@@ -67720,7 +67728,6 @@
 +.yuga.ru
 +.yugukj.com
 +.yugvawefin.cloud
-+.yuhuan.cc
 +.yuiiy.com
 +.yukclick.me
 +.yukishigure.com
