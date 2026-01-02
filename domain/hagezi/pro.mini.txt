@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 01 Jan 2026 18:22 UTC
-# Version: 2026.0101.1822.12
+# Last modified: 01 Jan 2026 22:20 UTC
+# Version: 2026.0101.2220.26
 # Syntax: Domains (without subdomains)
-# Number of entries: 50760
+# Number of entries: 50720
 #
 +.00055edc1917.com
 +.000cc36be8eb.top
@@ -2957,6 +2957,7 @@
 +.6815a7566b16.top
 +.681cac6f4a1d488747a90404a6e1d0b0.com
 +.6820tp1.com
++.6825bfzhooqjo8jct5i.cfd
 +.682ff8a9c89d5d88.com
 +.6834634.cyou
 +.684fb0188c439680.com
@@ -3677,7 +3678,6 @@
 +.893a93a97e.com
 +.89475.vu
 +.8948c0891752ef94956687de3576b281f247d510139e9d6378ea0111256ae21.link
-+.8958jjoo2ofert1.cyou
 +.8973493a8c2f989f.com
 +.8979753070a7caeba2.site
 +.897cdb929ebd7ee2.com
@@ -3722,7 +3722,6 @@
 +.8b3e03687540f445.com
 +.8b434df685805d60.com
 +.8b43861ccc925b8282277fff7068bb08aa7d22b6b67819514dc2f50e4f06752.link
-+.8b4ff2a801.com
 +.8b588621ecaecbfa08501a083fb0094c.com
 +.8b5e2fac09d28a21.com
 +.8b7933875ef680ed.com
@@ -3765,7 +3764,6 @@
 +.8d71463280565a61.com
 +.8d8215f2d2278f42.com
 +.8db138a60c9a.top
-+.8db5475edf.com
 +.8dc714cafe.com
 +.8de9d8a2558693ff.com
 +.8df147dc78e5.top
@@ -3834,6 +3832,7 @@
 +.90220553d6d1dbc65b0b87d5ec9614dd.com
 +.90231611e4973cbb.com
 +.902fab7431f0ed09.com
++.903847.vu
 +.904243234ac17b86.com
 +.9057e44ae5999d44.com
 +.905trk.com
@@ -3856,8 +3855,6 @@
 +.9144b7b1a7cf90cb.com
 +.91485611c1e822a1.com
 +.91548aee74.com
-+.915j11810.cyou
-+.916319coinbase.com
 +.917391100djuh1983.cfd
 +.917cd46a289c2145.com
 +.9184ea5984017048.com
@@ -3942,7 +3939,6 @@
 +.94f47698bfcfdef5e14b1a357b001ce2b1e3b2713cea2973608cb51afc8feaf.link
 +.950abb8f2ef2dc79.com
 +.95115b5d162318b3.com
-+.9523827ssa1.sbs
 +.95268f747c39b817.com
 +.953c4383075de1ba.com
 +.954742a76fe81f8e.com
@@ -3961,7 +3957,6 @@
 +.95a4d9881968.top
 +.95be7c20df905329.com
 +.95c0601ba1098b7a.com
-+.95e165ba10.com
 +.95e400c7cde9a7e6.com
 +.95f699949684f769.com
 +.9604264f11dbf6ed.com
@@ -3995,7 +3990,6 @@
 +.9702c0c8e9104ed7.com
 +.9713dc4dbc43fe5b.com
 +.971e4b1ccfc6a778.com
-+.www.971ef6fdf265.info
 +.9724c0c5a26b92f9.com
 +.9724cf3dfb36498f.com
 +.9725ad8207ad80df204245d3f988c264.website
@@ -4041,7 +4035,6 @@
 +.98d5eb20fdb8e05b.com
 +.98db70ea6189dda8.com
 +.98e034facf01451e.com
-+.98eb111996.com
 +.991.com
 +.991c8dfc22b315ab0aa373af4005c20a.net
 +.9941f7b8a19bedf7.com
@@ -4122,7 +4115,6 @@
 +.9c87ef8a704835c4.com
 +.9ca291227180c46e.com
 +.9ca33354b824a798.com
-+.9cba2e6b961fe89fedf08608ae7e3850.com
 +.9cc6af957636d202.com
 +.9cfe9347cfe9052e.com
 +.9d13e3b8c4fbe9eb.com
@@ -4166,7 +4158,6 @@
 +.9f3a7cde21.online
 +.9f4d6ac424ac.top
 +.9f4e5e998c3a0f6b.com
-+.9f659exq5x31k2b93zmzilxhmk.rest
 +.9f729e3604f1cb52.com
 +.9fa69c763519c54b.com
 +.9fe0d68a51670adf.com
@@ -4189,8 +4180,6 @@
 +.9ty1.com
 +.9versemedia.com
 +.9wee.com
-+.9whg2g.icu
-+.9wknj2w.icu
 +.9xmovies.red
 +.fl.a.ki
 +.a-ads.com
@@ -4258,7 +4247,6 @@
 +.a24f5efa10173a1d942956c8ca38188f.info
 +.consent.a24films.com
 +.a25cc6bf93854e50882a23db11800e06.info
-+.a27270574a.com
 +.a274859f4d078da3.com
 +.a29e2657018e645b.com
 +.36432d3e16.a29f24b2a6.com
@@ -4276,7 +4264,6 @@
 +.a2ef1264efdc1e74.com
 +.a2fb188d051b.top
 +.analytics.a2jauthor.org
-+.a2k1yt.icu
 +.advertising.a2z.com
 +.bugsnag-event.monitor.core.app.alexa.a2z.com
 +.bugsnag-session.monitor.core.app.alexa.a2z.com
@@ -4314,7 +4301,6 @@
 +.a421436c3756087a.com
 +.a4285670c65d2e4e.com
 +.a430fb18c6e7cd04.com
-+.a43567ce05.com
 +.a43dcd22f130c1fc.com
 +.a441a72ebab0e083.com
 +.a454f6804ee377e4.com
@@ -4394,7 +4380,6 @@
 +.a7b1fb72e2447308.com
 +.a7b62eccc7925070.com
 +.a7c2191555ae54d1.com
-+.a7cdbf2335.com
 +.a7ce72b16df5ac4f.com
 +.a7d28c509f54.com
 +.a7d796937b64b43f.com
@@ -4419,7 +4404,6 @@
 +.a93606ed1590432d.com
 +.a95b4220c722b221.com
 +.a968dbc72242a13c.com
-+.a99449d961.com
 +.a99c20e8dbb562f7.com
 +.a9b166f5935ad669a42bd0aa526822e7.xyz
 +.a9b2b98555a96742.com
@@ -4572,11 +4556,9 @@
 +.abimimojo2.com
 +.ad.abishkking.com
 +.abistonfrau.com
-+.abkggtti.com
 +.abkgjyzfgszvd.website
 +.ablida.net
 +.ablyft.com
-+.abmjmovki.com
 +.abmr.net
 +.abnormalitylovingmammal.com
 +.aboardamusement.com
@@ -4589,7 +4571,6 @@
 +.abpa.at
 +.abpicsrc.com
 +.abpjs23.com
-+.abrababa.xyz
 +.abrahackbugs.xyz
 +.ads22.abraj.news
 +.abraxascutties.cfd
@@ -4607,7 +4588,6 @@
 +.abtasty.com
 +.abtrcker.com
 +.abtshield.com
-+.abuclxwayyvum.space
 +.piwik.abus.com
 +.a.abv.bg
 +.bimg.abv.bg
@@ -4671,7 +4651,6 @@
 +.acceptablefoot.com
 +.acceptableredheadcaviar.com
 +.acceptguide.com
-+.acces-portal.top
 +.access-event-mk-live2025.ru
 +.access-ledger.com
 +.access-the-website.com
@@ -4680,7 +4659,6 @@
 +.accessintel.com
 +.static.accesstrade.vn
 +.accidentallyrussian.com
-+.acclnaxnklgqv.com
 +.accmgr.com
 +.accoladeadulterysubqueries.com
 +.accommodateyours.com
@@ -4703,12 +4681,10 @@
 +.account-payment-primevideo.com
 +.account-payment-primevideoamazon.com
 +.account-pg.com
-+.account-policy-manager.site
 +.account-protection-auth.com
 +.account-recovery-crypto.com
 +.account-rent.com
 +.account-samsung-r.com
-+.account-security-binance.com
 +.account-security-check.site
 +.account-sim.help
 +.account-sofi.com
@@ -4753,7 +4729,6 @@
 +.acheterachat.fr
 +.acheterviagrafr24.com
 +.achetezfacile.com
-+.aching-period.com
 +.achingborder.com
 +.achyaplenty.com
 +.acidpigs.com
@@ -4804,7 +4779,6 @@
 +.load.metrics.actionmoto.it
 +.actionpay.net
 +.actionpay.ru
-+.activate-ebay.com
 +.cdn.activated.digital
 +.activationskey.org
 +.activatormanorplausible.com
@@ -4965,7 +4939,6 @@
 +.adbc.io
 +.adbce17e7cecd62b.com
 +.adbeacon.com
-+.ads.adbeat.xyz
 +.adbestnet.com
 +.adbetnet.com
 +.adbetnetwork.com
@@ -5067,7 +5040,6 @@
 +.stats.addtoany.com
 +.s10.adduplex.com
 +.addwish.com
-+.addxvoxlco.com
 +.ade11fca3c.top
 +.adeeply.ru
 +.adelement.com
@@ -5081,7 +5053,6 @@
 +.adentifi.com
 +.adept-emergency.com
 +.raven.adeptmind.ai
-+.adequgiran.pro
 +.analytics.aderserve.com
 +.analytics.marketplace.adesa.com
 +.adespresso.com
@@ -5934,7 +5905,6 @@
 +.adstorebluebird.cy
 +.adstork.com
 +.adstracking.io
-+.adstrails.com
 +.adstrategysites.com
 +.adstrim.live
 +.adstudio.cloud
@@ -6085,7 +6055,6 @@
 +.adversityjackknife.com
 +.advertease.store
 +.advertica.com
-+.advertica-cdn.com
 +.ad.adverticum.net
 +.advertise.com
 +.advertisercommunity.com
@@ -6265,11 +6234,9 @@
 +.aerserv.com
 +.metrics.adherent.aesio.fr
 +.metrics.aesio.fr
-+.aethersa.cfd
 +.metrics.aetn.com
 +.smetrics.aetn.com
 +.smetrics.aetnamedicare.com
-+.aevlosxonjvrmir.com
 +.af-110.com
 +.af-mark.jp
 +.af-z.jp
@@ -6282,9 +6249,7 @@
 +.af700c4ee43f.top
 +.af7051db0c.com
 +.af7190a12573e085.com
-+.af7bf54a72.com
 +.af88118d75ed3c84.com
-+.af8917903c.com
 +.af8d2d51981a4f3a.com
 +.af9c674960c0d3b6.com
 +.af9e332b6104d74a.com
@@ -6303,7 +6268,6 @@
 +.aff1xstavka.com
 +.aff838b7f6755776.com
 +.affablelabel.com
-+.affacclli.homes
 +.tracking.affattr.com
 +.affclkr.com
 +.affcpatrk.com
@@ -6387,7 +6351,6 @@
 +.app.aflink.com
 +.afm01.com
 +.afora.ru
-+.aforispool.sbs
 +.afp.ai
 +.afrdtech.com
 +.africister.world
@@ -6421,7 +6384,6 @@
 +.agencytroops.com
 +.agendadejection.com
 +.monitor.agenedia.com
-+.agentcitysol.lat
 +.agenteimmobiliare.info
 +.analytics.agentfire.com
 +.collector.agentio.com
@@ -6431,7 +6393,6 @@
 +.agggufahxom.com
 +.aggle.net
 +.aggravatingoil.com
-+.aggrecacio.pro
 +.aggregateknowledge.com
 +.aggressive-door.pro
 +.aggressivestruggle.com
@@ -6523,7 +6484,6 @@
 +.stats.ahd.com
 +.aheadday.com
 +.analytics.ahef.xyz
-+.ahftrokawda.com
 +.ahkapsalz.com
 +.ahkbpootnm.com
 +.ahmybid.net
@@ -6567,7 +6527,6 @@
 +.aiharsoreersu.net
 +.aihouboort.net
 +.aihuishou.com
-+.aihusogloomt.com
 +.ads.aiir.net
 +.rl.aikanefogon.com
 +.aikatuz.jp
@@ -6625,7 +6584,6 @@
 +.stat.airdroid.com
 +.stat3.airdroid.com
 +.td.airdroid.com
-+.airdrop-neptune.cash
 +.airdrop-web3-app.top
 +.airdropcassino.cfd
 +.airfoiltapis.cfd
@@ -6706,19 +6664,15 @@
 +.aj2662.bid
 +.aj2670.bid
 +.aj2675.bid
-+.aj2676.bid
-+.aj2688.bid
 +.aj2696.bid
 +.aj2701.bid
 +.aj2703.bid
 +.aj2711.bid
 +.aj2723.bid
-+.aj299219.sbs
 +.aj3043.bid
 +.aj3067.bid
 +.aj3081.top
 +.aj3082.top
-+.aj8a3f.com
 +.ajaib-latency-proven-legitproviderptehosting.com
 +.ajaibcom-trackerpte-liveopera.com
 +.analytics.ajax.systems
@@ -10181,6 +10135,7 @@
 +.betutorbatlingcarpid.cyou
 +.ucs.betwaygroup.com
 +.betweendigital.com
++.pixel.betweenx.com
 +.betwesj.top
 +.betwinner.com
 +.betwinner1.com
@@ -13721,7 +13676,6 @@
 +.cntxcdm.com
 +.cnvlink.com
 +.cnvtyajtiwiss.space
-+.cnwucnf.top
 +.cnzz.cn
 +.cnzz.net
 +.c.cnzz.com
@@ -41054,7 +41008,6 @@
 +.shellnescarlett.com
 +.trk.shelly.cloud
 +.creative.shemale.show
-+.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenshiads.com
@@ -42587,6 +42540,7 @@
 +.smetrics.srpnet.com
 +.srtrak.com
 +.srtuiyhuali.at
++.ad.srv-monitoring.com
 +.adx.srv-monitoring.com
 +.tracking.srv2.de
 +.srv224.com
@@ -44407,6 +44361,7 @@
 +.widget.thuiswinkel.org
 +.thummingnats.com
 +.thump-night-stand.com
++.thumpedatoner.com
 +.incoming-telemetry.thunderbird.net
 +.thunderisleq.cfd
 +.thunderpeakq.cfd
@@ -47781,6 +47736,7 @@
 +.vyoning.cfd
 +.vypepega.com
 +.vyper.io
++.vyvjoeeryyol.top
 +.vzbl.eu
 +.vzebzbxfctexv.store
 +.vzla-qr.com
@@ -49336,6 +49292,7 @@
 +.log.eu.xiaoyi.com
 +.log.xiaoyi.com
 +.log.us.xiaoyi.com
++.sentry.xiaoyuzhoufm.com
 +.analytics.xibe.nl
 +.xicakcaaming.rest
 +.xichuptuwha.com
@@ -49727,6 +49684,7 @@
 +.analytics.yaysecurityapp.xyz
 +.yazio-analytics.com
 +.yb23b.com
++.yb78i88x9t5py3.rest
 +.ybbserver.com
 +.log.ybgaming777.net
 +.ybjolykakvwnh.site
@@ -49908,6 +49866,7 @@
 +.yo-protocol.xyz
 +.yoads.net
 +.yoast-schema-graph.com
++.yobboesfreaks.com
 +.yobee.it
 +.yobyshbpomomy.space
 +.m.yocvn.com
@@ -50121,6 +50080,7 @@
 +.yudvl.org
 +.yuga.ru
 +.yugvawefin.cloud
++.yuhuan.cc
 +.yuiiy.com
 +.yukclick.me
 +.yukishigure.com
