@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 03 Jan 2026 02:44 UTC
-# Version: 2026.0103.0244.08
+# Last modified: 03 Jan 2026 06:49 UTC
+# Version: 2026.0103.0649.47
 # Syntax: Domains (without subdomains)
-# Number of entries: 6306
+# Number of entries: 6302
 #
 +.ss.0001.xyz
 +.003153.xyz
@@ -2763,7 +2763,6 @@
 +.doh.hugang8.cn
 +.hugeph.art
 +.dns.huizegunsing.nl
-+.dns.huizhechi.com
 +.dns.hujiayucc.cn
 +.ads.hunga1k47.com
 +.solidgeo.hunnur.com
@@ -2783,7 +2782,8 @@
 +.hkg.hytec.org
 +.ur.hytec.org
 +.ns1.i-evolve.net
-+.i-puppy.ru
++.ec.i-puppy.ru
++.ru.i-puppy.ru
 +.i2p-projekt.de
 +.i2pd.xyz
 +.az.i81.ru
@@ -2838,7 +2838,6 @@
 +.ilinhy.com
 +.ilmxs.com
 +.ilumu.com
-+.ilysk.lol
 +.ad.imblien.com
 +.noads.imbuffering.com
 +.dns.imchristian.de
@@ -2889,7 +2888,6 @@
 +.instant-vpn.com
 +.instantunblock.com
 +.intego.com
-+.dns.interhub.cc
 +.interncloud.info
 +.internetbypass.com
 +.internetcloak.com
@@ -2915,7 +2913,6 @@
 +.dns.ipoac.nl
 +.iportal.me
 +.ipprotectionauth.goog
-+.ipredator.se
 +.iprivatevpn.com
 +.iprovpn.com
 +.iproxy.lol
@@ -4859,7 +4856,6 @@
 +.adguard.serverrune.be
 +.serverssh.net
 +.assets-prod-a230.s3.serverwild.com
-+.serverxray.us
 +.servis4u.top
 +.dns.servizimv.it
 +.sescloud.club
