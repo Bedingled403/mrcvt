@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 04 Jan 2026 10:36 UTC
-# Version: 2026.0104.1036.51
+# Last modified: 04 Jan 2026 18:36 UTC
+# Version: 2026.0104.1836.08
 # Syntax: Domains (without subdomains)
-# Number of entries: 6264
+# Number of entries: 6262
 #
 +.ss.0001.xyz
 +.003153.xyz
@@ -6167,7 +6167,6 @@
 +.youcanhide.net
 +.net01.youcef.io
 +.adguard.youler.com
-+.younblocked.com
 +.dns.youni.win
 +.youproxything.com
 +.youproxytube.com
@@ -6189,7 +6188,6 @@
 +.dns2.ytpom.ru
 +.dns.yu.dev
 +.yui.cat
-+.yujunwanwu.cn
 +.adguard.yuki2th.xyz
 +.yundun.icu
 +.httpdns.yunxindns.com
