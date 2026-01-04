@@ -1,5 +1,5 @@
 ### Domains (wildcards, use `+.` instead of `*.`)
-#### HaGeZi
+#### [HaGeZi 🔗](https://github.com/hagezi/dns-blocklists)
 
 |  | `.mrs`<br>(Github) | `.mrs`<br>(jsDelivr) | `.txt`<br>(Github) | `.txt`<br>(jsDelivr) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -28,14 +28,14 @@
 | dga14 | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/domain/hagezi/dga14.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/domain/hagezi/dga14.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/domain/hagezi/dga14.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/domain/hagezi/dga14.txt) |
 | dga30 | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/domain/hagezi/dga30.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/domain/hagezi/dga30.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/domain/hagezi/dga30.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/domain/hagezi/dga30.txt) |
 
-#### stamparm
+#### [stamparm 🔗](https://github.com/stamparm/maltrail)
 
 |  | `.mrs`<br>(Github) | `.mrs`<br>(jsDelivr) | `.txt`<br>(Github) | `.txt`<br>(jsDelivr) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | maltrail-malware<br>(from [maltrail-malware-domains](https://github.com/stamparm/aux/blob/master/maltrail-malware-domains.txt)) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/domain/stamparm/maltrail-malware.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/domain/stamparm/maltrail-malware.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/domain/stamparm/maltrail-malware.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/domain/stamparm/maltrail-malware.txt) |
 | maltrail-static-domains<br>(malware,malicious,suspicious,mass scanner)<br>(from [maltrail-static-trails](https://github.com/stamparm/aux/blob/master/maltrail-static-trails.txt)) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/domain/stamparm/maltrail-static-domains.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/domain/stamparm/maltrail-static-domains.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/domain/stamparm/maltrail-static-domains.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/domain/stamparm/maltrail-static-domains.txt) |
 
-#### OISD
+#### [OISD 🔗](https://github.com/sjhgvr/oisd)
 
 |  | `.mrs`<br>(Github) | `.mrs`<br>(jsDelivr) | `.txt`<br>(Github) | `.txt`<br>(jsDelivr) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -46,13 +46,13 @@
 
 
 ### IPCIDR
-#### HaGeZi
+#### [HaGeZi 🔗](https://github.com/hagezi/dns-blocklists)
 
 |  | `.mrs`<br>(Github) | `.mrs`<br>(jsDelivr) | `.txt`<br>(Github) | `.txt`<br>(jsDelivr) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | tif-cidr | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/hagezi/tif-cidr.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/hagezi/tif-cidr.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/hagezi/tif-cidr.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/hagezi/tif-cidr.txt) |
 
-#### stamparm
+#### [stamparm 🔗](https://github.com/stamparm)
 
 |  | `.mrs`<br>(Github) | `.mrs`<br>(jsDelivr) | `.txt`<br>(Github) | `.txt`<br>(jsDelivr) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -62,7 +62,7 @@
 | ipsum-level4 | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/stamparm/ipsum-level4.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/stamparm/ipsum-level4.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/stamparm/ipsum-level4.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/stamparm/ipsum-level4.txt) |
 | maltrail-static-cidr<br>(malware,malicious,suspicious,mass scanner)<br>(from [maltrail-static-trails](https://github.com/stamparm/aux/blob/master/maltrail-static-trails.txt)) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/stamparm/maltrail-static-cidr.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/stamparm/maltrail-static-cidr.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/stamparm/maltrail-static-cidr.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/stamparm/maltrail-static-cidr.txt) |
 
-#### FireHol
+#### [FireHol 🔗](https://github.com/firehol/blocklist-ipsets)
 
 |  | `.mrs`<br>(Github) | `.mrs`<br>(jsDelivr) | `.txt`<br>(Github) | `.txt`<br>(jsDelivr) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -78,7 +78,7 @@
 | tor_exits_7d | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/firehol/tor_exits_7d.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/firehol/tor_exits_7d.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/firehol/tor_exits_7d.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/firehol/tor_exits_7d.txt) |
 | tor_exits_30d | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/firehol/tor_exits_30d.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/firehol/tor_exits_30d.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/firehol/tor_exits_30d.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/firehol/tor_exits_30d.txt) |
 
-#### bitwire-it
+#### [bitwire-it 🔗](https://github.com/bitwire-it/ipblocklist)
 
 |  | `.mrs`<br>(Github) | `.mrs`<br>(jsDelivr) | `.txt`<br>(Github) | `.txt`<br>(jsDelivr) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
