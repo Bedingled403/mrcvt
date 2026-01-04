@@ -50,7 +50,7 @@ jobs:
           # Delete and recreate directories
           rm -rf "$DOMAIN_DIR" "$IPCIDR_DIR"
           mkdir -p "$DOMAIN_DIR"/{hagezi,stamparm,oisd} \
-                   "$IPCIDR_DIR"/{hagezi,stamparm,firehol}
+                   "$IPCIDR_DIR"/{hagezi,stamparm,firehol,bitwire-it}
           
           # Install mihomo (from cached branch)
           install_mihomo
@@ -67,13 +67,14 @@ jobs:
           STAMPARM="https://raw.githubusercontent.com/stamparm"
           OISD="https://raw.githubusercontent.com/sjhgvr/oisd/main"
           FIREHOL="https://raw.githubusercontent.com/firehol/blocklist-ipsets/master"
+          BITWIRE_IT="https://raw.githubusercontent.com/bitwire-it/ipblocklist/main"
 
           # (Optional) Override default values of `dl()` options
           # export DL_RETRY=3
           # export DL_RETRY_DELAY=5
 
           # === 1. HaGeZi Wildcard Domains ===
-          echo "[1/7] HaGeZi wildcard domains"
+          echo "[1/8] HaGeZi wildcard domains"
           hagezi_wild="light multi:normal pro pro.mini pro.plus pro.plus.mini
             ultimate ultimate.mini tif tif.medium tif.mini doh
             doh-vpn-proxy-bypass dyndns spam-tlds spam-tlds-allow"
@@ -83,20 +84,20 @@ jobs:
           done
 
           # === 2. HaGeZi Domains ===
-          echo "[2/7] HaGeZi domains"
+          echo "[2/8] HaGeZi domains"
           for f in nrd7 nrd14-8 nrd21-15 nrd28-22 nrd35-29 \
                    dga7 dga14 dga30; do
             proc_domain "$HAGEZI/domains/${f}.txt" "$DOMAIN_DIR/hagezi/${f}.mrs"
           done
 
           # === 3. HaGeZi IPs ===
-          echo "[3/7] HaGeZi IPs"
+          echo "[3/8] HaGeZi IPs"
           for f in tif doh; do
             proc_ip "$HAGEZI_CDN/ips/${f}.txt" "$IPCIDR_DIR/hagezi/${f}-ipcidr.mrs"
           done
 
           # === 4. Stamparm Maltrail ===
-          echo "[4/7] Stamparm maltrail"
+          echo "[4/8] Stamparm maltrail"
           proc_domain "$STAMPARM/aux/master/maltrail-malware-domains.txt" \
             "$DOMAIN_DIR/stamparm/maltrail-malware.mrs"
           proc_mixed "$STAMPARM/aux/master/maltrail-static-trails.txt" \
@@ -105,21 +106,21 @@ jobs:
             ","                                                 # use comma as separator
 
           # === 5. Stamparm Ipsum ===
-          echo "[5/7] Stamparm ipsum"
+          echo "[5/8] Stamparm ipsum"
           for i in 1 2 3 4; do
             proc_ip "$STAMPARM/ipsum/master/levels/${i}.txt" \
               "$IPCIDR_DIR/stamparm/ipsum-level${i}.mrs"
           done
 
           # === 6. OISD Domains ===
-          echo "[6/7] OISD domains"
+          echo "[6/8] OISD domains"
           for item in big:oisd_big small:oisd_small nsfw:oisd_nsfw nsfw_small:oisd_nsfw_small; do
             src="${item%:*}" out="${item#*:}"
             proc_domain "$OISD/domainswild2_${src}.txt" "$DOMAIN_DIR/oisd/${out}.mrs"
           done
 
           # === 7. FireHOL IP Sets ===
-          echo "[7/7] FireHOL ipsets"
+          echo "[7/8] FireHOL ipsets"
           for f in firehol_level{1,2,3,4}.netset \
                    tor_exits.ipset \
                    tor_exits_{1,7,30}d.ipset \
@@ -127,6 +128,12 @@ jobs:
                    dm_tor.ipset \
                    et_tor.ipset; do
             proc_ip "$FIREHOL/${f}" "$IPCIDR_DIR/firehol/${f%.*}.mrs"
+          done
+
+          # === 8. Bitwire-it ipblocklist ===
+          echo "[8/8] bitwire-it ipblocklist"
+          for f in ip-list inbound outbound; do
+            proc_ip "$BITWIRE_IT/${f}.txt" "$IPCIDR_DIR/bitwire-it/${f%.*}.mrs"
           done
 
           echo "[Done] Conversion completed"
