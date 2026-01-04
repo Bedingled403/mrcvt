@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 04 Jan 2026 03:06 UTC
-# Version: 2026.0104.0306.47
+# Last modified: 04 Jan 2026 06:41 UTC
+# Version: 2026.0104.0641.47
 # Syntax: Domains (without subdomains)
-# Number of entries: 3354
+# Number of entries: 3353
 #
 +.ss.0001.xyz
 +.003153.xyz
@@ -3044,7 +3044,6 @@
 +.chronicle14.tplinkdns.com
 +.ebpmc.tplinkdns.com
 +.ngk81hc.tplinkdns.com
-+.dns.tracker.ink
 +.access.traders-friend.com
 +.resolv1.trash.net
 +.resolv2.trash.net

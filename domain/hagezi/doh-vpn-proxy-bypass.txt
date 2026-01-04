@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 04 Jan 2026 03:07 UTC
-# Version: 2026.0104.0307.48
+# Last modified: 04 Jan 2026 06:42 UTC
+# Version: 2026.0104.0642.27
 # Syntax: Domains (without subdomains)
-# Number of entries: 6270
+# Number of entries: 6268
 #
 +.ss.0001.xyz
 +.003153.xyz
@@ -5134,7 +5134,6 @@
 +.superproxy123.com
 +.adguard.superstefan.win
 +.dns.superstefan.win
-+.superunblocked.net
 +.superunlimited.com
 +.supervpn.best
 +.supervpn.im
@@ -5437,7 +5436,6 @@
 +.chronicle14.tplinkdns.com
 +.ebpmc.tplinkdns.com
 +.ngk81hc.tplinkdns.com
-+.dns.tracker.ink
 +.tradeadspace.info
 +.access.traders-friend.com
 +.104.36.85.232.traefik.me
