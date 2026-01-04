@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 03 Jan 2026 22:45 UTC
-# Version: 2026.0103.2245.37
+# Last modified: 04 Jan 2026 03:07 UTC
+# Version: 2026.0104.0307.48
 # Syntax: Domains (without subdomains)
-# Number of entries: 6272
+# Number of entries: 6270
 #
 +.ss.0001.xyz
 +.003153.xyz
@@ -4888,7 +4888,6 @@
 +.dns.simplylinux.ch
 +.dns.sindominio.net
 +.dns.sineone.icu
-+.sinesprox.cloud
 +.sinovpn.com
 +.family.sinuabi.ee
 +.sitdns.com
@@ -4980,7 +4979,6 @@
 +.adguard.soloanvill.ru
 +.ns.solutics.ec
 +.ns.solutionsbest.de
-+.adguard.som-it.net
 +.somelikeitproxy.com
 +.bwg.sooda.moe
 +.r.soraapp.gq

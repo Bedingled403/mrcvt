@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 03 Jan 2026 22:44 UTC
-# Version: 2026.0103.2244.59
+# Last modified: 04 Jan 2026 03:06 UTC
+# Version: 2026.0104.0306.47
 # Syntax: Domains (without subdomains)
-# Number of entries: 3355
+# Number of entries: 3354
 #
 +.ss.0001.xyz
 +.003153.xyz
@@ -2852,7 +2852,6 @@
 +.adguard.soloanvill.ru
 +.ns.solutics.ec
 +.ns.solutionsbest.de
-+.adguard.som-it.net
 +.bwg.sooda.moe
 +.spacedns.org
 +.adguard.spaceindex.net
