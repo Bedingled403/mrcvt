@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 03 Jan 2026 19:28 UTC
-# Version: 2026.0103.1928.33
+# Last modified: 03 Jan 2026 22:45 UTC
+# Version: 2026.0103.2245.37
 # Syntax: Domains (without subdomains)
-# Number of entries: 6278
+# Number of entries: 6272
 #
 +.ss.0001.xyz
 +.003153.xyz
@@ -4262,8 +4262,6 @@
 +.oury.privado.ovh
 +.privadovpn.com
 +.privatebard.com
-+.lmc.privatedns.org
-+.lmc1.privatedns.org
 +.privateinternetaccess.com
 +.test.privatenode.ru
 +.privateproxy.me
@@ -4284,7 +4282,6 @@
 +.adg.proprietarypenguin.com
 +.dns.proprietarypenguin.com
 +.edu.prostitutki-na-vyezd.com
-+.prostoclub.ru
 +.prostovpn.org
 +.vpn-api.proton.me
 +.protonstatus.com
@@ -4466,7 +4463,6 @@
 +.psociety.de
 +.psybolt.com
 +.bit.psyk.fr
-+.dns.psyk.fr
 +.ptoserver.com
 +.publicdnsserver.com
 +.publicproxy.org
@@ -4581,7 +4577,6 @@
 +.rcsm.ir
 +.searxng.rcxpony.name
 +.adguard.rdekuyper.nl
-+.edu.readerwrangler.com
 +.login.readinghelper.online
 +.dns.readlook.tk
 +.agh.realwap.net
@@ -4661,7 +4656,6 @@
 +.roodel.com
 +.roogen.com
 +.roonyx.com
-+.dns.root.me
 +.alishnekdi.rotorootie.net
 +.asimplesanirb.rotorootie.net
 +.dns.rotunneling.net
