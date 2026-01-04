@@ -96,8 +96,7 @@ dl() {
 # - If separator is omitted, use " " by default
 # - Preserves leading comments, skips mid-file comments
 # - Extracts first column, removes port, adds "+." prefix
-# - Match: tld (e.g. org, .org), domain (e.g. example.com, .example.com), domain:port (e.g. example.com:443 / .example.com:443 -> +.example.com)
-# - Reject: pure IP (e.g. 1.2.3.4, .1.2.3.4), path (e.g. /malware.rar, example.com/file.7z), obviously invalid cases (e.g. 123, example..com, .)
+# - Supports: TLD (e.g. org, .org), DOMAIN (e.g. example.com, .example.com), DOMAIN+PORT (e.g. example.com:443 / .example.com:443 -> +.example.com)
 norm_domain() {
   local sep="${1:-[[:space:]]+}"
   awk -F"$sep" '
@@ -120,27 +119,62 @@ norm_domain() {
 # Usage: norm_ip [separator]
 # - Reads from stdin, writes to stdout
 # - If separator is omitted, use " " by default
-# - Normalizes IPv4 addresses to CIDR notation
-# - Match: pure ipv4 (with port) (e.g. 1.2.3.4, 1.2.3.4:80 -> 1.2.3.4/32), ipv4 cidr (with port) (e.g. 1.2.3.4/32, 1.2.3.4:80/32 -> 1.2.3.4/32)
-# - Reject: pure ipv6, ipv6 cidr, obviously invalid cases
+# - Normalizes IPv4 and IPv6 addresses to CIDR notation
+# - Supports: IPv4, IPv4+Port, IPv4+CIDR, IPv6, IPv6+Port (brackets), IPv6+CIDR
 norm_ip() {
   local sep="${1:-[[:space:]]+}"
   awk -F"$sep" '
     BEGIN { ds = 0 }                                 # ds = data_started flag
-    /^[[:space:]]*$/ { next }
-    /^[[:space:]]*#/ { if (!ds) print; next }
+    /^[[:space:]]*$/ { next }                        # Skip empty lines
+    /^[[:space:]]*#/ { if (!ds) print; next }        # Print header comments
     {
       ds = 1; h = $1
+      # Clean inline comments and whitespace
       sub(/[[:space:]]*#.*$/, "", h)
       gsub(/^[[:space:]]+|[[:space:]]+$/, "", h)
-      if (match(h, /^[0-9]{1,3}(\.[0-9]{1,3}){3}/)) {
-        ip = substr(h, 1, RLENGTH)
-        rest = substr(h, RLENGTH + 1)
-        cidr = 32
-        if (rest ~ /^\/[0-9]+$/) cidr = substr(rest, 2) + 0
-        else if (rest != "" && rest !~ /^:[0-9]+$/) next
 
-        if (cidr >= 0 && cidr <= 32) print ip "/" cidr
+      ip = ""; rest = ""; max_cidr = 0
+      
+      # 1. Try matching IPv4 (e.g., 1.2.3.4)
+      if (match(h, /^[0-9]{1,3}(\.[0-9]{1,3}){3}/)) {
+        ip = substr(h, RSTART, RLENGTH)
+        rest = substr(h, RSTART + RLENGTH)
+        max_cidr = 32
+      }
+      # 2. Try matching IPv6 wrapped in brackets (e.g., [2001::1]:80)
+      else if (match(h, /^\[[0-9a-fA-F:]+\]/)) {
+        ip = substr(h, RSTART + 1, RLENGTH - 2) # Strip brackets
+        rest = substr(h, RSTART + RLENGTH)
+        max_cidr = 128
+      }
+      # 3. Try matching raw IPv6 (e.g., 2001::1)
+      else if (match(h, /^[0-9a-fA-F:]+/)) {
+        ip = substr(h, RSTART, RLENGTH)
+        # Validate IPv6 must look like IPv6 (contain colon) to avoid matching pure numbers
+        if (ip !~ /:/) next
+        rest = substr(h, RSTART + RLENGTH)
+        max_cidr = 128
+      }
+      else { next } # Not a recognized IP format
+
+      # Handle Port in "rest" (e.g. :80 or :80/32)
+      # If rest starts with colon followed by digits, strip it
+      if (rest ~ /^:[0-9]+/) {
+        sub(/^:[0-9]+/, "", rest)
+      }
+
+      # Handle CIDR in "rest" (e.g. /32 or empty)
+      cidr = max_cidr
+      if (rest ~ /^\/[0-9]+$/) {
+        cidr = substr(rest, 2) + 0
+      } else if (rest != "") {
+        # If rest is not empty and not a valid CIDR (e.g. /7.rar), reject
+        next
+      }
+
+      # Final Validation and Print
+      if (cidr >= 0 && cidr <= max_cidr) {
+        print ip "/" cidr
       }
     }
   '
@@ -155,9 +189,19 @@ norm_ip() {
 proc_domain() {
   local url="$1" out="$2" sep="${3:-[[:space:]]+}"
   local txt="${out%.mrs}.txt"
-  echo "  [D] ${out##*/}"
-  dl "$url" | norm_domain "$sep" > "$txt"
-  mihomo convert-ruleset domain text "$txt" "$out"
+  local base="${out##*/}"
+  local tmp="/tmp/domain_raw_${base%.mrs}.txt"
+
+  echo "::group::  [D] $base"
+  time -p ( dl "$url" > "$tmp")
+  ls -lh $tmp
+  
+  time -p ( norm_domain "$sep" < "$tmp" > "$txt" )
+  ls -lh "$txt"
+  
+  time -p ( mihomo convert-ruleset domain text "$txt" "$out" )
+  ls -lh "$out"
+  echo "::endgroup::"
 }
 
 # Usage: proc_ip <url> <output.mrs> [separator]
@@ -166,9 +210,19 @@ proc_domain() {
 proc_ip() {
   local url="$1" out="$2" sep="${3:-[[:space:]]+}"
   local txt="${out%.mrs}.txt"
-  echo "  [I] ${out##*/}"
-  dl "$url" | norm_ip "$sep" > "$txt"
-  mihomo convert-ruleset ipcidr text "$txt" "$out"
+  local base="${out##*/}"
+  local tmp="/tmp/ip_raw_${base%.mrs}.txt"
+  
+  echo "::group::  [I] $base"
+  time -p ( dl "$url" > "$tmp" )
+  ls -lh $tmp
+  
+  time -p ( norm_ip "$sep" < "$tmp" > "$txt" )
+  ls -lh "$txt"
+
+  time -p ( mihomo convert-ruleset ipcidr text "$txt" "$out" )
+  ls -lh "$out"
+  echo "::endgroup::"
 }
 
 # Usage: proc_mixed <url> <domain_output.mrs> <ip_output.mrs> [separator]
@@ -180,13 +234,21 @@ proc_mixed() {
   local ip_txt="${ip_out%.mrs}.txt"
   local tmp="/tmp/mixed_raw_$$.txt"
   
-  echo "  [D+I] ${dom_out##*/} + ${ip_out##*/}"
-  dl "$url" > "$tmp"
-  norm_domain "$sep" < "$tmp" > "$dom_txt"
-  norm_ip "$sep" < "$tmp" > "$ip_txt"
+  echo "::group::  [D+I] ${dom_out##*/} + ${ip_out##*/}"
+  time -p ( dl "$url" > "$tmp" )
+  ls -lh $tmp
+  
+  time -p ( norm_domain "$sep" < "$tmp" > "$dom_txt" )
+  ls -lh $dom_txt
+  time -p ( norm_ip "$sep" < "$tmp" > "$ip_txt" )
+  ls -lh $ip_txt
   rm -f "$tmp"
-  mihomo convert-ruleset domain text "$dom_txt" "$dom_out"
-  mihomo convert-ruleset ipcidr text "$ip_txt" "$ip_out"
+  
+  time -p ( mihomo convert-ruleset domain text "$dom_txt" "$dom_out" )
+  ls -lh $dom_out
+  time -p ( mihomo convert-ruleset ipcidr text "$ip_txt" "$ip_out" )
+  ls -lh $ip_out
+  echo "::endgroup::"
 }
 
 # ============================================================
