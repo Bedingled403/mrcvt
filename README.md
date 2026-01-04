@@ -46,11 +46,13 @@
 
 
 ### IPCIDR
-#### [HaGeZi 🔗](https://github.com/hagezi/dns-blocklists)
+#### [bitwire-it 🔗](https://github.com/bitwire-it/ipblocklist)
 
 |  | `.mrs`<br>(Github) | `.mrs`<br>(jsDelivr) | `.txt`<br>(Github) | `.txt`<br>(jsDelivr) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| tif-cidr | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/hagezi/tif-cidr.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/hagezi/tif-cidr.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/hagezi/tif-cidr.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/hagezi/tif-cidr.txt) |
+| ip-list | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/bitwire-it/ip-list.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/bitwire-it/ip-list.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/bitwire-it/ip-list.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/bitwire-it/ip-list.txt) |
+| inbound | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/bitwire-it/inbound.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/bitwire-it/inbound.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/bitwire-it/inbound.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/bitwire-it/inbound.txt) |
+| outbound | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/bitwire-it/outbound.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/bitwire-it/outbound.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/bitwire-it/outbound.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/bitwire-it/outbound.txt) |
 
 #### [stamparm 🔗](https://github.com/stamparm)
 
@@ -61,6 +63,12 @@
 | ipsum-level3 | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/stamparm/ipsum-level3.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/stamparm/ipsum-level3.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/stamparm/ipsum-level3.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/stamparm/ipsum-level3.txt) |
 | ipsum-level4 | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/stamparm/ipsum-level4.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/stamparm/ipsum-level4.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/stamparm/ipsum-level4.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/stamparm/ipsum-level4.txt) |
 | maltrail-static-cidr<br>(malware,malicious,suspicious,mass scanner)<br>(from [maltrail-static-trails](https://github.com/stamparm/aux/blob/master/maltrail-static-trails.txt)) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/stamparm/maltrail-static-cidr.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/stamparm/maltrail-static-cidr.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/stamparm/maltrail-static-cidr.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/stamparm/maltrail-static-cidr.txt) |
+
+#### [HaGeZi 🔗](https://github.com/hagezi/dns-blocklists)
+
+|  | `.mrs`<br>(Github) | `.mrs`<br>(jsDelivr) | `.txt`<br>(Github) | `.txt`<br>(jsDelivr) |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| tif-cidr | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/hagezi/tif-cidr.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/hagezi/tif-cidr.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/hagezi/tif-cidr.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/hagezi/tif-cidr.txt) |
 
 #### [FireHol 🔗](https://github.com/firehol/blocklist-ipsets)
 
@@ -77,11 +85,3 @@
 | tor_exits_1d | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/firehol/tor_exits_1d.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/firehol/tor_exits_1d.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/firehol/tor_exits_1d.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/firehol/tor_exits_1d.txt) |
 | tor_exits_7d | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/firehol/tor_exits_7d.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/firehol/tor_exits_7d.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/firehol/tor_exits_7d.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/firehol/tor_exits_7d.txt) |
 | tor_exits_30d | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/firehol/tor_exits_30d.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/firehol/tor_exits_30d.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/firehol/tor_exits_30d.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/firehol/tor_exits_30d.txt) |
-
-#### [bitwire-it 🔗](https://github.com/bitwire-it/ipblocklist)
-
-|  | `.mrs`<br>(Github) | `.mrs`<br>(jsDelivr) | `.txt`<br>(Github) | `.txt`<br>(jsDelivr) |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| ip-list | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/bitwire-it/ip-list.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/bitwire-it/ip-list.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/bitwire-it/ip-list.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/bitwire-it/ip-list.txt) |
-| inbound | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/bitwire-it/inbound.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/bitwire-it/inbound.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/bitwire-it/inbound.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/bitwire-it/inbound.txt) |
-| outbound | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/bitwire-it/outbound.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/bitwire-it/outbound.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/bitwire-it/outbound.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/bitwire-it/outbound.txt) |
