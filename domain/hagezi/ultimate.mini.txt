@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 05 Jan 2026 14:31 UTC
-# Version: 2026.0105.1431.13
+# Last modified: 05 Jan 2026 18:30 UTC
+# Version: 2026.0105.1830.32
 # Syntax: Domains (without subdomains)
-# Number of entries: 74359
+# Number of entries: 74394
 #
 +.tracker.guguan.000.pe
 +.00055edc1917.com
@@ -194,6 +194,7 @@
 +.060dc5963858c932.com
 +.0614ca0d2f741966.com
 +.0618add26e79afb6.com
++.06467.click
 +.0655b527fe4e28b7.com
 +.065f5153674a0c95.com
 +.0660ff4d4ab7.top
@@ -681,6 +682,7 @@
 +.139138a867e3f1dc.com
 +.139a5a9aa9ab26da.com
 +.139cb1234711a0da.com
++.13afemc28.com
 +.13b00121b3a2f25833a53d6c9751323a.com
 +.13b4f64656e422ef.com
 +.13b81a6828f629f8.com
@@ -2705,6 +2707,7 @@
 +.50b76bd95d00c067.com
 +.50bang.org
 +.50e8b1a36fd8cd75.com
++.50gg.us
 +.50ltdemonbuzdolabins.sbs
 +.50union.com
 +.51.com
@@ -4847,6 +4850,7 @@
 +.9322875db87298e105581b7412376699.org
 +.93231ded06174061.com
 +.9325afaaa8c94d06.com
++.93410.click
 +.9342bc6e566a212e.com
 +.9345b5bce3aea8dd.com
 +.9346d9f65add9336.com
@@ -7897,6 +7901,7 @@
 +.agl002.online
 +.agl002.org
 +.agl003.com
++.agl004.fun
 +.agl005.tech
 +.agl006.host
 +.agl007.site
@@ -8904,6 +8909,7 @@
 +.allopass.com
 +.allopjwwybt.com
 +.tr.news.allopneus.com
++.allora.one
 +.alloutdubstep.com
 +.alloviewroll.com
 +.allow-space.com
@@ -10046,6 +10052,7 @@
 +.events.animecix.co
 +.animeclup.com
 +.animedub.site
++.animefire.io
 +.animeflavor.cc
 +.animeflv.in
 +.animego.space
@@ -10098,6 +10105,7 @@
 +.annalect.com
 +.anngukpa.com
 +.anniecloth.com
++.annonalc.cyou
 +.t.announcekit.app
 +.annoyedairport.com
 +.activate.anntaylor.com
@@ -10108,6 +10116,7 @@
 +.annussleys.com
 +.analytics.anobii.com
 +.anolianmishnah.cyou
++.anoncasinobet.com
 +.anontimes.com
 +.anonymised.io
 +.anonymize-me.de
@@ -14420,6 +14429,7 @@
 +.bisairtooneep.net
 +.biscience.com
 +.bisectsdrona.shop
++.bisikletciniz-nrko.sbs
 +.biskletciniz-geldiy-ll.cfd
 +.analytics.bissell.com
 +.bistadaka.com
@@ -15943,6 +15953,7 @@
 +.snowplow.bunq.com
 +.cp.bunte.de
 +.tags.bunte.de
++.bunubilir.com
 +.bunungibiherkeseyenidenvar.com
 +.buradasanslarinizhepiyigider.com
 +.buranwattle.com
@@ -16561,6 +16572,7 @@
 +.analytics.cahoot.com
 +.events.cahoot.com
 +.cai75tp.com
++.caidax.com
 +.guoguouser.cainiao.com
 +.nbnest-admonitor.cainiao.com
 +.adashx.ut.cainiao.com
@@ -17849,6 +17861,7 @@
 +.sentry.chainers.io
 +.chaingaroom.net
 +.chainopera.foundation
++.chainresolvedapp.com
 +.chaip.top
 +.chaipoksore.com
 +.webcontr.chairgo.de
@@ -19539,7 +19552,6 @@
 +.cnvlink.com
 +.cnvr.net
 +.cnvtyajtiwiss.space
-+.cnwucnf.top
 +.cnzz.cn
 +.cnzz.com
 +.cnzz.net
@@ -22650,7 +22662,6 @@
 +.crypto-investissement.com
 +.crypto-loot.com
 +.crypto-loot.org
-+.crypto-point.cc
 +.crypto-pool.fr
 +.ad.crypto-vestor.com
 +.cryptobara.com
@@ -22820,6 +22831,7 @@
 +.cumancorus.homes
 +.cumbersome-pride.com
 +.cumbersomecarpenter.com
++.cumbremexico.cl
 +.cuminside.club
 +.cumonteenass.com
 +.cumul.io
@@ -25815,6 +25827,7 @@
 +.track.drinkag1.com
 +.matomo.drinkpa.club
 +.drip.com
++.dripcasino.casino
 +.drive-software.com
 +.genius.drivecentric.com
 +.ignitify-insite-scripts.drivecentric.io
@@ -28547,6 +28560,7 @@
 +.exnesstrack.net
 +.exoclick.com
 +.exodjhbn.top
++.exodus-pay.live
 +.exodusjailhousetarantula.com
 +.exorigos.com
 +.exosrv.com
@@ -32655,6 +32669,7 @@
 +.givingrealgiveawaylucky.autos
 +.givingrealrewardprize.autos
 +.givingrewardsearchweekly.autos
++.gixikuluk.sbs
 +.gizbogamez-link.top
 +.tracking.gizmo.ai
 +.gizokraijaw.net
@@ -33625,7 +33640,6 @@
 +.gr-cdn.com
 +.gr-gr.icu
 +.gr-site.com
-+.gr0menugirisllemb0nuslari.online
 +.gr2vityta1k.ru
 +.sentry-aws-online.gr8api.com
 +.dc.grabit.video
@@ -35137,6 +35151,7 @@
 +.hgbn.rocks
 +.hghit.com
 +.hginsights.com
++.hglass.xyz
 +.hgmnetwork.com
 +.matomo.hgncloud.com
 +.tracker.hgrid.kr
@@ -35889,6 +35904,7 @@
 +.hproxx.fit
 +.plausible.hptronic.cz
 +.sentry.hptronic.cz
++.hpyerliqxuid-vote.com
 +.hpyjmp.com
 +.hpyrdr.com
 +.hqhost.net
@@ -36212,6 +36228,7 @@
 +.analytics.hvcgroep.nl
 +.hvd-store.com
 +.pixel-traffic-meter.hvg.hu
++.hviegjv2vm8jozli2qkuw5x2gcpchh.cfd
 +.hvp45z.ru
 +.hw2umknokjpc5eiwe8353f.cfd
 +.hwclouds-dns.com
@@ -38687,6 +38704,7 @@
 +.jennifersoft.com
 +.news.jennydanny.com
 +.jensonrasprelim.cyou
++.jeoawamwzbmeb.top
 +.jeqsuyzlpwjzy.rocks
 +.track.jeremykennedynews.com
 +.cno.jerkmate.com
@@ -40276,8 +40294,10 @@
 +.kra44-cc.net
 +.kra45-at.net
 +.kra45at.com
++.kra7.info
 +.kra7d.cc
 +.krab1.app
++.krab1cc-rur.ru
 +.krab2.fm
 +.krab2rc.com
 +.krab431.cc
@@ -41547,6 +41567,7 @@
 +.lighter-activity.xyz
 +.lighter-airdrop.com
 +.lighter-airdrop.xyz
++.lighter-airdrops.xyz
 +.lighter-app.org
 +.lighter-bonus.com
 +.lighter-boost.com
@@ -42364,6 +42385,7 @@
 +.lmtokens.com
 +.l997.lmtonline.com
 +.lmvba.com
++.lmvrjabzqelkj.top
 +.ln.is
 +.px4-ads-linkedin-com.ipv4.ln-0004.ln-msedge.net
 +.lnabew.com
@@ -43378,6 +43400,7 @@
 +.mainexclkdir.com
 +.mainexpclkdir.com
 +.mainlink.ru
++.mainnetdex-resolver.com
 +.mainos.pro
 +.tags.mainova.de
 +.angebote.mainpost.de
@@ -45426,6 +45449,7 @@
 +.mnpa6gtrk.com
 +.mnqoctbcyaqg.com
 +.prod.prod.gql-mesh.gql.mnscorp.net
++.mnsht-votes.live
 +.mnthor.xyz
 +.sentry-blitz-fe.mntprod.net
 +.mntzco.com
@@ -47327,7 +47351,6 @@
 +.ucom.ne.jp
 +.ne02.biz
 +.ne20.biz
-+.ne4s.icu
 +.nearbyme.io
 +.pub.neartonet.com
 +.nearvana.co
@@ -49619,6 +49642,7 @@
 +.onlinebooster.xyz
 +.onlineday.site
 +.onlinedown.net
++.onlinegryednkaktarmlarekran.cyou
 +.onlinehentai.tv
 +.analytics.onlinekhabar.com
 +.onlineotoplus.com
@@ -52012,12 +52036,14 @@
 +.pl-285601.cfd
 +.pl-352478.cfd
 +.pl-40349299545643.sbs
++.pl-449304.icu
 +.pl-4715247.cfd
 +.pl-4812342.cfd
 +.pl-5604.cfd
 +.pl-5745124.cfd
 +.pl-73912.cfd
 +.pl-744531.cfd
++.pl-744903.icu
 +.pl-768245.cfd
 +.pl-837624.cfd
 +.pl-8390127.rest
@@ -52703,6 +52729,7 @@
 +.portal-cryptorank.com
 +.portal-curve.finance
 +.data-ed1ee98a6c.portal-der-augenmedizin.de
++.portal-esspresso.network
 +.portal-quant.network
 +.portal-smartofficecenter.nl
 +.portal-zama.org
@@ -53431,6 +53458,7 @@
 +.propertyofnews.com
 +.prophetalongconstituent.com
 +.cnt.proporn.com
++.proposal-worldlibertyfinancial.com
 +.proposalkeptstaff.com
 +.propositionpower.com
 +.proppellerads.ru
@@ -55990,6 +56018,7 @@
 +.residesfe.com
 +.resolution-ciqdata.shop
 +.resolutionagency.com
++.resolvemainnetprotocol.xyz
 +.reson8.com
 +.resonance.pk
 +.resonantbrush.com
@@ -57011,6 +57040,7 @@
 +.analytics.rtvvechtdal.nl
 +.rtvwerjyuver.com
 +.rtxfeed.com
++.rtxfi.one
 +.rtxplatform.com
 +.rtyuop.fit
 +.rtyuou.life
@@ -59159,7 +59189,6 @@
 +.creative.shemale.show
 +.go.shemale.show
 +.shemedia.com
-+.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenhuafei.cn
@@ -61476,6 +61505,7 @@
 +.sreif.com
 +.ax.srencharm.com
 +.data.srf.ch
++.srgulavegerialaktar.cyou
 +.srh.ovh
 +.dd.sriracha.site
 +.srksbbbh.com
@@ -66744,6 +66774,7 @@
 +.ua1xbet.com
 +.uaafd.biz
 +.ad.uab.edu
++.uae-projects.org
 +.tag.uao.it
 +.plausible.uapps.click
 +.static-cache.ua.uaprom.net
@@ -67452,6 +67483,7 @@
 +.uprisingx.work
 +.uproar.com
 +.uproarumbles.com
++.uproll.live
 +.uproxy.co
 +.smetrics.ups.com
 +.wwwcie.ups.com
@@ -68016,6 +68048,7 @@
 +.vaugroar.com
 +.vaultdcr.com
 +.vaultdcr.tv
++.vaultedchronicles.xyz
 +.vaultersulkersgeese.cfd
 +.vauodyrnlktmtobamdkd.com
 +.vayxi.com
@@ -71046,6 +71079,7 @@
 +.wixnm.com
 +.sentry.wixpress.com
 +.sentry-next.wixpress.com
++.wixspins.org
 +.wixstats.com
 +.wixxx-shop.ru
 +.wiyodaviwumukke.cloud
@@ -71672,7 +71706,6 @@
 +.smetrics.wyndhamhotels.com
 +.tags.wyndhamhotels.com
 +.experiences.wyng.com
-+.wynikszczesciaa.online
 +.adconfig.wynk.in
 +.adtech.wynk.in
 +.wynkmusic.online
@@ -72879,6 +72912,7 @@
 +.yeni-yil-basvur.click
 +.yeni-yil-basvur.cyou
 +.yeni-yil-basvur.forum
++.yenl-yli-kpamyalari.cfd
 +.yepads.com
 +.yeps.io
 +.cnt.yeptube.com
@@ -73390,6 +73424,7 @@
 +.adv.yuetnc.com
 +.yuga.ru
 +.yugukj.com
++.yuhuan.cc
 +.yuiiy.com
 +.yuiopm.bond
 +.yuiopm.fit

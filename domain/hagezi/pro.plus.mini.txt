@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 05 Jan 2026 14:23 UTC
-# Version: 2026.0105.1423.42
+# Last modified: 05 Jan 2026 18:23 UTC
+# Version: 2026.0105.1823.20
 # Syntax: Domains (without subdomains)
-# Number of entries: 66939
+# Number of entries: 66946
 #
 +.tracker.guguan.000.pe
 +.00055edc1917.com
@@ -185,6 +185,7 @@
 +.060dc5963858c932.com
 +.0614ca0d2f741966.com
 +.0618add26e79afb6.com
++.06467.click
 +.0655b527fe4e28b7.com
 +.065f5153674a0c95.com
 +.0660ff4d4ab7.top
@@ -645,6 +646,7 @@
 +.139138a867e3f1dc.com
 +.139a5a9aa9ab26da.com
 +.139cb1234711a0da.com
++.13afemc28.com
 +.13b00121b3a2f25833a53d6c9751323a.com
 +.13b4f64656e422ef.com
 +.13b81a6828f629f8.com
@@ -7640,6 +7642,7 @@
 +.agl002.online
 +.agl002.org
 +.agl003.com
++.agl004.fun
 +.agl005.tech
 +.agl006.host
 +.agl007.site
@@ -9563,6 +9566,7 @@
 +.annalect.com
 +.anngukpa.com
 +.anniecloth.com
++.annonalc.cyou
 +.annoyedairport.com
 +.activate.anntaylor.com
 +.pqutk.anntaylor.com
@@ -9571,6 +9575,7 @@
 +.annussleys.com
 +.analytics.anobii.com
 +.anolianmishnah.cyou
++.anoncasinobet.com
 +.anontimes.com
 +.anonymised.io
 +.anonymize-me.de
@@ -14354,6 +14359,7 @@
 +.brinkjav09212026.shop
 +.brinkow.com
 +.briskeagle.io
++.briskedge.net
 +.sentry.mobile.bristol.ru
 +.metrics.britbox.com
 +.britepool.com
@@ -14544,6 +14550,7 @@
 +.bucksmein.com
 +.vsevs.budclubshop.com
 +.hk.buddersspacers.shop
++.buddycanvas.com
 +.buddygays.com
 +.analytics.buddyme.me
 +.analytics.budgetlight.de
@@ -17728,7 +17735,6 @@
 +.cnvlink.com
 +.cnvr.net
 +.cnvtyajtiwiss.space
-+.cnwucnf.top
 +.cnzz.cn
 +.cnzz.com
 +.cnzz.net
@@ -20264,7 +20270,6 @@
 +.cryptimi.com
 +.crypto-loot.com
 +.crypto-loot.org
-+.crypto-point.cc
 +.crypto-pool.fr
 +.ad.crypto-vestor.com
 +.cryptobara.com
@@ -31273,6 +31278,7 @@
 +.highrevenuegate.com
 +.highrevenuenetwork.com
 +.trk.highrunning.com
++.highscoresport.com
 +.highsea.fun
 +.highspeedads.top
 +.hightid.xyz
@@ -32087,6 +32093,7 @@
 +.analytics.hvcgroep.nl
 +.hvd-store.com
 +.pixel-traffic-meter.hvg.hu
++.hviegjv2vm8jozli2qkuw5x2gcpchh.cfd
 +.hvp45z.ru
 +.hw2umknokjpc5eiwe8353f.cfd
 +.hwclouds-dns.com
@@ -34193,6 +34200,7 @@
 +.jennifersoft.com
 +.news.jennydanny.com
 +.jensonrasprelim.cyou
++.jeoawamwzbmeb.top
 +.jeqsuyzlpwjzy.rocks
 +.track.jeremykennedynews.com
 +.cno.jerkmate.com
@@ -37360,6 +37368,7 @@
 +.lmtoken.uk
 +.l997.lmtonline.com
 +.lmvba.com
++.lmvrjabzqelkj.top
 +.ln.is
 +.px4-ads-linkedin-com.ipv4.ln-0004.ln-msedge.net
 +.lnabew.com
@@ -39902,7 +39911,6 @@
 +.mktoutil.com
 +.mktp-base.mktplatforms.com
 +.mktsci.com
-+.mkuty.cn
 +.etui.fs.ml.com
 +.ml-api.io
 +.ml-attr.com
@@ -41609,7 +41617,6 @@
 +.ucom.ne.jp
 +.ne02.biz
 +.ne20.biz
-+.ne4s.icu
 +.nearbyme.io
 +.pub.neartonet.com
 +.nearvana.co
@@ -47167,12 +47174,14 @@
 +.pl-285601.cfd
 +.pl-352478.cfd
 +.pl-40349299545643.sbs
++.pl-449304.icu
 +.pl-4715247.cfd
 +.pl-4812342.cfd
 +.pl-5604.cfd
 +.pl-5745124.cfd
 +.pl-73912.cfd
 +.pl-744531.cfd
++.pl-744903.icu
 +.pl-768245.cfd
 +.pl-837624.cfd
 +.pl-8390127.rest
@@ -53642,7 +53651,6 @@
 +.creative.shemale.show
 +.go.shemale.show
 +.shemedia.com
-+.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenhuafei.cn
@@ -60313,7 +60321,6 @@
 +.u81m.xyz
 +.u88.cn
 +.u9axpzf50.com
-+.u9zv0uq6tomfchp.store
 +.ua.fm
 +.ua-teens.com
 +.ua1xbet.com
@@ -64667,7 +64674,6 @@
 +.smetrics.wyndhamhotels.com
 +.tags.wyndhamhotels.com
 +.experiences.wyng.com
-+.wynikszczesciaa.online
 +.adconfig.wynk.in
 +.adtech.wynk.in
 +.wysistat.com
@@ -66107,6 +66113,7 @@
 +.adv.yuetnc.com
 +.yuga.ru
 +.yugukj.com
++.yuhuan.cc
 +.yuiiy.com
 +.yuiopm.bond
 +.yuiopm.fit

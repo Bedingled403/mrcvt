@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 05 Jan 2026 14:17 UTC
-# Version: 2026.0105.1417.30
+# Last modified: 05 Jan 2026 18:17 UTC
+# Version: 2026.0105.1817.03
 # Syntax: Domains (without subdomains)
-# Number of entries: 48771
+# Number of entries: 48776
 #
 +.00055edc1917.com
 +.000cc36be8eb.top
@@ -588,6 +588,7 @@
 +.139138a867e3f1dc.com
 +.139a5a9aa9ab26da.com
 +.139cb1234711a0da.com
++.13afemc28.com
 +.13b00121b3a2f25833a53d6c9751323a.com
 +.13b4f64656e422ef.com
 +.13b81a6828f629f8.com
@@ -6366,6 +6367,7 @@
 +.agl002.online
 +.agl002.org
 +.agl003.com
++.agl004.fun
 +.agl005.tech
 +.agl006.host
 +.agl007.site
@@ -7734,6 +7736,7 @@
 +.anmon.ru
 +.annacrammo.homes
 +.anngukpa.com
++.annonalc.cyou
 +.annoyedairport.com
 +.pqutk.anntaylor.com
 +.smetrics.anntaylor.com
@@ -7741,6 +7744,7 @@
 +.annussleys.com
 +.analytics.anobii.com
 +.anolianmishnah.cyou
++.anoncasinobet.com
 +.anontimes.com
 +.anonymised.io
 +.anonymize-me.de
@@ -11968,7 +11972,6 @@
 +.cash-ads.com
 +.cashalot.bet
 +.cashback-pump.fun
-+.load.pulse.cashbackxl.nl
 +.cashbro.net
 +.cashcinemaunbiased.com
 +.cashcrate.com
@@ -13447,7 +13450,6 @@
 +.cntxcdm.com
 +.cnvlink.com
 +.cnvtyajtiwiss.space
-+.cnwucnf.top
 +.cnzz.cn
 +.cnzz.net
 +.c.cnzz.com
@@ -15312,7 +15314,6 @@
 +.crypticrallye.com
 +.crypto-loot.com
 +.crypto-loot.org
-+.crypto-point.cc
 +.crypto-pool.fr
 +.cryptobara.com
 +.cryptobattlesatlas.com
@@ -21320,6 +21321,7 @@
 +.genuine-crash.com
 +.genuinelyunacceptableweep.com
 +.genuinelyunfit.com
++.genusstv.cyou
 +.ssgtm.geo.de
 +.geo-targetly.com
 +.sin1.geoadnxs.com
@@ -23804,6 +23806,7 @@
 +.analytics.hvcgroep.nl
 +.hvd-store.com
 +.pixel-traffic-meter.hvg.hu
++.hviegjv2vm8jozli2qkuw5x2gcpchh.cfd
 +.hvp45z.ru
 +.hw2umknokjpc5eiwe8353f.cfd
 +.hwclouds-dns.com
@@ -25237,6 +25240,7 @@
 +.jennifersoft.com
 +.news.jennydanny.com
 +.jensonrasprelim.cyou
++.jeoawamwzbmeb.top
 +.jeqsuyzlpwjzy.rocks
 +.cno.jerkmate.com
 +.data.jerkmate.com
@@ -27002,6 +27006,7 @@
 +.lightxcr.com
 +.lightxrs.com
 +.lignter.xyz
++.adv.lihkg.com
 +.lihongli5.cn
 +.analytics.liine.com
 +.lijit.com
@@ -27583,6 +27588,7 @@
 +.lmtoken.uk
 +.l997.lmtonline.com
 +.lmvba.com
++.lmvrjabzqelkj.top
 +.ln.is
 +.px4-ads-linkedin-com.ipv4.ln-0004.ln-msedge.net
 +.lnabew.com
@@ -29375,7 +29381,6 @@
 +.contentz.mkt932.com
 +.mktoresp.com
 +.mktp-base.mktplatforms.com
-+.mkuty.cn
 +.etui.fs.ml.com
 +.ml-attr.com
 +.ml314.com
@@ -30565,7 +30570,6 @@
 +.ucom.ne.jp
 +.ne02.biz
 +.ne20.biz
-+.ne4s.icu
 +.pub.neartonet.com
 +.nearvana.co
 +.neat-period.com
@@ -35284,6 +35288,7 @@
 +.popxperts.com
 +.porchadvertise.com
 +.porculahoning.com
++.porcupvu.cyou
 +.porikatha.com
 +.xa.poringa.net
 +.x.porn.fr
@@ -39521,7 +39526,6 @@
 +.shelljacket.us
 +.trk.shelly.cloud
 +.creative.shemale.show
-+.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenhuafei.cn
@@ -41132,6 +41136,7 @@
 +.statigr.am
 +.statinside.com
 +.statisgeek.com
++.statisnv.cyou
 +.ads.consents-management.prod.aws.statista.com
 +.statisticline.com
 +.statisticresearch.com
@@ -47232,7 +47237,6 @@
 +.cizml.wyndhamhotels.com
 +.smetrics.wyndhamhotels.com
 +.tags.wyndhamhotels.com
-+.wynikszczesciaa.online
 +.adconfig.wynk.in
 +.adtech.wynk.in
 +.wysistat.com
@@ -48183,6 +48187,7 @@
 +.yubziosgvkweu.online
 +.yudvl.org
 +.yuga.ru
++.yuhuan.cc
 +.yuiiy.com
 +.yukclick.me
 +.yukishigure.com
