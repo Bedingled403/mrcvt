@@ -1,9 +1,9 @@
-# Version: 202601050207
+# Version: 202601050608
 # Title: oisd nsfw_small
 # Description: Block. Don't break.
 # Syntax: Domains (wildcards) without *.
 # Entries: 16995
-# Last modified: 2026-01-05T02:07:39+0000
+# Last modified: 2026-01-05T06:08:48+0000
 # Expires: 1 hours
 # License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 # Maintainer: Stephan van Ruth
@@ -2421,6 +2421,7 @@
 +.bukkake.one
 +.bukkake.to
 +.bulgarian-women.net
++.bulkadulttraffic.com
 +.bunkr-albums.io
 +.bunnylust.com
 +.bunnyranch.com
@@ -14923,7 +14924,6 @@
 +.uncutnow.com
 +.uncutprime.com
 +.underhentai.net
-+.undernylon.com
 +.undertow.club
 +.undress.app
 +.undress.cc
