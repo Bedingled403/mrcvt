@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 04 Jan 2026 22:18 UTC
-# Version: 2026.0104.2218.54
+# Last modified: 05 Jan 2026 02:14 UTC
+# Version: 2026.0105.0214.53
 # Syntax: Domains (without subdomains)
-# Number of entries: 67172
+# Number of entries: 67205
 #
 +.tracker.guguan.000.pe
 +.00055edc1917.com
@@ -215,6 +215,7 @@
 +.071b9db06c7aa560.com
 +.07574.com
 +.07578ffd4819f620.com
++.076261-kraken.com
 +.07818b74d9d6d401.com
 +.078373b88b91f3ff.com
 +.07853288be640ce00181d35837c3f66a.com
@@ -2792,6 +2793,7 @@
 +.58e99dfbe9c21362b8293978951b2c0a.xyz
 +.58ff5191b11e.top
 +.58food.com
++.58uw1k3c4yyoiwe9i5yg7pz1.cfd
 +.58win.tech
 +.5906f404629a.top
 +.5917734cf371976c.com
@@ -3818,6 +3820,7 @@
 +.834ec7543b249e84.com
 +.83534.icu
 +.835bea3b60fa.top
++.83610.click
 +.836191ed6b24fb52.com
 +.83751.xyz
 +.83775.xyz
@@ -8072,6 +8075,7 @@
 +.pixel.aivideofeed.com
 +.analytics.aiwebpush.com
 +.aixcdn.com
++.aixiom.cc
 +.aixlab.co
 +.aiyywbihtqhgy.website
 +.aizhantj.com
@@ -8656,6 +8660,7 @@
 +.allo-media.net
 +.analytics.allocate-cloud.com
 +.allocatetexturepronunciation.com
++.allocation-bonk.fun
 +.allocation-brickken.com
 +.utiq.allocine.fr
 +.allodiadeponer.help
@@ -9970,6 +9975,7 @@
 +.app-analytics-services.com
 +.app-analytics-services-att.com
 +.app-aplell.com
++.app-authentication.space
 +.app-dl-mobile-a.com
 +.app-drop.com
 +.app-flyingtulip.com
@@ -14106,7 +14112,6 @@
 +.sst.bonprix.nl
 +.bonree.com
 +.bonus-betting.ru
-+.bonus-boosteth.com
 +.bonusbitcoin.co
 +.bonuscaf.com
 +.bonuscake.ru
@@ -14263,7 +14268,6 @@
 +.boundlessveil.com
 +.boundlykangani.qpon
 +.bountifulmessage.com
-+.bounty-boosteth.com
 +.bountyformseedlings.com
 +.bourrepardale.com
 +.tr.clients.boursobank.info
@@ -16491,6 +16495,7 @@
 +.cgcg01031ht.com
 +.cgcg01040ht.com
 +.cgcg01041ht.com
++.cgcg01050ht.com
 +.cgcsarz0opg.jp
 +.www.cghg8trk.com
 +.cgispy.com
@@ -16643,6 +16648,7 @@
 +.check-brevis.com
 +.api2.check-data.xyz
 +.check-ebay.com
++.check-eligibility-allocation.live
 +.check-ftp.ru
 +.check-now.online
 +.check-this-match.com
@@ -17053,6 +17059,7 @@
 +.claimdealsmartreward.autos
 +.claimforyoubigwinreward.autos
 +.claimrealfreechampion.autos
++.claims-pebglobal.com
 +.claimtokens.net
 +.claimurpump.fun
 +.claimyour50kd.com
@@ -17926,6 +17933,7 @@
 +.cnvlink.com
 +.cnvr.net
 +.cnvtyajtiwiss.space
++.cnwucnf.top
 +.cnzz.cn
 +.cnzz.com
 +.cnzz.net
@@ -18864,6 +18872,7 @@
 +.arsat.com.ar
 +.astenterprises.com.pk
 +.rum.astrolink.com.br
++.att-bonus.com.mx
 +.target.auspost.com.au
 +.al.autohome.com.cn
 +.comm.app.autohome.com.cn
@@ -19638,6 +19647,7 @@
 +.conceivesaucerfalcon.com
 +.matomo.concentra.com
 +.analytics.noffice.conceptboard.com
++.conceptbutikotel.com
 +.server.conceptkart.com
 +.concernrest.com
 +.concert.io
@@ -20755,7 +20765,6 @@
 +.cutechin.com
 +.cutercounter.com
 +.cutescale.online
-+.tracker-de-2.cutie.dating
 +.cutoffclerks.com
 +.yb.cutsetlegwork.com
 +.cuttherope.ie
@@ -21214,6 +21223,7 @@
 +.dapp-restore-panel.com
 +.dapp-uphold-ai.com
 +.dapper.net
++.dappnetwork.world
 +.defi-tracker.dappradar.com
 +.www.dapprio.shop
 +.analytics.daptiv.com
@@ -21867,6 +21877,7 @@
 +.defroststringbenignity.com
 +.deftsecurity.com
 +.defybrick.com
++.degen-wallet.com
 +.deghooda.net
 +.analytics.degiro.nl
 +.deglorygravata.rest
@@ -21986,6 +21997,7 @@
 +.democraticexit.com
 +.democraticpeoplemeet.com
 +.demolitionnutsgrease.com
++.open-tracker.demonoid.ch
 +.events.demoup.com
 +.denakop.com
 +.denbeigemark.com
@@ -24813,7 +24825,6 @@
 +.elevate14r.com
 +.elevatexx.fit
 +.sgtm.elfcosmetics.com
-+.links.elgato.com
 +.sgtm.elgiganten.dk
 +.sgtm.elgiganten.se
 +.analytics.eliasschneider.com
@@ -27782,7 +27793,6 @@
 +.fraudmetrix.cn
 +.stats.ise.fraunhofer.de
 +.fraysystems.com
-+.frconnectreglement.com
 +.freckledoutsiderundaunted.com
 +.freckleiot.com
 +.fred-frost.com
@@ -30370,6 +30380,7 @@
 +.gau.groobee.io
 +.static.groobee.io
 +.grookilteepsou.net
++.groovespacing.com
 +.groovinads.com
 +.groovyartemia.com
 +.gropulse.com
@@ -30398,6 +30409,7 @@
 +.groutoozy.com
 +.faves.grow.me
 +.countly.growatt.com
++.growattsintegrated.com
 +.growave.io
 +.growdamaria.com
 +.engine.groweo.com
@@ -32051,6 +32063,7 @@
 +.hotxxxcontent.com
 +.svc-2-analytics-usf.hotyon.com
 +.houmoowhaustoul.net
++.houotgk3m.com
 +.aiq-in.housebeautiful.com
 +.td.housebeautiful.com
 +.housebutsoon.com
@@ -35070,6 +35083,7 @@
 +.kaddun.info
 +.sentry.kadince.com
 +.matomo.kadocom.com
++.kadven.io
 +.ads.kaffekapslen.media
 +.kaffnet.com
 +.moon.kagari.moe
@@ -36577,12 +36591,12 @@
 +.ledecatches.qpon
 +.ledger-bitcoin-wallet.com
 +.ledger-cold-wallet.com
++.ledger-cryptocurrency-wallet.com
 +.ledger-live-desktop.org
 +.ledger-recovery-signe.com
 +.ledger-recoverysupport.com
 +.ledger-secure-recover-portal.com
 +.ledger-start.io
-+.ledger-updatecheck.com
 +.ledgesrv.com
 +.ledsf.com
 +.data.ledstripkoning.be
@@ -37485,7 +37499,6 @@
 +.receive-sentry.lmru.tech
 +.sentry.lmru.tech
 +.lmtoken.uk
-+.lmtokens.com
 +.l997.lmtonline.com
 +.lmvba.com
 +.ln.is
@@ -38917,7 +38930,6 @@
 +.adv.mclmedia.eu
 +.mcnetwork.pl
 +.cdn.mcnn.pl
-+.mcoorrpappro.com
 +.mcppsh.com
 +.mcpuwpsh.com
 +.mcpuwpush.com
@@ -39410,6 +39422,7 @@
 +.pixel.metamanager.io
 +.metamansk.com
 +.mm-sdk-analytics.api.cx.metamask.io
++.metamask-admin.org
 +.metamask-secureverify.com
 +.metapixelstudio-goal.love
 +.metapixelstudio-knockdown.love
@@ -40461,6 +40474,7 @@
 +.moonphasex.work
 +.moonshotes-vote.com
 +.moonshots.cloud
++.moonsshoot.app
 +.ad.moonton.cn
 +.track.bi.moonton.com
 +.logserver.msdk.moontontech.com
@@ -40926,6 +40940,7 @@
 +.log2.musical.ly
 +.xlog-va.musical.ly
 +.musicbloggerclub.ru
++.musicflashcard.com
 +.mob2.musicgostudio.com
 +.musicmatch.com
 +.counter.musicsweb.ir
@@ -43034,6 +43049,7 @@
 +.o4uxrk33.com
 +.o6z2a2kq8fatj3ch0x5ow6v82ha2gja8x8c7w6pc5gx2ls0zia7bx1n28b5d.com
 +.o7labs.top
++.o8lzku8uy8qwb7j.cfd
 +.o911o.com
 +.ad.mmbiz.oa.com
 +.oaaruoemccttr.com
@@ -47345,7 +47361,6 @@
 +.pieprzyc.com
 +.piesescuter.eu
 +.piezorinto.pro
-+.pigeeonteensindonesia.com
 +.pigeoon.com
 +.matomo-festo.piipe.de
 +.pijper.io
@@ -47434,6 +47449,7 @@
 +.pipenv.org
 +.pipidroods.com
 +.pipipub.com
++.pippincoin.org
 +.pippio.com
 +.pipr-adguard.pro
 +.piquantgrove.com
@@ -51285,6 +51301,7 @@
 +.restartad.com
 +.umami.restaurant-ritter.com
 +.restonovius.com
++.restoredapptools.xyz
 +.restorepushed.com
 +.restoro.com
 +.restowelected.com
@@ -54053,6 +54070,7 @@
 +.sentry.offline.shelopes.com
 +.creative.shemale.show
 +.shemedia.com
++.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenhuafei.cn
@@ -55021,6 +55039,7 @@
 +.pixel.smartnews.com
 +.otel-collector.reliability.smartnews.net
 +.smartnews-ads.com
++.smartnodedapp.click
 +.smartocto.com
 +.smartology.co
 +.smartology.net
@@ -55437,6 +55456,7 @@
 +.sol-foundatlon.org
 +.stoen.solacebands.com
 +.solads.media
++.solairdropofficial.xyz
 +.solandreas.xyz
 +.sentry.solar-fox.com
 +.solarcyclonesky.com
@@ -56832,6 +56852,7 @@
 +.subtraytindery.qpon
 +.metrics.subvid.ai
 +.stats.subvid.ai
++.subwallet.download
 +.sst.subzero-wolf.com
 +.succeedblackoutjournal.com
 +.success-seo.com
@@ -60161,6 +60182,7 @@
 +.trumpgorry.com
 +.trumpia.com
 +.trumproll.com
++.trumptokenairdrop.com
 +.trunkpkg.com
 +.truoptik.com
 +.trusa.xyz
@@ -60684,6 +60706,7 @@
 +.piwik.ubuntu-fr.org
 +.ubuntu8.com
 +.ubuyanalytics.ubuy.com
++.ubyf.cn
 +.adtrack.uc.cn
 +.applog.uc.cn
 +.applog-perf.uc.cn
@@ -62402,6 +62425,7 @@
 +.virtuoussoftware.com
 +.virtusize.com
 +.events.virtusize.jp
++.virus-control.com
 +.vis-hosting.com
 +.visa-cal.live
 +.visableleads.com
@@ -62930,8 +62954,15 @@
 +.log.vostic.net
 +.votacall.net
 +.votacall.one
++.vote-bridge.xyz
++.vote-gateway.com
++.vote-gateway.net
++.vote-gateway.xyz
++.vote-portal.app
++.vote-portal.xyz
 +.vote-standx.app
 +.voteallude.com
++.voter-portal.xyz
 +.analytics.vouchers-at-work.com
 +.vouphoanooque.net
 +.voupsauk.com
@@ -63672,7 +63703,6 @@
 +.log.webnovel.com
 +.webogram.org
 +.webonlinedating.com
-+.webookmarks.com
 +.weboptimizer.xyz
 +.weborama.com
 +.weborama.design
@@ -64441,6 +64471,7 @@
 +.wlct-one.de
 +.wlct-three.de
 +.wlct-two.de
++.wlfiearth.com
 +.e993.wlky.com
 +.wllvnzb.biz
 +.wlmleoeykzsmm.space
@@ -65023,6 +65054,8 @@
 +.x91q.xyz
 +.x9fnzrtl4x8pynsf.com
 +.xa.com
++.xa500k.com
++.xa500k-cointelegraph.com
 +.xa62.com
 +.xaccessinvitex.info
 +.xad.com
@@ -65032,6 +65065,7 @@
 +.xaegamb.com
 +.xaf0ec.ru
 +.xafszmuibdlps.site
++.xaifusion.com
 +.xamubee.ru
 +.xanadutracking.com
 +.xanalytics.vip
@@ -66342,7 +66376,6 @@
 +.yuga.ru
 +.yugukj.com
 +.yugvawefin.cloud
-+.yuhuan.cc
 +.yuiierjsdf.shop
 +.yuiiy.com
 +.yuiopm.bond
@@ -66993,6 +67026,7 @@
 +.vts.zohopublic.com
 +.widgets.zohosalesiq.com
 +.zokare.com
++.zokqlomqkmqvj.top
 +.zolaismampereaudile.cfd
 +.zolivexo.store
 +.zolldata.com
@@ -67164,7 +67198,6 @@
 +.zymindresden.rest
 +.zymjzwakjlvb.top
 +.zap.cdn.zynga.com
-+.zyngawithfriends.com
 +.zyns.com
 +.zypmedia.com
 +.foreign-ime-ad.zyukj6l.com
