@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 04 Jan 2026 18:17 UTC
-# Version: 2026.0104.1817.44
+# Last modified: 04 Jan 2026 22:18 UTC
+# Version: 2026.0104.2218.54
 # Syntax: Domains (without subdomains)
-# Number of entries: 67191
+# Number of entries: 67172
 #
 +.tracker.guguan.000.pe
 +.00055edc1917.com
@@ -1589,7 +1589,6 @@
 +.2f8324a5d5707bc822856506f80bb73d8c57b090df77b45cc8267dbd9d6caf2.click
 +.2f8af1fa1b4a734256c006628177b8b872ca3dc0e21037f2aac979e3091fe01.link
 +.2fa3c2fa16c47d9b9bff8986a42b048f.com
-+.2fax.site
 +.2fb04c1e206a3db1.com
 +.2fb9a49ec437214e.com
 +.2fbb1cf121a46f6c.com
@@ -2140,7 +2139,6 @@
 +.4150b42fa75c.top
 +.4150e4d2ae705ad9.com
 +.415be81928fd3250.com
-+.4161094768219dhlightbox.store
 +.416548ebbf96c1b9.com
 +.416nvr.com
 +.416trk.com
@@ -3861,6 +3859,7 @@
 +.8462a64d7a9665b5.com
 +.846645d29f0aa91f.com
 +.846964704aed5abe.com
++.84701.click
 +.847783cefe71bd9e.com
 +.84898aabbb.com
 +.849686b17c496b80.com
@@ -3975,10 +3974,8 @@
 +.85865.xyz
 +.85872.xyz
 +.85873.xyz
-+.85874.xyz
 +.85876.xyz
 +.85877.xyz
-+.85880.xyz
 +.85881.xyz
 +.85884.xyz
 +.85885.xyz
@@ -4349,6 +4346,7 @@
 +.8939a1bced6e207f.com
 +.893a93a97e.com
 +.89475.vu
++.894785.vu
 +.8973493a8c2f989f.com
 +.8979753070a7caeba2.site
 +.897cdb929ebd7ee2.com
@@ -5612,7 +5610,6 @@
 +.acems1.com
 +.acemsb3.com
 +.acertb.com
-+.acessogarantldo.online
 +.acessoresultado.shop
 +.acexedge.com
 +.acey.bet
@@ -11019,8 +11016,6 @@
 +.aumago.com
 +.aumozestakoogh.com
 +.aunalytics.com
-+.aundiiot3v.site
-+.aundiiot4x.site
 +.aunica.com
 +.aunsaick.com
 +.aunstollarinets.com
@@ -12018,7 +12013,6 @@
 +.baeizhplymdyc.site
 +.exp.baerskintactical.com
 +.baf5543e8dde8e2f.com
-+.bag-source-sg.store
 +.ads.baganads.com
 +.gtm.bagarenochkocken.se
 +.gtmss.bagarenochkocken.se
@@ -14698,6 +14692,7 @@
 +.btcxchange.online
 +.btglss.net
 +.client.bth.finance
++.btktrjpolzee1h.cfd
 +.btloader.com
 +.btmessage.com
 +.ib.eu.btmnd.com
@@ -16359,6 +16354,7 @@
 +.celestialspectra.com
 +.trk.e-send.celestron.com
 +.celiacfixion.click
++.celiofr.fr
 +.sst2.cellavent.de
 +.cellienows.shop
 +.cellrebel.com
@@ -17930,7 +17926,6 @@
 +.cnvlink.com
 +.cnvr.net
 +.cnvtyajtiwiss.space
-+.cnwucnf.top
 +.cnzz.cn
 +.cnzz.com
 +.cnzz.net
@@ -18243,7 +18238,7 @@
 +.kittymail.co.uk
 +.kopisusu.co.id
 +.kwanza.co.tz
-+.ads.kway.co.il
++.kway.co.il
 +.layer.co.il
 +.jmacs-m.lazada.co.id
 +.jmacs-m.lazada.co.th
@@ -19435,12 +19430,8 @@
 +.com-dfhahsudisa.com
 +.com-dskjadnsakpikiasuu.com
 +.com-gma.top
-+.com-gna.top
-+.com-gqa.top
-+.com-gta.top
 +.com-gxa.top
 +.com-gya.top
-+.com-gza.top
 +.com-mnsukms.com
 +.bofa.com-onlinebanking.com
 +.2fa.com-token-auth.com
@@ -19555,6 +19546,7 @@
 +.wss.commentsmodule.com
 +.event-tracking-services.global.commerce-connector.com
 +.commerceiqproxy.shop
++.commercial-carrefour.fr
 +.commercialvalue.org
 +.commiincuo.world
 +.commissionhero.com
@@ -19748,7 +19740,6 @@
 +.connects.ch
 +.connexity.net
 +.connextra.com
-+.conocophillips-vip.top
 +.conohawing.com
 +.stats-server-eu-outside.conquerorsblade.com
 +.stats-server-hk-outside.conquerorsblade.com
@@ -24579,9 +24570,7 @@
 +.eessoong.com
 +.data.eetech.com
 +.eethusdc1.top
-+.eethusdc2.top
-+.eethusdc5.top
-+.eethusdc6.top
++.eethusdc4.top
 +.eethusdc7.top
 +.eetly9ue5x5wj4rff588h.rest
 +.eexevaudraikair.net
@@ -24929,7 +24918,6 @@
 +.mrtg.emailpartners.net
 +.stats.emailrep.io
 +.emailservicesnetau.com
-+.emailsstarliquor.site
 +.emailtracker.website
 +.analytics.emaplan.com
 +.emaratghajari.com
@@ -25574,7 +25562,6 @@
 +.eventful.com
 +.eventige.com
 +.eventkiki.com
-+.events-ttiixx.online
 +.api-events.eventstracker.io
 +.analytics.eventticketscenter.com
 +.research.evercoreisi.com
@@ -27100,7 +27087,6 @@
 +.cp.fitforfun.de
 +.data-fbb8842b89.fitforfun.de
 +.tags.fitforfun.de
-+.fitforlifes.store
 +.fitfulmiauler.cyou
 +.fitgirl-repacks.website
 +.fitgirlrepacks.co
@@ -27759,7 +27745,6 @@
 +.fractionsadly.com
 +.fraenahetmans.qpon
 +.cp.fraenkische-rezepte.de
-+.fragrance-notes-sg.store
 +.gnqam.fragrancenet.com
 +.ryvapi.fragrancenet.com
 +.fragrantanger.com
@@ -28190,6 +28175,7 @@
 +.furlerotidine.com
 +.sentry.furnishedfinder.com
 +.furniture-pl.shop
++.furnituresstore.shop
 +.furyprosecutionkitchen.com
 +.fuse-ad.com
 +.fuse-cloud.com
@@ -28227,6 +28213,7 @@
 +.futureocto.com
 +.bordeaux-gateway.futureplc.com
 +.eventsproxy.gargantuan.futureplc.com
++.cache.pythia.futureplc.com
 +.futureus.com
 +.cp.futurezone.de
 +.data-4248af8297.futurezone.at
@@ -28961,6 +28948,7 @@
 +.statistik.germanwatch.org
 +.dzt.germany.travel
 +.gesas.it
++.gestion-dossier-regule.fr
 +.track.gestionefiere.com
 +.cp.gesundheitsfrage.net
 +.get-derila.com
@@ -32046,7 +32034,6 @@
 +.hotnatalia.com
 +.hotrk0.com
 +.ad.hotroadgaming.com
-+.hotrodudoan.fun
 +.hotsoz.com
 +.hotspot.cz
 +.segment.hotstar.com
@@ -32435,6 +32422,7 @@
 +.in-otel.hyperdx.io
 +.tracker.prod.ams3.k8s.hyperia.sk
 +.hyperliquidfilter.xyz
++.hyperliquidfilters.xyz
 +.hyperlogic.fit
 +.hyperpromote.com
 +.hypers.com
@@ -36214,6 +36202,7 @@
 +.analytics.labeling-data.net
 +.sgtm.labelrose.it
 +.laboredlocket.com
++.labubuofficial.fr
 +.labudanka1.com
 +.lacersmuddled.cyou
 +.utiq.lachainemeteo.com
@@ -46467,11 +46456,9 @@
 +.parcelredelivery.fit
 +.parcelredelivery.qpon
 +.parcelredelivery.shop
-+.parcelredelivery.vip
 +.parcelredelivery.wiki
 +.pardetheezan.com
 +.preview.pardot.com
-+.paredaoestourado.shop
 +.parentingkiss.com
 +.parentsbirling.com
 +.www.parfems.sk
@@ -46763,7 +46750,6 @@
 +.pccleaner.cn
 +.target.pccomponentes.com
 +.pcdefendssecuresfr.live
-+.pcdefensivesecures.live
 +.p.pcdelv.com
 +.pcdwm.com
 +.pcfaster.com
@@ -46788,11 +46774,8 @@
 +.pcpop.com
 +.pcprotect.com
 +.pcrequestsecurities.live
-+.pcrequestsecurity.live
 +.apzce.pcrichard.com
 +.pcrl.co
-+.pcsecurerenewaltoday.live
-+.pcsecurerenewaluk.live
 +.pcspeeduppro.net
 +.pcsx4.com
 +.pct-upd.info
@@ -47206,7 +47189,6 @@
 +.pgfsvwx.biz
 +.pggame365.agency
 +.pghub.io
-+.pgim-top.top
 +.pgjrefecajvj.com
 +.pglstatp-toutiao.com
 +.pgozjxqpepnht.space
@@ -47570,7 +47552,6 @@
 +.pl-4812342.cfd
 +.pl-73912.cfd
 +.pl-744531.cfd
-+.pl-76755674.icu
 +.pl-768245.cfd
 +.pl-8390127.rest
 +.pl-8499409.icu
@@ -53439,6 +53420,7 @@
 +.securelogger.net
 +.securelogger.top
 +.securely-send.com
++.securem365.fr
 +.data.securemetrics-apple.com
 +.ssiadnweb.securenetsystems.net
 +.secureofficial.world
@@ -54071,7 +54053,6 @@
 +.sentry.offline.shelopes.com
 +.creative.shemale.show
 +.shemedia.com
-+.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenhuafei.cn
@@ -54855,6 +54836,7 @@
 +.slickjump.net
 +.slickstream.com
 +.slicktext.com
++.slid3.com
 +.slideblast.com
 +.slidedeck.com
 +.s.slideroctober.store
@@ -57364,7 +57346,6 @@
 +.t1eflp28b5lowgm6tf2.cfd
 +.yandexcloud-api.t2.ru
 +.t2037ulzqct5.com
-+.t235k.site
 +.rtb2-useast.t3dsp.com
 +.cl.t3n.de
 +.data-cb9b83f47f.t3n.de
@@ -57497,7 +57478,6 @@
 +.c.talentplatform.us
 +.talentztech.com
 +.talipotolla.shop
-+.talishasoftware.cloud
 +.ad.talix.com
 +.talk99.cn
 +.talkable.com
@@ -58043,7 +58023,6 @@
 +.telusplanet.net
 +.tvstats.telvi.de
 +.gtm.temashop.dk
-+.temhelp.top
 +.temowpurahigu.world
 +.sentry-internal.temp-mail.io
 +.data.tempersyi.com
@@ -59366,6 +59345,7 @@
 +.log.tossinvest.com
 +.total-stream.net
 +.stat-collector.totalbattle.com
++.totaldrive.com
 +.totalexpert.com
 +.data-ssl.totaljobs.com
 +.totallyfreestuff.com
@@ -61394,7 +61374,6 @@
 +.urgentjb.help
 +.urgentje.help
 +.urgentji.help
-+.urgentjm.homes
 +.urgentjn.help
 +.urgentjp.help
 +.urgentlydecoctioncorpulent.com
@@ -63102,6 +63081,7 @@
 +.ub-xjp.vvbrd.com
 +.vvdrhe.win
 +.tracking.vviinn.com
++.vvlqbmzjzmowm.top
 +.vvnbeszocfcfs.site
 +.piwik.vvo-online.de
 +.vvpan.com
@@ -63850,6 +63830,7 @@
 +.matomo.wellergruppe.de
 +.wellhello.com
 +.tracking.wellhub.com
++.welliesratany.com
 +.welllitratio.com
 +.track.wellness-talk.net
 +.track.wellness-wisdom-hub.co
@@ -64321,8 +64302,6 @@
 +.winluckyinstantamazing.autos
 +.winmo.com
 +.winner.com
-+.winnerrrdinnerrrtodayas.online
-+.winnerrrdinnerrrtodayas.store
 +.winningxx.bond
 +.winningxx.fit
 +.winningxx.work
@@ -64652,6 +64631,7 @@
 +.workshopcommunityrare.com
 +.workshopskinreleased.com
 +.workshopusercontent.com
++.workshopvotesmod.com
 +.www.workstations.pl
 +.t.workupload.com
 +.sentry.workvivo.com
@@ -66362,6 +66342,7 @@
 +.yuga.ru
 +.yugukj.com
 +.yugvawefin.cloud
++.yuhuan.cc
 +.yuiierjsdf.shop
 +.yuiiy.com
 +.yuiopm.bond
