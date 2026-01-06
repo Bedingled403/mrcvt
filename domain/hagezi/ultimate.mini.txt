@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 06 Jan 2026 14:27 UTC
-# Version: 2026.0106.1427.33
+# Last modified: 06 Jan 2026 18:28 UTC
+# Version: 2026.0106.1828.01
 # Syntax: Domains (without subdomains)
-# Number of entries: 73004
+# Number of entries: 73056
 #
 +.00055edc1917.com
 +.000cc36be8eb.top
@@ -6845,7 +6845,6 @@
 +.alerafn.cc
 +.analytics-server.alertapp.dev
 +.alertpay.com
-+.alertreminder.quest
 +.alerts-ledger.com
 +.alertsnotification.com
 +.alettexpug.world
@@ -15876,7 +15875,6 @@
 +.cfxmining.cyou
 +.cfxmining.vip
 +.cfykakhhsskksn86.top
-+.cfykjcgkkgdb87.top
 +.sentry.cg-gb.com
 +.cgcbn.com
 +.cgcg01010ht.com
@@ -17651,7 +17649,6 @@
 +.cnv.cx
 +.cnvlink.com
 +.cnvr.net
-+.cnwucnf.top
 +.cnzz.cn
 +.cnzz.com
 +.cnzz.net
@@ -19744,6 +19741,7 @@
 +.commontools.net
 +.commonvivacious.com
 +.commonwealth2026.top
++.commonwealthgroovemadam.com
 +.commonwealthpoint2026.top
 +.commonwealthpoints2026.top
 +.commonwealthproficient.com
@@ -22612,6 +22610,7 @@
 +.ads.df-automotive.de
 +.df-srv.de
 +.df0164524b35c75d.com
++.df4qnp8trk.com
 +.dfa979f88a8449b8.com
 +.dfade49a51bd7b4c.com
 +.support0.dfaklj.tech
@@ -24096,10 +24095,7 @@
 +.duckdns.com
 +.brownfilleds.duckdns.org
 +.frnr.duckdns.org
-+.lah1.duckdns.org
 +.mrtx.duckdns.org
-+.nchdicus.duckdns.org
-+.supertop2.duckdns.org
 +.tayfagreatie.duckdns.org
 +.duckduckgo.help
 +.improving.duckduckgo.com
@@ -33875,6 +33871,7 @@
 +.htmlexaminer.com
 +.htmlpasta.com
 +.htplayground.com
++.htrrg8trk.com
 +.httlpss-roblox.com
 +.httpdns.pro
 +.httpool.com
@@ -34019,6 +34016,7 @@
 +.humanz.com
 +.humble-gap.com
 +.app.humblytics.com
++.humidifi.pw
 +.humii.co
 +.humiliatingregion.com
 +.humiliationintenseperpetual.com
@@ -34551,6 +34549,7 @@
 +.stadig.ifeng.com
 +.uww6.ifeng.com
 +.c0.ifengimg.com
++.ifg3n1c2k5te5o6.cfd
 +.ping.ifixit.com
 +.iflirts.com
 +.log.iflytek.com
@@ -34972,7 +34971,6 @@
 +.analytics.anihub.in.ua
 +.jobdekho.in.net
 +.analytic.propertyhub.in.th
-+.riku.in.net
 +.truehits.in.th
 +.whatsapp-status.in.net
 +.in-page-push.com
@@ -34995,6 +34993,7 @@
 +.inbound-google.com
 +.inboundwriter.com
 +.inboxdollars.com
++.inboxledger.app
 +.sgtm.inc.com
 +.inc-coinbase.com
 +.logs1.incapsula.com
@@ -35329,6 +35328,7 @@
 +.inkingscarboys.cfd
 +.inkitjf.me
 +.sentry-dev.inkitt.com
++.inkjail.info
 +.inklinkor.com
 +.138439170.inkster.de
 +.inktad.com
@@ -39121,31 +39121,69 @@
 +.ezzdk.lectricebikes.com
 +.lectureolympics.com
 +.ledecatches.qpon
++.ledger-bitcoin.com
 +.ledger-bitcoin-wallet.com
++.ledger-bitcoin-wallets.com
++.ledger-clearsignings-secure.com
 +.ledger-cold-wallet.com
++.ledger-coldstorage.com
 +.ledger-crypto-wallet.com
++.ledger-cryptocurrency-guide.com
 +.ledger-cryptocurrency-wallet.com
++.ledger-guide.com
++.ledger-hardware-connection.com
++.ledger-hardware-guide.com
++.ledger-hardware-wallet-guide.com
++.ledger-haus.com
++.ledger-helpnotify.com
++.ledger-lives.xyz
++.ledger-nano-pairing.com
 +.ledger-nano-wallet.com
++.ledger-official-app.com
++.ledger-portfolio.com
++.ledger-pros.net
++.ledger-protection.com
++.ledger-protection.online
 +.ledger-recover-signe.com
 +.ledger-recovery-signe.com
 +.ledger-recoverysupport.com
++.ledger-secure-connection.com
 +.ledger-secure-recover-portal.com
++.ledger-security.com
++.ledger-security-mailbox.com
++.ledger-staking2025.com
++.ledger-storage.com
 +.ledger-transaction-check.com
 +.ledger-updatecheck.com
++.ledger-wallet-app.net
++.ledger-wallet-apps.com
 +.ledger-wallet-bitcoin.com
++.ledger-wallet-bitcoin.net
 +.ledger-wallet-btc.com
 +.ledger-wallet-connection.com
 +.ledger-wallet-crypto.com
++.ledger-wallet-crypto-app.com
++.ledger-wallet-crypto-guide.com
++.ledger-wallet-crypto-guide.net
 +.ledger-wallet-cryptocurrency.com
++.ledger-wallet-cryptocurrency.net
 +.ledger-wallet-guide.com
++.ledger-wallet-guide.net
 +.ledger-wallet-management.com
 +.ledger-wallet-nano.com
 +.ledger-wallet-nano-x.com
 +.ledger-wallet-overview.com
++.ledger-wallet-overview.net
++.ledger-wallet-overviews.com
 +.ledger-wallet-protect.com
 +.ledger-wallet-protection.com
++.ledger-wallet-protection.net
++.ledger-wallet-protection-guide.com
 +.ledger-wallet-review.com
 +.ledger-wallet-reviews.com
++.ledger-wallet-secure.com
++.ledger-wallet-secure-app.com
++.ledger-wallet-secure-crypto.com
 +.ledger-wallet-software.com
 +.ledger-wallet-solutions.com
 +.ledger-wallet-staking.com
@@ -39154,6 +39192,7 @@
 +.ledger-wallet-update.app
 +.ledger-wallets-guide.com
 +.ledgerwallet.app
++.ledgerwalletz.com
 +.ledgesrv.com
 +.ledruule.cfd
 +.ledruule.website
@@ -40326,6 +40365,7 @@
 +.lmpresslvedate.com
 +.lmpush.com
 +.lmpvjicjvvfuyhefmggs.com
++.lmqvowebejzyy.top
 +.receive-sentry.lmru.tech
 +.sentry.lmru.tech
 +.l997.lmtonline.com
@@ -43897,6 +43937,7 @@
 +.abufc.moroccanoil.com
 +.morordermal.com
 +.morosenesscontract.xyz
++.morozmyau-658.cfd
 +.morphed.ru
 +.pixel.morphify.net
 +.analytics.morphnet.work
@@ -46291,6 +46332,7 @@
 +.node7seat.com
 +.analytics.nodecraft.com
 +.nodefunction.vip
++.nodeledger3.com
 +.nodenotify.com
 +.nodepositbonus.cc
 +.telemetry.nodered.org
@@ -48998,6 +49040,7 @@
 +.parblemophaort.com
 +.parcelconsists.com
 +.metrics.parcelforce.com
++.parcelhandling.shop
 +.sentry.parcellab.com
 +.parcelredelivery.click
 +.parcelredelivery.fit
@@ -50759,7 +50802,6 @@
 +.analytics.api.polaris-iot.com
 +.polarkh-crewing.com
 +.polarmobile.com
-+.polatlidar.click
 +.collector.polestar.com
 +.policenationale-france.fr
 +.event.policybazaar.com
@@ -53787,6 +53829,7 @@
 +.recover-signe.com
 +.recover-signer.com
 +.recovermycart.com
++.recovery-ledger-help.com
 +.recovery-ledger-seed.com
 +.recovery-ledger-seeds.com
 +.recovery-ledgerhelp.com
@@ -54850,6 +54893,7 @@
 +.robin-flow.com
 +.crumbs.robinhood.com
 +.fp.robinhood.com
++.robinjsb.sbs
 +.ads.roblox.com
 +.client-telemetry.roblox.com
 +.ecsv2.roblox.com
@@ -57166,6 +57210,7 @@
 +.servh.net
 +.service-domain.xyz
 +.service-espace-blocage.info
++.service-expedition-relay.com
 +.service-nw.com
 +.service159.top
 +.service2026.vip
@@ -57539,7 +57584,6 @@
 +.creative.shemale.show
 +.go.shemale.show
 +.shemedia.com
-+.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenhuafei.cn
@@ -58364,6 +58408,7 @@
 +.skyluss.com
 +.umami.skymatic.de
 +.skymetrics.co
++.skynaerikuip.help
 +.skyonfe.click
 +.pipe.skype.com
 +.skyperec.com
@@ -61255,6 +61300,7 @@
 +.syriansaurang.com
 +.syringabank.com
 +.eph-adsjutarnji.cdn.sysbee.net
++.syscsrv.com
 +.syslike.org
 +.syslinctalk.com
 +.jaguar-distributor.syslogcollector.com
@@ -62769,6 +62815,7 @@
 +.thewatchstrap.co
 +.engagefront.theweathernetwork.com
 +.theweatherspace.com
++.theweb3ledger.com
 +.thewebguru.de
 +.thewebpush.com
 +.u989.theweek.com
@@ -63520,7 +63567,6 @@
 +.token-backpack.live
 +.tokenizeall.com
 +.tokenlon.im
-+.tokenpooken.vip
 +.tokeyooinnice.shop
 +.toki-govtr.org
 +.tokimekimaildesu.net
@@ -64965,6 +65011,7 @@
 +.turbulentobject.com
 +.analytics.turk.pro
 +.turk-dreamworld.com
++.turkcellreklam.info
 +.turkeernohow.com
 +.turkisupermobiliscepgirislemenu.online
 +.turkleak2.site
@@ -68556,6 +68603,7 @@
 +.triplewhale-pixel.web.app
 +.wa.web.de
 +.ymprove.web.de
++.web-3-ledgers.live
 +.web-analytics.ch
 +.web-apple-us.com
 +.web-boosting.net
@@ -71510,6 +71558,7 @@
 +.yeni-yila-ozel-indirim-kampanyalariiiiii.info
 +.yeni-yila-ozel-indirim-kampanyalariiiiii.online
 +.yeni-yila-ozel-indirim-kampanyalariiiiii-bizde.online
++.yeniyildabizlerle.sbs
 +.yenl-yli-kpamyalari.cfd
 +.yepads.com
 +.yeps.io
@@ -71677,6 +71726,7 @@
 +.yiorgahqwrj.com
 +.yiqifa.com
 +.yiranxian.cn
++.yivtsnnmutzkb.site
 +.yixin.com
 +.img-nos.yiyouliao.com
 +.yiyuanlife.com
@@ -72019,6 +72069,7 @@
 +.adv.yuetnc.com
 +.yuga.ru
 +.yugukj.com
++.yuhuan.cc
 +.yuiiy.com
 +.yuiopm.bond
 +.yuiopm.fit
@@ -72494,6 +72545,7 @@
 +.zfctrack.net
 +.zfilm-hd.xyz
 +.data-7de4e2b45e.zfk.de
++.zfqskzjijhgma.space
 +.zftpnp.icu
 +.analytics.zg-api.com
 +.cs.zg-api.com
