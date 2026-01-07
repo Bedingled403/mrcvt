@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 06 Jan 2026 10:43 UTC
-# Version: 2026.0106.1043.22
+# Last modified: 07 Jan 2026 10:37 UTC
+# Version: 2026.0107.1037.40
 # Syntax: Domains (without subdomains)
-# Number of entries: 6282
+# Number of entries: 6283
 #
 +.ss.0001.xyz
 +.003153.xyz
@@ -207,6 +207,7 @@
 +.cld.996969.xyz
 +.ddd.999369.xyz
 +.dns.9999.sg
++.99proxy.com
 +.9w9.org
 +.dns.a47.me
 +.doh.aaaab3n.moe
