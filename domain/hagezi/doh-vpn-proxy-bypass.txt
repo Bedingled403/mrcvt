@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 07 Jan 2026 10:37 UTC
-# Version: 2026.0107.1037.40
+# Last modified: 07 Jan 2026 14:35 UTC
+# Version: 2026.0107.1435.18
 # Syntax: Domains (without subdomains)
-# Number of entries: 6283
+# Number of entries: 6284
 #
 +.ss.0001.xyz
 +.003153.xyz
@@ -413,6 +413,7 @@
 +.anonproxy.org
 +.anonvpn.io
 +.anonwebproxy.com
++.anonymitynetwork.com
 +.anonymize.com
 +.anonymizer.com
 +.anonymizing.com
