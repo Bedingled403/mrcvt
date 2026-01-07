@@ -63,7 +63,6 @@ jobs:
           
           # === URLs ===
           HAGEZI="https://raw.githubusercontent.com/hagezi/dns-blocklists/main"
-          HAGEZI_CDN="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest"
           STAMPARM="https://raw.githubusercontent.com/stamparm"
           OISD="https://raw.githubusercontent.com/sjhgvr/oisd/main"
           FIREHOL="https://raw.githubusercontent.com/firehol/blocklist-ipsets/master"
@@ -77,7 +76,7 @@ jobs:
           echo "[1/8] HaGeZi wildcard domains"
           hagezi_wild="light multi:normal pro pro.mini pro.plus pro.plus.mini
             ultimate ultimate.mini tif tif.medium tif.mini doh
-            doh-vpn-proxy-bypass dyndns spam-tlds spam-tlds-allow"
+            doh-vpn-proxy-bypass dyndns spam-tlds spam-tlds-allow hoster"
           for item in $hagezi_wild; do
             src="${item%:*}" out="${item#*:}"
             proc_domain "$HAGEZI/wildcard/${src}-onlydomains.txt" "$DOMAIN_DIR/hagezi/${out}.mrs"
@@ -93,7 +92,7 @@ jobs:
           # === 3. HaGeZi IPs ===
           echo "[3/8] HaGeZi IPs"
           for f in tif doh; do
-            proc_ip "$HAGEZI_CDN/ips/${f}.txt" "$IPCIDR_DIR/hagezi/${f}-ipcidr.mrs"
+            proc_ip "$HAGEZI/ips/${f}.txt" "$IPCIDR_DIR/hagezi/${f}-ipcidr.mrs"
           done
 
           # === 4. Stamparm Maltrail ===
