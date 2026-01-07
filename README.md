@@ -68,6 +68,7 @@
 
 |  | `.mrs`<br>(Github) | `.mrs`<br>(jsDelivr) | `.txt`<br>(Github) | `.txt`<br>(jsDelivr) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
+| doh-ipcidr | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/hagezi/doh-ipcidr.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/hagezi/doh-ipcidr.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/hagezi/doh-ipcidr.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/hagezi/doh-ipcidr.txt) |
 | tif-ipcidr | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/hagezi/tif-ipcidr.mrs) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/hagezi/tif-ipcidr.mrs) | [Download](https://raw.githubusercontent.com/Bedingled403/mrcvt/rules/ipcidr/hagezi/tif-ipcidr.txt) | [Download](https://cdn.jsdelivr.net/gh/Bedingled403/mrcvt@rules/ipcidr/hagezi/tif-ipcidr.txt) |
 
 #### [FireHol 🔗](https://github.com/firehol/blocklist-ipsets)
