@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 07 Jan 2026 10:36 UTC
-# Version: 2026.0107.1036.43
+# Last modified: 08 Jan 2026 10:36 UTC
+# Version: 2026.0108.1036.00
 # Syntax: Domains (without subdomains)
-# Number of entries: 1466
+# Number of entries: 1468
 #
 +.0000000000000000000000.com
 +.0rg.us
@@ -256,6 +256,7 @@
 +.darksair.org
 +.darktech.org
 +.davidsagar.com
++.ddns.cam
 +.ddns.info
 +.ddns.me
 +.ddns.mobi
@@ -511,6 +512,7 @@
 +.fin-tech.com
 +.fintech-llc.com
 +.fivepals.com
++.flat4free.com
 +.flazzard.com
 +.flnet.org
 +.flowergardendaycare.com

@@ -10,10 +10,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 07 Jan 2026 18:38 UTC
-# Version: 2026.0107.1838.16
+# Last modified: 08 Jan 2026 07:59 UTC
+# Version: 2026.0108.0759.45
 # Syntax: Domains (without subdomains)
-# Number of latin TLDs: 282 - punycode TLDs: 151
+# Number of latin TLDs: 285 - punycode TLDs: 151
 #
 +.actor
 +.africa
@@ -111,6 +111,7 @@
 +.fitness
 +.florist
 +.foo
++.food
 +.forex
 +.forsale
 +.foundation
@@ -143,9 +144,11 @@
 +.house
 +.how
 +.icu
++.immo
 +.ink
 +.international
 +.irish
++.jetzt
 +.jewelry
 +.joburg
 +.kim
