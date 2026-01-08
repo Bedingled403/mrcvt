@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 07 Jan 2026 18:37 UTC
-# Version: 2026.0107.1837.35
+# Last modified: 07 Jan 2026 22:42 UTC
+# Version: 2026.0107.2242.15
 # Syntax: Domains (without subdomains)
-# Number of entries: 6288
+# Number of entries: 6294
 #
 +.ss.0001.xyz
 +.003153.xyz
@@ -746,6 +746,7 @@
 +.boxpn.com
 +.adguard.boykevanvugt.nl
 +.adguard2.boykevanvugt.nl
++.ram.br3xality.org
 +.dns.braene.com
 +.dns.brahma.world
 +.bramka-proxy.pl
@@ -765,7 +766,9 @@
 +.britishproxy.com
 +.agh.broaddy.com
 +.dns.brono.cloud
++.blooket.broomleigh.org
 +.linewize.broomleigh.org
++.schoolwork.broomleigh.org
 +.brovpn.io
 +.browsec.com
 +.browser.lol
@@ -821,12 +824,14 @@
 +.canadaproxy.info
 +.canlite.org
 +.cantfindme.org
++.tysonsbackagain.capnorthshore.org
 +.2.dnscrypt-cert.captnemo.in
 +.doh.captnemo.in
 +.carebuzz.io
 +.careproxy.com
 +.unifi.carioka.com
 +.dns.carson-family.com
++.dns.carter.me
 +.dns.casadecampo.casa
 +.casinovpn.com
 +.dns.caspervk.net
@@ -915,6 +920,7 @@
 +.ciscossh.com
 +.citizenvpn.com
 +.dns.citrahost.com
++.citrik.design
 +.dns.citystars.cn
 +.ns.ciwer.cn
 +.alpha.cixy.xyz
