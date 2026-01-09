@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 09 Jan 2026 10:42 UTC
-# Version: 2026.0109.1042.15
+# Last modified: 09 Jan 2026 17:55 UTC
+# Version: 2026.0109.1755.42
 # Syntax: Domains (without subdomains)
-# Number of entries: 6408
+# Number of entries: 6421
 #
 +.ss.0001.xyz
 +.003153.xyz
@@ -4373,6 +4373,11 @@
 +.printruns.us
 +.printtools.us
 +.privacy.io
++.las-vegas.privacy-dns.pw
++.luxembourg.privacy-dns.pw
++.romania.privacy-dns.pw
++.switzerland.privacy-dns.pw
++.united-arab-emirates.privacy-dns.pw
 +.privacyprotector.eu
 +.privado.io
 +.dns.privado.ovh
@@ -4394,6 +4399,8 @@
 +.privoxy.org
 +.dns.valbatos.pro.vn
 +.pro-tower.com
++.polkmn.progressivecongressnews.org
++.prohome.info
 +.prointern.info
 +.project-evoex.de
 +.dns.propheci.xyz
@@ -4408,6 +4415,7 @@
 +.protonvpn.net
 +.prounlock.org
 +.provpn.info
++.provpnaccounts.com
 +.prox.pw
 +.proxandthecity.com
 +.proxbomb.com
@@ -4482,6 +4490,7 @@
 +.proxybox.ru
 +.proxybros.com
 +.proxybrowse.info
++.proxybrowser.co
 +.proxybrowser.org
 +.proxybrowser.xyz
 +.proxybrowsing.com
@@ -4681,6 +4690,7 @@
 +.dns.ramansarda.com
 +.drpepperisbetter.ramonmedina.net
 +.rapidprivacy.com
++.rapidproxy.org
 +.rapidproxy.us
 +.rapidvpn.com
 +.thiscopyofartclassisnotgenuine.rare1k.space
@@ -4870,6 +4880,7 @@
 +.dns.sbstructure.ir
 +.ns1.sc-lezhi.com
 +.us.sc92.cn
++.dns.scapetical.com
 +.dns.scarx.net
 +.dns.scayn.com
 +.filter.das.sch.id
@@ -4965,6 +4976,7 @@
 +.sf-helper.com
 +.pates.services.sfr.fr.casepp.sfr.fr
 +.sgdns.site
++.d2.shabi.icu
 +.shadeyouvpn.com
 +.shadowart.online
 +.shadowsocks.org
@@ -5072,6 +5084,7 @@
 +.001.smallnode.net
 +.smartcamp.su
 +.smartdnsproxy.com
++.onlyforschool123.smarter-homes.com
 +.lunarsync.smartfoloo.space
 +.dns.smartguard.io
 +.smartproxy.com

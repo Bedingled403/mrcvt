@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 09 Jan 2026 10:41 UTC
-# Version: 2026.0109.1041.41
+# Last modified: 09 Jan 2026 17:55 UTC
+# Version: 2026.0109.1755.08
 # Syntax: Domains (without subdomains)
-# Number of entries: 3477
+# Number of entries: 3484
 #
 +.ss.0001.xyz
 +.003153.xyz
@@ -2652,6 +2652,11 @@
 +.dns2.prima-solusindo.com
 +.princez.uk
 +.agh.printk.info
++.las-vegas.privacy-dns.pw
++.luxembourg.privacy-dns.pw
++.romania.privacy-dns.pw
++.switzerland.privacy-dns.pw
++.united-arab-emirates.privacy-dns.pw
 +.dns.privado.ovh
 +.orpi.privado.ovh
 +.oury.privado.ovh
@@ -2853,6 +2858,7 @@
 +.dns.sbstructure.ir
 +.ns1.sc-lezhi.com
 +.us.sc92.cn
++.dns.scapetical.com
 +.dns.scarx.net
 +.dns.scayn.com
 +.filter.das.sch.id
@@ -2895,6 +2901,7 @@
 +.dns.sev.monster
 +.pates.services.sfr.fr.casepp.sfr.fr
 +.sgdns.site
++.d2.shabi.icu
 +.shadowart.online
 +.s1.s2.shahramv1.site
 +.shakdns.cc
