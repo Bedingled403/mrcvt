@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 08 Jan 2026 09:57 UTC
-# Version: 2026.0108.0957.05
+# Last modified: 09 Jan 2026 02:44 UTC
+# Version: 2026.0109.0244.40
 # Syntax: Domains (without subdomains)
-# Number of entries: 1315
+# Number of entries: 1316
 #
 +.000a.de
 +.000space.com
@@ -839,6 +839,7 @@
 +.ma.gp
 +.maddsites.com
 +.mail.ht
++.majesticbank.at
 +.majesticbank.de
 +.maminforum.com
 +.manfeature.club
