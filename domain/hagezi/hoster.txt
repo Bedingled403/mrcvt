@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 09 Jan 2026 02:44 UTC
-# Version: 2026.0109.0244.40
+# Last modified: 09 Jan 2026 10:01 UTC
+# Version: 2026.0109.1001.22
 # Syntax: Domains (without subdomains)
-# Number of entries: 1316
+# Number of entries: 1317
 #
 +.000a.de
 +.000space.com
@@ -1087,6 +1087,7 @@
 +.square7.ch
 +.srv1.org
 +.start.lc
++.sth.nz
 +.stormloader.com
 +.stormpages.com
 +.studio.site
