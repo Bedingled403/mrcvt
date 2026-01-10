@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 10 Jan 2026 02:00 UTC
-# Version: 2026.0110.0200.16
+# Last modified: 10 Jan 2026 09:57 UTC
+# Version: 2026.0110.0957.31
 # Syntax: Domains (without subdomains)
-# Number of entries: 1317
+# Number of entries: 1318
 #
 +.000a.de
 +.000space.com
@@ -1315,6 +1315,7 @@
 +.yourdomain.com
 +.yourfreehosting.net
 +.yourjavascript.com
++.yuichi.shop
 +.z.gp
 +.za.com
 +.za.gp
