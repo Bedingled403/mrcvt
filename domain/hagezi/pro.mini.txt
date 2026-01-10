@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 10 Jan 2026 14:11 UTC
-# Version: 2026.0110.1411.51
+# Last modified: 10 Jan 2026 18:12 UTC
+# Version: 2026.0110.1812.00
 # Syntax: Domains (without subdomains)
-# Number of entries: 48374
+# Number of entries: 48391
 #
 +.www.0.beer
 +.00005500a1.cyou
@@ -1495,7 +1495,6 @@
 +.844610.com
 +.845550.com
 +.84586.vu
-+.84640.xyz
 +.84643.xyz
 +.84673.xyz
 +.84698.xyz
@@ -4983,8 +4982,6 @@
 +.smetrics.amfam.com
 +.amgdgt.com
 +.amghzrc.cn
-+.amghztx.cn
-+.amghzud.cn
 +.amghzyi.cn
 +.amgs5.com
 +.analytics.amica.com
@@ -5005,6 +5002,7 @@
 +.ammanasiph.rest
 +.ammansinte.rest
 +.ammmkoaxz.com
++.ad.ammnlth.net
 +.analytics.ammoseek.com
 +.ammulhatch.rest
 +.a.amnet.tw
@@ -5959,6 +5957,7 @@
 +.assemblyexchange.com
 +.uo.assessschisma.com
 +.stats.assets.video
++.assets-trustwallet.com
 +.assetsconfigcdn.org
 +.assignlabor.com
 +.assistads.net
@@ -6232,6 +6231,7 @@
 +.sentry.automacon.net
 +.automatad.com
 +.automation-embedding.com
++.sentry.automizely.org
 +.automizely-analytics.com
 +.automobiledeem.com
 +.automodul.cz
@@ -7765,6 +7765,7 @@
 +.analytics.bitsighttech.com
 +.content.bitsontherun.com
 +.bitspush.io
++.bitstamp.lol
 +.bitstarz.com
 +.bitstarz28.com
 +.bitstarz42.com
@@ -8440,6 +8441,7 @@
 +.brescrhabd.rest
 +.sentry.breuk.dev
 +.breveis.xyz
++.brewlabs-migration.com
 +.brg0.com
 +.brgdtracking.com
 +.umami.bri-calculator.com
@@ -8642,6 +8644,7 @@
 +.bubblesmedia.net
 +.bubblyaction.com
 +.bubblyzucchini.com
++.bubk327q6i9wcy97.cfd
 +.bubushkalioua.com
 +.tr.buccaneers.com
 +.telemetry.bucher-suter.com
@@ -9766,6 +9769,7 @@
 +.cerealsspiks.com
 +.cerineas.com
 +.webanalytics.web.cern.ch
++.ceromex.com
 +.certifiedblob.com
 +.certisecure.fr
 +.certona.net
@@ -10854,7 +10858,6 @@
 +.s.cntqk.com
 +.cntxcdm.com
 +.cnvlink.com
-+.cnwucnf.top
 +.cnzz.cn
 +.cnzz.net
 +.c.cnzz.com
@@ -11406,6 +11409,7 @@
 +.plausible.coinglass.com
 +.coinhive.com
 +.coinimp.com
++.coinlist.click
 +.coinlnase.com
 +.coinomiwallet.cc
 +.coinpot.co
@@ -13623,6 +13627,7 @@
 +.defectiveaskewsite.com
 +.defi-ethena.com
 +.definitive-priority.com
++.defiweb.run
 +.deflaflang.rest
 +.deforcesapful.com
 +.cdn.defractal.com
@@ -13896,6 +13901,7 @@
 +.dewrain.life
 +.dewrain.site
 +.dewrain.world
++.dex-dappfixer.com
 +.dexblocknode.com
 +.dexchangegenius.com
 +.dexpredict.com
@@ -14659,6 +14665,7 @@
 +.telemetry.doxo.com
 +.doyoudi.com
 +.dozemarchedconserve.com
++.dozpl.sbs
 +.ping.dozuki.com
 +.log.dpa.com
 +.dpd-site-analytics-backend-api-prod.dpd.ru
@@ -14847,7 +14854,6 @@
 +.somni.dsw.com
 +.s.dsw3rw.com
 +.s.dswgzk.com
-+.dswkqzg.cn
 +.s.dswqta.com
 +.s.dsxlez.com
 +.s.dsydxg.com
@@ -15471,7 +15477,6 @@
 +.eechicha.com
 +.eeco.xyz
 +.eecowhucoams.com
-+.eedsgu.cn
 +.eef62cfd612e33b5871850596955c76e42b4eaa9.com
 +.eehassoosostoa.com
 +.eekknightsoon.com
@@ -15640,6 +15645,7 @@
 +.sgtm.elgiganten.se
 +.analytics.eliasschneider.com
 +.eligibility-bckr.com
++.eligibility-pudgy.com
 +.eligibility-uni.com
 +.eliittikumppani.fi
 +.elisaemail.elisa.fi
@@ -16687,6 +16693,7 @@
 +.fantastindents.com
 +.fanza.cc
 +.4k.fanza18r.online
++.faodax.com
 +.analytics.fap.bar
 +.a.fapcat.com
 +.fapdu.com
@@ -16762,7 +16769,6 @@
 +.fastprotectsolutions.com
 +.fastred.biz
 +.uptime2.fastrr.com
-+.fastrxdelivery.com
 +.fastshippingsbd.com
 +.ping.fastsimon.com
 +.fastslots-france.fr
@@ -17108,6 +17114,7 @@
 +.firsecuckoo.com
 +.smetrics.firstcitizens.com
 +.firstcloudit.com
++.firstgamb.cc
 +.firsthive.com
 +.firstimpression.io
 +.firstline.cc
@@ -17202,6 +17209,7 @@
 +.fldes6fq.de
 +.fleamx.com
 +.fleek.cool
++.fleethappened.com
 +.flepquix.com
 +.flerap.com
 +.fleraprt.com
@@ -21349,6 +21357,7 @@
 +.matomo.idkon.eu
 +.idler-et.com
 +.servix.idnes.cz
++.idolinflectiongentlemen.com
 +.umami.idonate.ltd
 +.idreammedia.com
 +.server.idreams.pl
@@ -22257,6 +22266,7 @@
 +.cnt.iol.it
 +.comunicazioni.iol.it
 +.evnt.iol.it
++.iomas.xyz
 +.ionizertrois.com
 +.metrics.ionos.at
 +.metrics.ionos.com
@@ -22524,7 +22534,6 @@
 +.ixjukhzbob.com
 +.ixspublic.com
 +.sentry.ixsystems.com
-+.ixvhwhd.cn
 +.iyeutya.in
 +.iyfbodn.com
 +.iyfhshsp.com
@@ -22551,7 +22560,6 @@
 +.j-a-net.jp
 +.j-live.tv
 +.j0ss4np1c5.site
-+.j256v.xyz
 +.i.mxplayer.j2inter.com
 +.j2jubx.cyou
 +.j3wb.cn
@@ -23242,11 +23250,13 @@
 +.gae.karte.io
 +.ad.kartina.tv
 +.ads.karzar.org
++.kasbonbos50k.shop
 +.kashahm.com
 +.kashefcog.com
 +.kashsolana.fun
 +.cdn.kashtanka.in
 +.kasino-vavada.co
++.kasoxie.com
 +.kaspernsky.com
 +.sgtm.kaspersky.de
 +.sgtm.kaspersky.it
@@ -23364,6 +23374,7 @@
 +.kernel-analytics.com
 +.kernesfierier.qpon
 +.kernh41.com
++.keronex.com
 +.metrics.kerrygold.de
 +.kertzmann.com
 +.kesug.com
@@ -23726,6 +23737,7 @@
 +.krab1.shop
 +.krab1.us
 +.krab1at.com
++.krab2-at2.ru
 +.matomo.kracht.com
 +.ssgtm.krackonline.com
 +.log-brofront.kraftonde.com
@@ -24198,6 +24210,7 @@
 +.lazychord.com
 +.lazyexplore.com
 +.cc.lbesec.com
++.ad-api.lbesecapi.com
 +.aff-policy.lbesecapi.com
 +.aff-report.lbesecapi.com
 +.psi.lbesecapi.com
@@ -24417,6 +24430,7 @@
 +.leptorimes.pro
 +.lerester.com
 +.lernodydenknow.info
++.lerogex.com
 +.lerotles.cyou
 +.les-caves.fr
 +.dzqtn.lesbianbliss.com
@@ -24635,7 +24649,6 @@
 +.sentry.limesurvey.org
 +.limetalk.com
 +.metrics.limitedresell.com
-+.limpa2025.sbs
 +.limpestpilosin.com
 +.limpingpick.com
 +.lin01.bid
@@ -25733,7 +25746,6 @@
 +.m1r3jg.lat
 +.m2.ai
 +.sentry.m2.ru
-+.m24n.xyz
 +.m24s.xyz
 +.ingest.m2catalyst.com
 +.m2track.co
@@ -27761,6 +27773,7 @@
 +.en.msidb.org
 +.msiv5.com
 +.msmanager.network
++.msmgt.sbs
 +.ads.msn.com
 +.arc-emea.msn.com
 +.confiant.msn.com
@@ -27900,6 +27913,7 @@
 +.mutqwqm.biz
 +.muttrepeatedtusk.com
 +.mutuum-live.xyz
++.mutuumstake.sbs
 +.mutv-live.store
 +.muumuuworked.cfd
 +.muvmobile.com
@@ -28564,6 +28578,7 @@
 +.nersionitsumpute.com
 +.nervoussummer.com
 +.sentry.nesine.com
++.nesogex.com
 +.servertag.nespresso.com
 +.nessainy.net
 +.nestledmph.com
@@ -31340,6 +31355,7 @@
 +.countly.onfleet.com
 +.analytics.onflix.vip
 +.onfluencer.net
++.ongamb.cc
 +.ongoingheavenlynourishing.com
 +.onhtkeowd.com
 +.oniad.com
@@ -31416,6 +31432,7 @@
 +.ontimecapitaloffice.info
 +.ontrklnk.com
 +.onushi.com
++.onuxgame.live
 +.onvaconfirmation.info
 +.oobekkarqpd.com
 +.oodxgdzqljgfy.site
@@ -33131,6 +33148,7 @@
 +.metrics.personalcreations.com
 +.metrics.personality-database.com
 +.fndmg.personalizationmall.com
++.personalparcelmarker.com
 +.personaserver.com
 +.personyze.com
 +.analytics-js.perspective.co
@@ -36082,6 +36100,7 @@
 +.rebill.me
 +.rebootsormers.com
 +.rebopsmurly.com
++.reburye.com
 +.logs-sg.rebxgame.com
 +.talog-eu.rebxgame.com
 +.recantkeynotecrane.com
@@ -36767,7 +36786,6 @@
 +.gold.roblox.com
 +.lms.roblox.com
 +.tracing.roblox.com
-+.roblox-creators.com
 +.robloxforum.dev
 +.robloxlabs.com
 +.robloxrr.com
@@ -37376,7 +37394,6 @@
 +.s4mdsp.com
 +.s4yn0t0sn00z3.xyz
 +.s7610rir.pw
-+.s98s.xyz
 +.s99i.org
 +.name.sa.com
 +.prizecloud.sa.com
@@ -38005,6 +38022,7 @@
 +.securebankinggroup.com
 +.stats.securebrowser.com
 +.secured-ad.com
++.securedappreward.xyz
 +.securedsmcd.com
 +.securedvisit.com
 +.securefidel.com
@@ -38027,7 +38045,6 @@
 +.securifyguard.com
 +.securifyprotect.com
 +.securifythis.com
-+.securiteycoinbase.com
 +.security-apple-portal.com
 +.track.security-privacy.com
 +.securityinvaluableanne.com
@@ -38257,21 +38274,11 @@
 +.service-expedition-relay.com
 +.service-intrabancaire.fr
 +.service-nw.com
-+.serviceatax.sbs
 +.servicecgvc.sbs
 +.serviceclient-banquedefrance.fr
-+.servicecplk.sbs
-+.serviceegda.sbs
-+.serviceejvn.sbs
-+.servicefqbi.sbs
 +.servicemagic.com
-+.servicepxfe.sbs
-+.serviceriwm.sbs
 +.matomo.servicesf1.com
-+.servicetzlx.sbs
-+.servicewehi.sbs
 +.servicezdga.sbs
-+.servicezmzu.sbs
 +.servicezohl.sbs
 +.swrm.serving-ad.com
 +.serving-sys.com
@@ -38491,7 +38498,6 @@
 +.shelljacket.us
 +.trk.shelly.cloud
 +.creative.shemale.show
-+.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenhuafei.cn
@@ -39533,6 +39539,7 @@
 +.sonata-live.com
 +.ads.sonataplatform.com
 +.amplitude.sondermind.com
++.soneium-startale.com
 +.analytics.songshift.com
 +.songsill.com
 +.songslunger.com
@@ -39660,6 +39667,7 @@
 +.collector.spankbang.party
 +.spankwire.com
 +.spanner.store
++.spanospin.com
 +.bokzv.spanx.com
 +.lcdpq.spanx.com
 +.spapi.io
@@ -40526,6 +40534,7 @@
 +.subsworker.bid
 +.metrics.subvid.ai
 +.stats.subvid.ai
++.subwayhumility.com
 +.sst.subzero-wolf.com
 +.succeedblackoutjournal.com
 +.succeendog.pro
@@ -43189,6 +43198,7 @@
 +.invitejs.trustpilot.com
 +.trustutn.org
 +.app-analytics.trustwallet.com
++.trustwallet-restore.com
 +.trustworthyconstant.com
 +.trustx.org
 +.trusty-lady.com
@@ -44848,6 +44858,7 @@
 +.visiblemeasures.com
 +.visibli.com
 +.visilabs.net
++.vision-lexapro-fin.org
 +.visionary-agile24.com
 +.visionary-business-52.com
 +.visionary-enterprise-ingenuity.com
@@ -45103,6 +45114,7 @@
 +.tr-vcode-or.vivoglobal.com
 +.zasc-cota.vivoglobal.com
 +.analytics.vixcloud.co
++.vixojee.com
 +.sstats.vizergy.com
 +.vizia-live.com
 +.vizierspavan.com
@@ -46567,6 +46579,7 @@
 +.worldgamenews.com
 +.worldhomeoutlet.com
 +.worldinform.ru
++.worldlibertyfinancial-global.com
 +.worldlyscene.com
 +.smetrics.worldmarket.com
 +.tfkic.worldmarket.com
@@ -47757,6 +47770,7 @@
 +.yudvl.org
 +.yuejinjx.com
 +.yuga.ru
++.yuhuan.cc
 +.yuiiy.com
 +.yukagsanti.rest
 +.yukclick.me
@@ -48195,6 +48209,7 @@
 +.zkloyalty.com
 +.zktats.top
 +.zkyrzoqc.com
++.zl9pug.icu
 +.zldoutletsale.shop
 +.zlib-official.com
 +.zlib520.online
@@ -48309,6 +48324,7 @@
 +.zpgetworker11.com
 +.zprk.io
 +.zpuavdcswqnml.online
++.zq4lwr.hair
 +.zqtk.net
 +.zqvee2re50mr.com
 +.zrfesco.com
@@ -48321,6 +48337,7 @@
 +.sgtm.zse.sk
 +.client.zspeed-cdn.com
 +.zstnzufw.com
++.zt7nhv.lat
 +.ztdog.com
 +.zteangjiao0.com
 +.ztgame.com
