@@ -6,8 +6,8 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 09 Jan 2026 17:55 UTC
-# Version: 2026.0109.1755.42
+# Last modified: 09 Jan 2026 22:42 UTC
+# Version: 2026.0109.2242.13
 # Syntax: Domains (without subdomains)
 # Number of entries: 6421
 #
@@ -4976,7 +4976,6 @@
 +.sf-helper.com
 +.pates.services.sfr.fr.casepp.sfr.fr
 +.sgdns.site
-+.d2.shabi.icu
 +.shadeyouvpn.com
 +.shadowart.online
 +.shadowsocks.org
@@ -5147,6 +5146,7 @@
 +.speedshare.app
 +.speedssh.com
 +.speedyth.com
++.spicevpn.com
 +.spidervpn.org
 +.dns.spirio.fr
 +.sporium.org
