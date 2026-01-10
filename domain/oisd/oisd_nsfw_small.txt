@@ -1,9 +1,9 @@
-# Version: 202601100808
+# Version: 202601101014
 # Title: oisd nsfw_small
 # Description: Block. Don't break.
 # Syntax: Domains (wildcards) without *.
-# Entries: 14649
-# Last modified: 2026-01-10T08:08:09+0000
+# Entries: 14647
+# Last modified: 2026-01-10T10:14:30+0000
 # Expires: 1 hours
 # License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 # Maintainer: Stephan van Ruth
@@ -1588,7 +1588,6 @@
 +.besthookupwebsites.net
 +.besthookupwebsites.org
 +.bestialica.com
-+.bestiality.party
 +.bestiality.stream
 +.bestialitylovers.net
 +.bestialityporn.tube
@@ -1946,7 +1945,6 @@
 +.bongacams27.com
 +.bongacams28.com
 +.bongacams29.com
-+.bongacams30.com
 +.bongacams31.com
 +.bongacams6.com
 +.bongacams7.com
