@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 10 Jan 2026 10:12 UTC
-# Version: 2026.0110.1012.58
+# Last modified: 10 Jan 2026 14:11 UTC
+# Version: 2026.0110.1411.51
 # Syntax: Domains (without subdomains)
-# Number of entries: 48399
+# Number of entries: 48374
 #
 +.www.0.beer
 +.00005500a1.cyou
@@ -51,7 +51,6 @@
 +.0244912d638a881df23144d8de3170982c31a3869ed761acfd86d188.com
 +.025-377-6150.com
 +.029google.com
-+.02a30fd4b8.com
 +.0365alert.com
 +.03770d07341.beer
 +.037991.click
@@ -1010,6 +1009,7 @@
 +.3gl.net
 +.3gmimo.com
 +.uvk.3hentai.net
++.3jgtwq9ywh273fqr.cfd
 +.widgetbay.3labs.it
 +.3lift.com
 +.smetrics.3m.com
@@ -1185,6 +1185,7 @@
 +.5402a0368849753a5014be1019e364b81360ef3044add17555018d80.com
 +.540484935e.com
 +.542710.com
++.545xnv7vpyxmg5lqvzx4unqut938.cfd
 +.546100.com
 +.54623b622061211f9813c0c4d18f2a5f.com
 +.54623b622061211f9813c0c4d18f2a5f.online
@@ -1441,7 +1442,6 @@
 +.7c688a1efd47.com
 +.7c84804d97581b14cab73ad748a5742a.com
 +.7cnq.net
-+.7d45c312ac.com
 +.7e79916c3f2fcca0.com
 +.7ebhb6.lol
 +.d696ba6704.7ee7484ba9.com
@@ -1495,8 +1495,12 @@
 +.844610.com
 +.845550.com
 +.84586.vu
++.84640.xyz
++.84643.xyz
++.84673.xyz
 +.84698.xyz
 +.84705.xyz
++.84708.xyz
 +.84d2d09697.com
 +.850-google.com
 +.852070.com
@@ -1698,7 +1702,6 @@
 +.a-mo.net
 +.a-mx.com
 +.a-p-c-t.fr
-+.a-tiktok.love
 +.a-zzz.com
 +.a00s.net
 +.a0213715324812.best
@@ -1754,6 +1757,7 @@
 +.a634c37b503c221d8446e81ad0c5cf9c.com
 +.a64x.com
 +.a6622333.com
++.a66g.xyz
 +.a67443426d522e851bc8660da8dfd61a.com
 +.a6a2df32c0.icu
 +.a6def2ef910.pw
@@ -1772,7 +1776,6 @@
 +.a8d3b9e1f5c7024d6e0b7a2c9f1d83e5.com
 +.a910445285.cn
 +.a958562188.com
-+.a9a1a0fb14.com
 +.a9c3f7e1d4b2c8f0e7a6d1c3b5e9f2a4.net
 +.a9c3f7e1d4b2c8f0e7a6d1c3b5e9f2a4.org
 +.a9c4fb8cf64c313b61c3b0f55dba001c.com
@@ -5196,6 +5199,7 @@
 +.analytics.anobii.com
 +.anoncasinobet.com
 +.anonetuw.digital
++.anonm.io
 +.anontimes.com
 +.anonymised.io
 +.anonymize-me.de
@@ -5879,7 +5883,6 @@
 +.metrics.asdecarreaux.com
 +.asdfix.com
 +.asdnow.xyz
-+.ase-amazon.com
 +.asensoithecb.com
 +.asepourioter.com
 +.aserve1.net
@@ -6538,7 +6541,6 @@
 +.b008234f6c2649e2422d752f2425016b.xyz
 +.b0df88651ae82a2c409e045d0383a0a2.info
 +.b0e8.com
-+.b0e81fb2f1.com
 +.b0f1d2.com
 +.analytics.intern.b1-systems.de
 +.b128ad4113.top
@@ -6548,6 +6550,7 @@
 +.b1js.com
 +.b1t0gw.lat
 +.analytics.b2.ai
++.b236g.xyz
 +.b241c574f8.com
 +.b28c32736a.top
 +.b29b70e3ca.com
@@ -7807,7 +7810,6 @@
 +.bjsvp27.space
 +.bjsvp38.space
 +.bjsvp49.space
-+.bjxas.cn
 +.analytics.bka.sh
 +.bkjhqkohal.com
 +.sentry.bkksystems.com
@@ -7956,6 +7958,7 @@
 +.logs.blpprofessional.com
 +.metrics.blu-spa.com
 +.bluadz.com
++.error.blue.pl
 +.piwik.blue.pl
 +.blue-google.org
 +.kgqxzw.blue-tomato.com
@@ -8434,7 +8437,6 @@
 +.breixmdldvvfa.website
 +.piwik.bremen.de
 +.brene.site
-+.www3.brenntag.com
 +.brescrhabd.rest
 +.sentry.breuk.dev
 +.breveis.xyz
@@ -8975,6 +8977,7 @@
 +.cacafly.net
 +.cdn2.cache.vn
 +.gamma.cachefly.net
++.iwad.cachefly.net
 +.cachegorilla.com
 +.cacklegrievingtank.com
 +.cacosreinc.pro
@@ -9292,6 +9295,7 @@
 +.carnivore.lol
 +.caroda.io
 +.carolroth.com
++.caroncommunicatie.nl
 +.ecs.carousell.com
 +.lhnir.carparts.com
 +.gtm.carpathianjerky.com
@@ -9304,6 +9308,7 @@
 +.tkvxdj.cars.com
 +.cartbooster.io
 +.carte-grise.org
++.carte-public-sante.com
 +.carte-renouv-sante.com
 +.cartechnic.ru
 +.cartegriseminute.fr
@@ -10816,38 +10821,6 @@
 +.utiq.cnetfrance.fr
 +.cnb.cnews.ru
 +.cnhv.co
-+.cnic-probe-aws-asia-tokyo-live-1767912301.xyz
-+.cnic-probe-aws-asia-tokyo-live-1767914101.xyz
-+.cnic-probe-aws-asia-tokyo-live-1767914701.xyz
-+.cnic-probe-aws-asia-tokyo-live-1767915001.xyz
-+.cnic-probe-aws-asia-tokyo-live-1767915901.xyz
-+.cnic-probe-aws-asia-tokyo-live-1767916501.online
-+.cnic-probe-aws-asia-tokyo-live-1767917101.online
-+.cnic-probe-aws-asia-tokyo-live-1767918002.online
-+.cnic-probe-aws-asia-tokyo-live-1767919201.online
-+.cnic-probe-aws-eu-frankfurt-live-1767911701.xyz
-+.cnic-probe-aws-eu-frankfurt-live-1767912601.xyz
-+.cnic-probe-aws-eu-frankfurt-live-1767915301.xyz
-+.cnic-probe-aws-eu-frankfurt-live-1767916201.online
-+.cnic-probe-aws-eu-frankfurt-live-1767916201.xyz
-+.cnic-probe-aws-eu-frankfurt-live-1767916802.online
-+.cnic-probe-aws-north-america-oregon-live-1767915601.xyz
-+.cnic-probe-aws-north-america-oregon-live-1767917701.online
-+.cnic-probe-aws-north-america-oregon-live-1767918302.online
-+.cnic-probe-aws-north-america-oregon-live-1767918602.online
-+.cnic-probe-aws-north-america-oregon-live-1767918901.online
-+.cnic-probe-aws-north-america-vir-live-1767912002.xyz
-+.cnic-probe-aws-north-america-vir-live-1767912901.xyz
-+.cnic-probe-aws-north-america-vir-live-1767913201.xyz
-+.cnic-probe-aws-north-america-vir-live-1767913502.xyz
-+.cnic-probe-aws-north-america-vir-live-1767919501.online
-+.cnic-probe-aws-north-america-vir-live-1767920101.online
-+.cnic-probe-aws-oceania-sydney-live-1767913801.xyz
-+.cnic-probe-aws-oceania-sydney-live-1767914401.xyz
-+.cnic-probe-aws-oceania-sydney-live-1767917402.online
-+.cnic-probe-aws-oceania-sydney-live-1767919801.online
-+.cnic-probe-aws-oceania-sydney-live-1767920401.online
-+.cnic-probe-aws-oceania-sydney-live-1767920702.online
 +.webcert.cnmstl.net
 +.zion-telemetry.api.cnn.io
 +.zion-telemetry-nonprod.api.cnn.io
@@ -10881,6 +10854,7 @@
 +.s.cntqk.com
 +.cntxcdm.com
 +.cnvlink.com
++.cnwucnf.top
 +.cnzz.cn
 +.cnzz.net
 +.c.cnzz.com
@@ -11479,6 +11453,7 @@
 +.colonistsmothercommunity.com
 +.colorados-live.de
 +.coloradoserves.com
++.colorfulglowllc.com
 +.colorfullouderremnant.com
 +.colorfulpet.com
 +.elog.colorgame.org
@@ -12077,7 +12052,6 @@
 +.commandersact.com
 +.commentarybumpbankrupt.com
 +.event-tracking-services.global.commerce-connector.com
-+.commercets-office.site
 +.commercial-carrefour.fr
 +.commercial-onepass.com
 +.commercialvalue.org
@@ -12852,6 +12826,7 @@
 +.crwdcntrl.net
 +.crxcr1.com
 +.cryingforanyth.com
++.crymandrel.info
 +.crypromo.com
 +.crypticrallye.com
 +.crypto-loot.com
@@ -13400,7 +13375,6 @@
 +.dazzlejigged.cfd
 +.zml-apm-prd.dbv4.noncd.db.de
 +.researchlog.db.com
-+.db-unlimited.net
 +.cs02-pps-drcn.dbankcdn.com
 +.browsercfg-drcn.cloud.dbankcloud.cn
 +.hwpub-s01-drcn.cloud.dbankcloud.cn
@@ -13726,6 +13700,7 @@
 +.nsm.dell.com
 +.sm.dell.com
 +.sst.dell.com
++.stats.dell.com
 +.stt.dell.com
 +.adat.delmagyar.hu
 +.delmovip.com
@@ -13990,7 +13965,6 @@
 +.dhlfl.com
 +.dhlghfdfd.sbs
 +.dhlh.cn
-+.dhlhuq.mom
 +.dhlianmeng.com
 +.dhlinformation.online
 +.dhliteship.com
@@ -15255,6 +15229,7 @@
 +.eavesdropthenashame.com
 +.eazel.com
 +.umami.eazycode.de
++.webstats.eb.com
 +.eb9cg4trk.com
 +.ebanq2025.site
 +.ebay.berlin
@@ -16829,7 +16804,6 @@
 +.fazedtriers.com
 +.stats.fb-rocks.com
 +.fb07b1b8e1cbc42f33ae26b3b2e28359.org
-+.fb56565897464564.com
 +.fbappi.co
 +.xy.fbcdn.net
 +.xz.fbcdn.net
@@ -18865,6 +18839,7 @@
 +.analytics.prod.glera.cloud
 +.glersakr.com
 +.glesootsedaurgu.net
++.glevvoqy.com
 +.client-logger.glia.com
 +.pixel.gliacloud.com
 +.static-pixel.gliastudios.com
@@ -19565,6 +19540,7 @@
 +.grillwry.com
 +.grimlyappuikaraite.cfd
 +.grimlycask.com
++.grindharassment.com
 +.analytics.grinnberg.de
 +.grintracks.com
 +.analytics.grip.events
@@ -20499,6 +20475,7 @@
 +.hhuobnajd.com
 +.hhztfzqnmduga.space
 +.m.hi1222.com
++.hi2pv3e9pr.com
 +.hiaeon.com
 +.hiaiabc.com
 +.hibi-office.com
@@ -20747,7 +20724,6 @@
 +.smetrics.hollandamerica.com
 +.sgtm.hollandandbarrett.com
 +.sgtm.hollandandbarrett.nl
-+.hollisparkmanor.com
 +.hollister-abercrombiefitch.fr
 +.collect.hollisterco.com
 +.smetrics.hollisterco.com
@@ -21194,7 +21170,6 @@
 +.hypecorewear.com
 +.hypedrip.top
 +.hypelab.com
-+.hyper-office.com
 +.hyperadx.com
 +.hyperbanner.net
 +.in-otel.hyperdx.io
@@ -22410,7 +22385,6 @@
 +.irtyf.com
 +.irxcm.com
 +.irxybq.com
-+.irysnetwork.com
 +.is.com
 +.cdn.pongo.is.fi
 +.rac.is.fi
@@ -22790,7 +22764,6 @@
 +.jicacmeswuba.world
 +.dx.jichoppin.cyou
 +.jicoffice.cn
-+.jieliyinshua.cn
 +.jifflebreasts.com
 +.jifjeholixetafo.cloud
 +.jifr.net
@@ -24051,7 +24024,6 @@
 +.ladsp.jp
 +.luna.r.lafamo.com
 +.lahrarbfemav.com
-+.laillearda.com
 +.laimroll.ru
 +.laivue.com
 +.laivue.xyz
@@ -25348,6 +25320,7 @@
 +.localpoint.ch
 +.analytics.localstack.cloud
 +.axp.localsyr.com
++.localupdate.icu
 +.localytics.com
 +.log.locationshare.pro
 +.locked-link.com
@@ -26825,6 +26798,7 @@
 +.mg-1.us
 +.mg2insights.com
 +.mgage.com
++.mgaru.dev
 +.mgbx-auth.com
 +.mgbx-portal.com
 +.mgbx-user.com
@@ -29666,7 +29640,6 @@
 +.office-matrix.com
 +.office-mikan.com
 +.office-nakataku-chosaku.site
-+.office-nanairo.net
 +.office-nemoto.com
 +.office-otaniyuyasu.com
 +.office-pac.jp
@@ -29827,6 +29800,7 @@
 +.stat.okko.tv
 +.stat2.okko.tv
 +.okkywctpvfu.com
++.oklopz.com
 +.oko.net
 +.analytics.okolo.app
 +.okon-remont-borisov-pr.ru
@@ -34282,7 +34256,6 @@
 +.beacon.pricefx.com
 +.pricelib.ru
 +.ifnyop.priceline.com
-+.pricenepal.com
 +.wtbevents.pricespider.com
 +.priceypies.com
 +.pricklydebt.com
@@ -35750,6 +35723,7 @@
 +.r30address.com
 +.r30deai.com
 +.cdn3.r34comix.com
++.r36r.xyz
 +.r3f.technology
 +.r4you.co
 +.r5c8ye.lat
@@ -36371,6 +36345,7 @@
 +.remarkillustration.com
 +.rembash.ru
 +.rmcje.remedymeds.com
++.remerge.io
 +.remexforcingconchie.cfd
 +.remindwage.com
 +.reminews.com
@@ -36792,6 +36767,7 @@
 +.gold.roblox.com
 +.lms.roblox.com
 +.tracing.roblox.com
++.roblox-creators.com
 +.robloxforum.dev
 +.robloxlabs.com
 +.robloxrr.com
@@ -37400,6 +37376,7 @@
 +.s4mdsp.com
 +.s4yn0t0sn00z3.xyz
 +.s7610rir.pw
++.s98s.xyz
 +.s99i.org
 +.name.sa.com
 +.prizecloud.sa.com
@@ -38050,10 +38027,10 @@
 +.securifyguard.com
 +.securifyprotect.com
 +.securifythis.com
-+.securing-amazon.com
 +.securiteycoinbase.com
 +.security-apple-portal.com
 +.track.security-privacy.com
++.securityinvaluableanne.com
 +.securitymetrics.com
 +.securitystronghold.com
 +.securitytrfx.com
@@ -38293,7 +38270,6 @@
 +.matomo.servicesf1.com
 +.servicetzlx.sbs
 +.servicewehi.sbs
-+.servicewjuo.sbs
 +.servicezdga.sbs
 +.servicezmzu.sbs
 +.servicezohl.sbs
@@ -38515,6 +38491,7 @@
 +.shelljacket.us
 +.trk.shelly.cloud
 +.creative.shemale.show
++.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenhuafei.cn
@@ -39341,7 +39318,6 @@
 +.sniperlog.ru
 +.snipersex.com
 +.qdqnd.snipesusa.com
-+.snipit.tech
 +.snitcher.com
 +.snitchmountain.com
 +.snnbc.net
@@ -40704,7 +40680,6 @@
 +.supportjobsumkm.net
 +.analytics.supportlogic.com
 +.supportmozilla.org
-+.supports-tiktok.com
 +.supportsentparticle.com
 +.supportss-microsoft.com
 +.supportstudent.link
@@ -40730,6 +40705,7 @@
 +.surgicalfavor.com
 +.surl.lu
 +.surli.cc
++.surlymotley.com
 +.suroffice.xyz
 +.suroot.com
 +.surprisinglyferry.com
@@ -40871,6 +40847,7 @@
 +.synacast.com
 +.synamicvibune.com
 +.sync.tv
++.sync-bybit.one
 +.sync-collab.land
 +.synccora.com
 +.synchlegder-live.help
@@ -41391,7 +41368,6 @@
 +.ads.telegram.org
 +.web.telegram.im
 +.telegram-aaa.buzz
-+.telegram-badirectory.shop
 +.telegram-click.ru
 +.telegram-delta.ru
 +.telegram-gov-service.online
@@ -42022,6 +41998,7 @@
 +.tigerbrluck.com
 +.tigerking.world
 +.analytics.tigocloud.net
++.mixpanel.tigocloud.net
 +.tihealth.com
 +.analytics.tiiny.site
 +.plx.tik.porn
@@ -42420,6 +42397,7 @@
 +.adsapi.togothermany.cn
 +.adscfg.togothermany.cn
 +.toiletpaper.life
++.tokeu.app
 +.tokimekimaildesu.net
 +.tokimekitaine.net
 +.toknowall.com
@@ -42449,6 +42427,7 @@
 +.tonfalenin.rest
 +.tongdun.net
 +.tongjiniao.com
++.tonguecherry.info
 +.tonzz3.ru
 +.toobee.it
 +.toodlerehouse.com
@@ -43184,6 +43163,7 @@
 +.truoptik.com
 +.trusa.xyz
 +.trusourcelabs.com
++.trust-bybit.one
 +.trust-group.pro
 +.secure.trust-guard.com
 +.trust-office.com
@@ -43224,7 +43204,6 @@
 +.trx-meow.com
 +.trxburn.com
 +.try-smiley.com
-+.tryamiclear.com
 +.analytics.tryane.com
 +.sentry.trychatgpt.ru
 +.analytics.tryfi.com
@@ -44109,7 +44088,6 @@
 +.usdt936.com
 +.usdt938.com
 +.usdttbs.dev
-+.use-amazon.com
 +.usebutton.com
 +.usedcarweek.biz
 +.usedownloads.com
@@ -44193,7 +44171,6 @@
 +.ustat.info
 +.ustechsupport.com
 +.usuarios-online.com
-+.usupport-amazon.com
 +.usvetdsp.com
 +.uswardwot.com
 +.fusion-events.uswitch.com
@@ -44562,7 +44539,6 @@
 +.mixpanel.cdn.viber.com
 +.data-event-proxy.viber.com
 +.tagtracking.vibescm.com
-+.load.s.vibholm.dk
 +.ad1.vibio.tv
 +.vibrantcelebration.com
 +.vibrantmedia.com
@@ -44888,7 +44864,6 @@
 +.piwik.visitberlin.de
 +.visithunter.io
 +.pixel.visitiq.io
-+.marketing.visitmadison.com
 +.api.visitor.chat
 +.visitor-analytics.io
 +.visitor-speed.com
@@ -45446,6 +45421,7 @@
 +.w28uhwg.icu
 +.w3counter.com
 +.analytics.w3goodies.com
++.w49q.xyz
 +.w4h5ae.ru
 +.w4jj99ggt.xyz
 +.w55c.net
@@ -45504,6 +45480,7 @@
 +.analytics.wandb.ai
 +.matomo.wanderatlas-verlag.de
 +.wanderpage.click
++.wandzcdn.com
 +.axp.wane.com
 +.wangke9.com
 +.wangqb.com
@@ -46832,6 +46809,7 @@
 +.x7hqhnk.top
 +.x7i0.com
 +.x81p4z.ru
++.x92l.xyz
 +.x9fnzrtl4x8pynsf.com
 +.xa500k.com
 +.xa500k-cointelegraph.com
@@ -47156,7 +47134,6 @@
 +.xoilacth.com
 +.xoilactt.com
 +.xoilacxq.com
-+.xokhilc.cn
 +.xokhlmuwadyhp.com
 +.sentry.xometry.eu
 +.analytics.xonotic.org
@@ -47780,7 +47757,6 @@
 +.yudvl.org
 +.yuejinjx.com
 +.yuga.ru
-+.yuhuan.cc
 +.yuiiy.com
 +.yukagsanti.rest
 +.yukclick.me
@@ -48299,7 +48275,6 @@
 +.zoom.vegas
 +.log-gateway.zoom.us
 +.telemetry.zoom.us
-+.zoom-client.site
 +.zoom-connection.com
 +.zoom-game.online
 +.zoom-game.ru
