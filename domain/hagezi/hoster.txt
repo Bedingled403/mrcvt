@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 09 Jan 2026 18:48 UTC
-# Version: 2026.0109.1848.34
+# Last modified: 10 Jan 2026 02:00 UTC
+# Version: 2026.0110.0200.16
 # Syntax: Domains (without subdomains)
-# Number of entries: 1316
+# Number of entries: 1317
 #
 +.000a.de
 +.000space.com
@@ -1135,6 +1135,7 @@
 +.ftp.totallyanonymous.com
 +.tr.gg
 +.tr.gp
++.track-app1e.live
 +.trackfinanceworld.com
 +.trend.in
 +.tribalpages.com

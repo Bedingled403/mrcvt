@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 09 Jan 2026 22:41 UTC
-# Version: 2026.0109.2241.02
+# Last modified: 10 Jan 2026 01:01 UTC
+# Version: 2026.0110.0101.12
 # Syntax: Domains (without subdomains)
-# Number of entries: 1469
+# Number of entries: 1468
 #
 +.0000000000000000000000.com
 +.0rg.us
@@ -1324,7 +1324,6 @@
 +.system-ns.com
 +.systes.net
 +.sytes.net
-+.t-online.hu
 +.tallison.com
 +.tamaragibson.com
 +.tantrum.org
