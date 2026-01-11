@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 10 Jan 2026 18:12 UTC
-# Version: 2026.0110.1812.00
+# Last modified: 10 Jan 2026 22:17 UTC
+# Version: 2026.0110.2217.14
 # Syntax: Domains (without subdomains)
-# Number of entries: 48391
+# Number of entries: 48399
 #
 +.www.0.beer
 +.00005500a1.cyou
@@ -10858,6 +10858,7 @@
 +.s.cntqk.com
 +.cntxcdm.com
 +.cnvlink.com
++.cnwucnf.top
 +.cnzz.cn
 +.cnzz.net
 +.c.cnzz.com
@@ -11394,7 +11395,6 @@
 +.coinads.online
 +.coinadster.com
 +.coinaione.com
-+.coinbase-custodialhelp.com
 +.coinbasec088.com
 +.coinbasestakes.com
 +.coinbaseupgrade.com
@@ -18657,6 +18657,8 @@
 +.gewfwdgd.site
 +.gewinnmobil.online
 +.gez.io
++.gezonex.com
++.gezorex.com
 +.gfb254c4u739gnvupq3hqvoqe.cfd
 +.gfosegguevk.com
 +.gfpxw.com
@@ -23216,7 +23218,6 @@
 +.assets.kampyle.com
 +.cdn-prod.kampyle.com
 +.udc-neb.kampyle.com
-+.kamudosyamibul.org
 +.kanade-ad.net
 +.kanagannne.xyz
 +.kanakox.com
@@ -26758,6 +26759,7 @@
 +.analytics.metalocator.com
 +.cdn.metalocator.com
 +.metalyzer.com
++.metamaskdrop.xyz
 +.metarouter.io
 +.metartmoney.com
 +.metatcatop.pro
@@ -32140,6 +32142,7 @@
 +.analytics.orange.ro
 +.datalayer.orange.fr
 +.orange-park.jp
++.orange-praca.com
 +.orangeads.fr
 +.orangebirdie.com
 +.cdn.orangeclickmedia.com
@@ -32495,6 +32498,7 @@
 +.p-n.io
 +.p0cket1ove.jp
 +.p0rte.site
++.p1-eviivo.com
 +.p12acx.com
 +.p23hxejm1.com
 +.p24.hu
@@ -33247,6 +33251,7 @@
 +.phishline.com
 +.phitenmy.com
 +.phizogsvarajs.com
++.phl-post.life
 +.phlcbgfbxbxu.com
 +.phlebanilo.rest
 +.phluant.com
@@ -38498,6 +38503,7 @@
 +.shelljacket.us
 +.trk.shelly.cloud
 +.creative.shemale.show
++.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenhuafei.cn
@@ -46317,6 +46323,7 @@
 +.winparadise.casino
 +.metrics.winparts.nl
 +.cnt.winporn.com
++.winstaking.com
 +.telemetry.winstonfinancial.com
 +.winterrowd.com
 +.wintopia.casino
@@ -47770,7 +47777,6 @@
 +.yudvl.org
 +.yuejinjx.com
 +.yuga.ru
-+.yuhuan.cc
 +.yuiiy.com
 +.yukagsanti.rest
 +.yukclick.me
@@ -48325,6 +48331,7 @@
 +.zprk.io
 +.zpuavdcswqnml.online
 +.zq4lwr.hair
++.zq7k1y5ypcf1nju869.cfd
 +.zqtk.net
 +.zqvee2re50mr.com
 +.zrfesco.com
@@ -48344,6 +48351,7 @@
 +.ztomy.com
 +.ztsrv.com
 +.ztwolf.com
++.zu2arp.icu
 +.zucks.net
 +.zucoagorsout.com
 +.zugekiloxnimwe.today

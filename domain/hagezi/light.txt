@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 10 Jan 2026 18:06 UTC
-# Version: 2026.0110.1806.33
+# Last modified: 10 Jan 2026 22:11 UTC
+# Version: 2026.0110.2211.07
 # Syntax: Domains (without subdomains)
-# Number of entries: 41442
+# Number of entries: 41457
 #
 +.www.0.beer
 +.00005500a1.cyou
@@ -9531,6 +9531,7 @@
 +.s.cntqk.com
 +.cntxcdm.com
 +.cnvlink.com
++.cnwucnf.top
 +.cnzz.net
 +.c.cnzz.com
 +.ei.cnzz.com
@@ -9979,7 +9980,6 @@
 +.coinads.online
 +.coinadster.com
 +.coinaione.com
-+.coinbase-custodialhelp.com
 +.coinbasec088.com
 +.coinbasestakes.com
 +.coinbaseupgrade.com
@@ -11874,6 +11874,7 @@
 +.deenybaniva.click
 +.deep.bi
 +.data.deep-content.io
++.deep-crash.com
 +.telemetry.deeparc.net
 +.deeperregardingcontend.com
 +.deepfake.berlin
@@ -14168,6 +14169,7 @@
 +.easytomessage.com
 +.sgtm.easytoys.com
 +.sgtm.easytoys.nl
++.eatcells.com
 +.securetracking.eaton.com
 +.eavailandpro.com
 +.eavesdropthenashame.com
@@ -17235,6 +17237,8 @@
 +.gewfwdgd.site
 +.gewinnmobil.online
 +.gez.io
++.gezonex.com
++.gezorex.com
 +.gfb254c4u739gnvupq3hqvoqe.cfd
 +.gfosegguevk.com
 +.gfpxw.com
@@ -20687,6 +20691,7 @@
 +.dvude.javvycoffee.com
 +.static.javxxx.me
 +.mebjj.jaxxon.com
++.jayantwhaling.shop
 +.jaysbrand.com
 +.analytics.jazel.net
 +.jazzistagallop.com
@@ -21198,7 +21203,6 @@
 +.kaminari.systems
 +.statistik.kampanile.de
 +.assets.kampyle.com
-+.kamudosyamibul.org
 +.kanade-ad.net
 +.kanagannne.xyz
 +.kanavagronomy.in
@@ -24251,6 +24255,7 @@
 +.metallcorrupt.com
 +.analytics.metalocator.com
 +.metalyzer.com
++.metamaskdrop.xyz
 +.metartmoney.com
 +.metatcatop.pro
 +.metateress.com
@@ -26211,6 +26216,7 @@
 +.nmrodam.com
 +.nmsedarim.cyou
 +.nmypizkt.com
++.nn125.com
 +.nnacoevirghpr.store
 +.nnbqgxo.cc
 +.nndbqyul.com
@@ -27328,6 +27334,7 @@
 +.analytics.orange.ro
 +.datalayer.orange.fr
 +.orange-park.jp
++.orange-praca.com
 +.orangeads.fr
 +.orangebirdie.com
 +.cdn.orangeclickmedia.com
@@ -27672,6 +27679,7 @@
 +.p-n.io
 +.p0cket1ove.jp
 +.p0rte.site
++.p1-eviivo.com
 +.p12acx.com
 +.p23hxejm1.com
 +.p24.hu
@@ -27992,6 +28000,7 @@
 +.pcexhftbidjqk.site
 +.utiq.pcgameshardware.de
 +.piwik.pcgamingwiki.com
++.pchelpsoft.com
 +.pcicifogr.com
 +.sp.pcid.ca
 +.pcimodnnhsd.com
@@ -28265,6 +28274,7 @@
 +.phishline.com
 +.phitenmy.com
 +.phizogsvarajs.com
++.phl-post.life
 +.phlcbgfbxbxu.com
 +.phlebanilo.rest
 +.phluant.com
@@ -32185,6 +32195,7 @@
 +.track3.searchiq.co
 +.searchmagnified.com
 +.searchmarketing.com
++.searchmarquis.com
 +.searchmaven.co
 +.pub.searchnova.net
 +.searchnowexpert.com
@@ -32646,6 +32657,7 @@
 +.shelljacket.us
 +.trk.shelly.cloud
 +.creative.shemale.show
++.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenhuafei.cn
@@ -38077,6 +38089,7 @@
 +.wt.viagogo.net
 +.viagrasamplesfrompfizer.com
 +.viagrawinner.com
++.vialotadom.com
 +.vianboaegiaed.website
 +.viantinc.com
 +.parse.viapplogs.net
@@ -39599,6 +39612,7 @@
 +.winparadise.casino
 +.metrics.winparts.nl
 +.cnt.winporn.com
++.winstaking.com
 +.telemetry.winstonfinancial.com
 +.winterrowd.com
 +.wintopia.casino
@@ -40890,7 +40904,6 @@
 +.yuckellout.cyou
 +.yudvl.org
 +.yuejinjx.com
-+.yuhuan.cc
 +.yuiiy.com
 +.yukagsanti.rest
 +.yukclick.me
@@ -41383,6 +41396,7 @@
 +.zprk.io
 +.zpuavdcswqnml.online
 +.zq4lwr.hair
++.zq7k1y5ypcf1nju869.cfd
 +.zqtk.net
 +.zqvee2re50mr.com
 +.zrfesco.com
@@ -41402,6 +41416,7 @@
 +.ztomy.com
 +.ztsrv.com
 +.ztwolf.com
++.zu2arp.icu
 +.zucks.net
 +.zucoagorsout.com
 +.zugekiloxnimwe.today

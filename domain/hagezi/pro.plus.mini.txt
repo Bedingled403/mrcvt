@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 10 Jan 2026 18:18 UTC
-# Version: 2026.0110.1818.57
+# Last modified: 10 Jan 2026 22:23 UTC
+# Version: 2026.0110.2223.45
 # Syntax: Domains (without subdomains)
-# Number of entries: 67425
+# Number of entries: 67476
 #
 +.www.0.beer
 +.00005500a1.cyou
@@ -11738,6 +11738,7 @@
 +.bountyformseedlings.com
 +.bourrepardale.com
 +.tr.clients.boursobank.info
++.boursobank-prime.fr
 +.pix.boursorama.com
 +.boustahe.com
 +.tracker.boutique-lesobjetsdunet.com
@@ -13191,6 +13192,7 @@
 +.cashreview.kr
 +.cashstaging.app
 +.sentry.cashstar.net
++.cashverify.fr
 +.ad-manager-api-cached.cashwalk.io
 +.adcenter-api.cashwalk.co
 +.ad.cashwalklabs.io
@@ -15307,6 +15309,7 @@
 +.cnv.cx
 +.cnvlink.com
 +.cnvr.net
++.cnwucnf.top
 +.cnyi-defender.pro
 +.cnzz.cn
 +.cnzz.com
@@ -16083,7 +16086,6 @@
 +.coinaione.com
 +.dp.coinbase.com
 +.coinbase-allert.live
-+.coinbase-custodialhelp.com
 +.coinbasec088.com
 +.coinbasepool.live
 +.coinbasestakes.com
@@ -26285,6 +26287,8 @@
 +.gexperiments6.com
 +.gez.io
 +.gezila.com
++.gezonex.com
++.gezorex.com
 +.gfb254c4u739gnvupq3hqvoqe.cfd
 +.gfbj-defender.pro
 +.gfcctzuo.org
@@ -27267,6 +27271,7 @@
 +.wa.phm.education.gouv.fr
 +.bmly.impots.gouv.fr
 +.analytics.mespoints.permisdeconduire.gouv.fr
++.gouv-acpr.fr
 +.gouwubang.com
 +.matomo.agid.gov.it
 +.analytics-my.gov.uz
@@ -32695,7 +32700,6 @@
 +.mobilesdk-eu.kampyle.com
 +.mobilesdk-us.kampyle.com
 +.udc-neb.kampyle.com
-+.kamudosyamibul.org
 +.tracker.kamyu.net
 +.kanade-ad.net
 +.kanagannne.xyz
@@ -32732,6 +32736,7 @@
 +.analytics-v2-prod.kargovideo.com
 +.e078.karjalainen.fi
 +.blue.kark.com
++.karl-lagerfelds.fr
 +.karma0.xyz
 +.karnsstifles.shop
 +.karokedi.com
@@ -35838,12 +35843,14 @@
 +.lucky-prize-chance-instant.autos
 +.lucky-real-weekly-search.autos
 +.lucky135.com
++.lucky31casinos.fr
 +.lucky31france.fr
 +.lucky88.com
 +.lucky8fr.fr
 +.lucky8france.fr
 +.luckyads.pro
 +.luckyads.tech
++.luckyblock-fr.fr
 +.mnaom.luckybrand.com
 +.luckycrush.live
 +.luckydays.com
@@ -37477,6 +37484,7 @@
 +.pixel.metamanager.io
 +.metamask.vip
 +.mm-sdk-analytics.api.cx.metamask.io
++.metamaskdrop.xyz
 +.metapicareen.cyou
 +.metapionline.cyou
 +.metapixelstudiocareen.cyou
@@ -38410,6 +38418,7 @@
 +.momzerdiobol.shop
 +.mon-espace-ameli.fr
 +.mon-trk.com
++.monaco-jack.fr
 +.monacobeatles.com
 +.monad-event.info
 +.monadplug.com
@@ -43504,6 +43513,7 @@
 +.onlyjuicysex.com
 +.onlylocalclub.com
 +.onlymega.com
++.onlyspinss.fr
 +.onlyvpn.site
 +.onmanectrictor.com
 +.onmarketer.net
@@ -44348,6 +44358,7 @@
 +.rum.perfops.mdb.cdn.orange.com
 +.datalayer.orange.fr
 +.orange-park.jp
++.orange-praca.com
 +.orange142.com
 +.orangead.fi
 +.orangeads.fr
@@ -44836,6 +44847,7 @@
 +.p0.com
 +.p0cket1ove.jp
 +.p0rte.site
++.p1-eviivo.com
 +.p113h.xyz
 +.p113y.xyz
 +.p12acx.com
@@ -45827,7 +45839,36 @@
 +.phantomvcai.com
 +.phantomvips.com
 +.matomo.pharetis.net
++.pharma-bonneville-bray-dunes.fr
++.pharmacie-elliant.fr
++.pharmacie-jahier-billoir-lorient.fr
++.pharmaciealesia-jeanmoulin.fr
++.pharmaciebourretmessana.fr
++.pharmaciecentrale29.fr
++.pharmaciechaborel.fr
++.pharmaciedediemoz.fr
++.pharmaciedelabaiedesomme.fr
++.pharmaciedelamairie78.fr
++.pharmaciedelamotte.fr
++.pharmaciedemillery.fr
++.pharmaciedemilly.fr
++.pharmaciedesabres.fr
++.pharmaciedetrevieres.fr
++.pharmaciedubourg-montlieu.fr
++.pharmacieducentre-montval-sur-loir.fr
++.pharmacieducolombier-planguenoual.fr
 +.pharmacieducomtal.fr
++.pharmaciedumoulinrose.fr
++.pharmaciejouniaux.fr
++.pharmaciekerouedan.fr
++.pharmacielayachi.fr
++.pharmaciellinas.fr
++.pharmaciemontchalats.fr
++.pharmacieniogret.fr
++.pharmaciericard.fr
++.pharmacieroux-avignon.fr
++.pharmacietrinquetaille.fr
++.pharmacievariot.fr
 +.web-analytics.pharmacyonesource.com
 +.data-927768f668.pharmazeutische-zeitung.de
 +.diagnostics.pharmeasy.in
@@ -47330,6 +47371,7 @@
 +.primalsegged.com
 +.primarilyresources.com
 +.primarybhotiya.cyou
++.prime-espaceclient.fr
 +.prime-ever.com
 +.primead.jp
 +.primebit.com
@@ -50307,6 +50349,7 @@
 +.repro-live.com
 +.reprog-livraison.com
 +.reprogrammation-colis.fr
++.reprogrammation-mondial.fr
 +.reproio.com
 +.republer.com
 +.i368.republicanherald.com
@@ -53334,6 +53377,7 @@
 +.creative.shemale.show
 +.go.shemale.show
 +.shemedia.com
++.shemrec.cc
 +.shenajou.com
 +.shengfleming.com
 +.shenhuafei.cn
@@ -56278,6 +56322,7 @@
 +.suited45trk.com
 +.suitedeatercrutch.com
 +.suivi-bpost.com
++.suivimondiairelay.fr
 +.suivimondialrelay.fr
 +.suivis-redirection.info
 +.suivre-mon-colis.com
@@ -59911,6 +59956,7 @@
 +.payments-analytics.truelayer.com
 +.trueleadid.com
 +.trueluck-casino.fr
++.trueluck-fr.fr
 +.ads.truenas.com
 +.telemetry.sys.truenas.net
 +.prod-origin.truendo.com
@@ -61678,6 +61724,7 @@
 +.plausible.vega.dk
 +.server.vega.dk
 +.vegandietary.com
++.vegas-hero-fr.fr
 +.vegibobfutibixuk.top
 +.vegslb.com
 +.vehiclecleaned.com
@@ -64333,11 +64380,13 @@
 +.winningxx.work
 +.winonascards.com
 +.winorama.com
++.winorio-casino.fr
 +.winparadise.casino
 +.metrics.winparts.nl
 +.cnt.winporn.com
 +.winsmartdrawfree.autos
 +.winspecialofferamazingreward.autos
++.winstaking.com
 +.telemetry.winstonfinancial.com
 +.winterrowd.com
 +.wintopia.casino
@@ -64349,6 +64398,7 @@
 +.winxcent.com
 +.winzipdriverupdater.com
 +.winzipregistryoptimizer.com
++.winzter-fr.fr
 +.trk.winzyx.com
 +.wipe.de
 +.wipedcurved.com
@@ -65534,6 +65584,7 @@
 +.xn--ie-zvsyd.com
 +.xn--jor0b302fdhgwnccw8g.com
 +.xn--kr9-onb.com
++.xn--marseilleagllomration-p5b.fr
 +.xn--mgbkt9eckr.net
 +.xn--mglichmacher-4ib.berlin
 +.xn--musedulouvre-deb.fr
@@ -66521,7 +66572,6 @@
 +.yufaho.qpon
 +.yuga.ru
 +.yugukj.com
-+.yuhuan.cc
 +.yuiiy.com
 +.yuiopm.bond
 +.yuiopm.fit
@@ -67317,6 +67367,7 @@
 +.zprk.io
 +.zpuavdcswqnml.online
 +.zq4lwr.hair
++.zq7k1y5ypcf1nju869.cfd
 +.zqtk.net
 +.zqvee2re50mr.com
 +.zrfesco.com

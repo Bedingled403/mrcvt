@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 10 Jan 2026 18:12 UTC
-# Version: 2026.0110.1812.37
+# Last modified: 10 Jan 2026 22:17 UTC
+# Version: 2026.0110.2217.55
 # Syntax: Domains (without subdomains)
-# Number of entries: 197171
+# Number of entries: 197225
 #
 +.0.beer
 +.0.club
@@ -11936,10 +11936,7 @@
 +.86081.xyz
 +.86082.xyz
 +.86083.xyz
-+.1337ul.8609.cc
-+.908.8609.cc
-+.985.8609.cc
-+.988.8609.cc
++.8609.cc
 +.86091.xyz
 +.86093.xyz
 +.86094.xyz
@@ -12812,11 +12809,7 @@
 +.93tc.com
 +.940bc8b3303507cc.com
 +.94123.shop
-+.495.9415.cc
-+.904.9415.cc
-+.914.9415.cc
-+.926.9415.cc
-+.928.9415.cc
++.9415.cc
 +.941a6cfd74cab52b1d17a3e092756e86.me
 +.941b9aa3f99b5d93.com
 +.941bc5a77e6c2d1a.com
@@ -15429,7 +15422,6 @@
 +.actiontracking.jp
 +.actirise.com
 +.atmp-tracker-www3.actito.com
-+.activ-lyfreception.fr
 +.metrics.activase.com
 +.matomo.activate.cz
 +.activate-game.com
@@ -20656,6 +20648,7 @@
 +.sgtm.ajproducts.ie
 +.sgtm.ajprodukte.de
 +.sgtm.ajprodukter.no
++.ajptwiopvptab.website
 +.ajqhmhvihexlk.website
 +.ajratgatjav.com
 +.ajrkm.link
@@ -23652,6 +23645,7 @@
 +.amorpulse.com
 +.amortsouper.cfd
 +.amos-malware.ru
++.amoscholers.cyou
 +.load.metrics.amoseeds.com
 +.amountafternoon.sbs
 +.amountairplane.net
@@ -25158,6 +25152,7 @@
 +.in.appcenter.ms
 +.ingest.appcenter.ms
 +.appchair.com
++.sentry.appchance.shop
 +.appclick.co
 +.appclick.net
 +.appclicking.com
@@ -28225,6 +28220,7 @@
 +.metrics.auburnpub.com
 +.t.auburntigers.com
 +.aubx5kz.cfd
++.aucanagitvittle.cfd
 +.aucdn.net
 +.cdn.aucey.com
 +.ad.aucfan.com
@@ -32514,8 +32510,7 @@
 +.bcsgsrv.com
 +.bcsxtjeqlakry.com
 +.bcteth.com
-+.dciclc.bctnodv.top
-+.dcivlv.bctnodv.top
++.bctnodv.top
 +.bctuafpdwarbm.site
 +.bcuchargers.com
 +.bcugzudit.com
@@ -37493,6 +37488,7 @@
 +.ya.bourgsfairy.com
 +.bourrepardale.com
 +.tr.clients.boursobank.info
++.boursobank-prime.fr
 +.pix.boursorama.com
 +.bousesquantalgarnice.cfd
 +.boushoothiz.com
@@ -39501,6 +39497,7 @@
 +.ads.businessstyle.vn
 +.businesstremendoushad.com
 +.businessupdater.com
++.businessverificationportal.com
 +.businessvideonews.com
 +.buskeinter.pro
 +.buskersvis.shop
@@ -41936,6 +41933,7 @@
 +.cashtrafic.com
 +.cashtrafic.info
 +.cashtube.ru
++.cashverify.fr
 +.ad-manager-api-cached.cashwalk.io
 +.adcenter-api.cashwalk.co
 +.ad.cashwalklabs.io
@@ -48648,9 +48646,7 @@
 +.statistik.cms21.de
 +.cmsat.space
 +.decp.cmscore.cz
-+.276eefe2165e.cmsdurbv.top
-+.a38f0f2b74c4.cmsdurbv.top
-+.b84c7e3bdff5.cmsdurbv.top
++.cmsdurbv.top
 +.s.cmstatic.net
 +.mobile-log-de-prod.cmtelematics.com
 +.mobile-log-huk-prod.cmtelematics.com
@@ -48737,10 +48733,7 @@
 +.cnd-motionmedia.de
 +.cnd8.com
 +.cndnagb.biz
-+.526c5dc94e12.cndsdsva.top
-+.530076989109.cndsdsva.top
-+.5d58890195ae.cndsdsva.top
-+.e49e0b120ad5.cndsdsva.top
++.cndsdsva.top
 +.cndw.top
 +.cnesnnavxumlh.online
 +.cnet.live
@@ -48858,8 +48851,7 @@
 +.metamask.cnwallet.im
 +.cnwetuaniiaal.site
 +.cnwuamf.top
-+.dciclc.cnwucnf.top
-+.dcivlv.cnwucnf.top
++.cnwucnf.top
 +.cnxweb.com
 +.cnyeyw.com
 +.cnyi-defender.pro
@@ -51038,7 +51030,6 @@
 +.coinaione.com
 +.dp.coinbase.com
 +.coinbase-allert.live
-+.coinbase-custodialhelp.com
 +.coinbase-encryptiontrade.info
 +.coinbase-encryptiontrade.online
 +.coinbase-trust.com
@@ -53676,6 +53667,7 @@
 +.comparedsobalike.com
 +.comparedwooscore.com
 +.comparepoisonous.com
++.comparerdevis.net
 +.comparereaction.com
 +.sgtm.compari.ro
 +.comparisonn4.top
@@ -57325,8 +57317,7 @@
 +.statistics.cvag.de
 +.cvastico.com
 +.cvbnmq.fit
-+.dciclc.cvcnmtf.top
-+.dcivlv.cvcnmtf.top
++.cvcnmtf.top
 +.cvdbvcrpzjrgv.website
 +.cvdinc.com
 +.cvds2trk.com
@@ -57365,7 +57356,6 @@
 +.ads.cvut.cz
 +.cvwnpvbtezqvk.site
 +.cvxbbrcunmulw.site
-+.cvxwaslonejulyha.info
 +.bentcloakroom.cw.cm
 +.blue.cw39.com
 +.collector.cwatchapi.com
@@ -59248,6 +59238,7 @@
 +.adimg.daumcdn.net
 +.aem-collector.daumkakao.io
 +.daunderattuned.click
++.dauptougleem.net
 +.daushagleezaun.net
 +.dauup.com
 +.dauzaebe.com
@@ -61658,6 +61649,7 @@
 +.sgtm.dhnet.be
 +.dhnjoweb.com
 +.dhobeynandi.com
++.dhobiewoodsia.qpon
 +.dhojmirptkwfy.website
 +.dhonphehr.com
 +.dhootiepawed.com
@@ -63227,6 +63219,7 @@
 +.dmhwextkychrz.website
 +.dmiachiieve.com
 +.dmiboost.com
++.dmiiqrlkypdmw.online
 +.dmipartners.com
 +.dmiredindeed.com
 +.dmjjmdap.life
@@ -64970,6 +64963,7 @@
 +.drollwharf.com
 +.counter.drom.ru
 +.tracking.dromadaire.com
++.dromonmilkilymts.cfd
 +.dronelupa.fi
 +.stats.dronemasters.com
 +.dronerc.it
@@ -67264,8 +67258,7 @@
 +.ectedithconsuk.com
 +.ectenepenury.com
 +.ecteneunroven.shop
-+.dciclc.ectnodw.top
-+.dcivlv.ectnodw.top
++.ectnodw.top
 +.ectsofcukorpor.com
 +.ectuklyeconen.com
 +.ectygsdcobpzj.website
@@ -67624,6 +67617,7 @@
 +.edw.edmunds.com
 +.edn.ru
 +.edna.io
++.ednajenson.cyou
 +.ednewsbd.com
 +.edno-adguard.pro
 +.ednplus.com
@@ -70295,6 +70289,7 @@
 +.lp.eptura.com
 +.eptwm.com
 +.epue.net
++.epulisgouter.qpon
 +.epushclick.com
 +.eputysolomon.com
 +.epvjljye.com
@@ -74655,6 +74650,7 @@
 +.fernierragi.shop
 +.ferninsecurecrawling.com
 +.cp.fernsehserien.de
++.www-p-analytics-cl2.fernuni-hagen.de
 +.fero.org
 +.ferondalexthiruvamestira.forum
 +.feronixprime-7-4-ai.com
@@ -74835,6 +74831,7 @@
 +.fff668666866.xyz
 +.fff6a5a75cb0f989.com
 +.fffffff456.com
++.ffftbsaoipih.com
 +.analytics.ffh.de
 +.ffhash.com
 +.ffhre.com
@@ -75280,6 +75277,7 @@
 +.nrjbow.fiindlovedate.com
 +.fiindyourlove.com
 +.fiinnancesur.com
++.fiizbmjzykchn.website
 +.fijiansori.com
 +.fijipic.xyz
 +.lb.fikeymymarid.com
@@ -76226,6 +76224,7 @@
 +.fjxiqjmutcgqo.store
 +.fjzht.com
 +.fjzimaoqu.cn
++.fjzljbahmmijc.com
 +.fk-def.bond
 +.fk3nf1xeh.top
 +.fkadisxwaacs.com
@@ -77260,7 +77259,6 @@
 +.foliospace.work
 +.foliums.ru
 +.foliumsbardish.rest
-+.folkband.fun
 +.mega.folkbladet.nu
 +.folkgrid.com
 +.folkmotnastic.cfd
@@ -82047,6 +82045,8 @@
 +.gezila.com
 +.gezinti.com
 +.geziyd.com
++.gezonex.com
++.gezorex.com
 +.gf40.com
 +.gfarjbjemnjog.space
 +.gfb254c4u739gnvupq3hqvoqe.cfd
@@ -85229,6 +85229,7 @@
 +.analytics.candidat.permisdeconduire.gouv.fr
 +.analytics.mespoints.permisdeconduire.gouv.fr
 +.stats.gouv.mc
++.gouv-acpr.fr
 +.gouwubang.com
 +.ads.gov.ba
 +.afol.gov.la
@@ -92706,8 +92707,7 @@
 +.matomo.hv.digital
 +.ad.hvacr.cn
 +.analytics.hvcgroep.nl
-+.dciclc.hvcnmtu.top
-+.dcivlv.hvcnmtu.top
++.hvcnmtu.top
 +.hvd-store.com
 +.hvddxj.icu
 +.hvdzdrovccwom.site
@@ -92778,6 +92778,7 @@
 +.hxeljv.com
 +.hxgirl.cn
 +.hxgqqxopf.com
++.hxgxsvxsocjqt.online
 +.hxh.jp
 +.hxithjdtkguge.com
 +.hxjhfqrolubqs.space
@@ -94278,7 +94279,6 @@
 +.ilk10.az
 +.ilkwork.com
 +.ill-brown.pro
-+.illaisfarz.world
 +.sgtm.illamasqua.com
 +.zx.illamonhoking.com
 +.illegalhousework.com
@@ -98311,8 +98311,7 @@
 +.ivaramode.com
 +.ivarolne.xyz
 +.ivastudio.ai
-+.dciclc.ivcnmto.top
-+.dcivlv.ivcnmto.top
++.ivcnmto.top
 +.ivcsmrt.com
 +.ivcymdknugpjt.site
 +.ivdtruneda.com
@@ -100084,6 +100083,7 @@
 +.jmhrmhgjkdgvd.store
 +.sentry-mvp.jmilabs.com
 +.jmine.cn
++.jmjdifcw.com
 +.jmjslz.icu
 +.leopon.jmk.wtf
 +.jmlk.co
@@ -100954,6 +100954,7 @@
 +.juckrouged.shop
 +.dciclc.jucnmta.top
 +.jucnwta.top
++.jucugaa.com
 +.juculhdd.org
 +.vj.jucunavinca.com
 +.judaismjef.com
@@ -101242,6 +101243,7 @@
 +.juslxp.com
 +.jusnews.net
 +.jusonline.ru
++.jusotdoxtgce.com
 +.jusoworld.org
 +.jusssxc6w.com
 +.nrawxd.jusstyoume.com
@@ -101389,8 +101391,7 @@
 +.juywkhbpmswmq.website
 +.juzaugleed.com
 +.tmi.jv-telcoid.es
-+.dciclc.jvcnmta.top
-+.dcivlv.jvcnmta.top
++.jvcnmta.top
 +.jvebyd.com
 +.jvekga.cn
 +.jviot.com
@@ -101883,7 +101884,6 @@
 +.mobilesdk-us.kampyle.com
 +.udc-neb.kampyle.com
 +.kamsinhokerly.click
-+.kamudosyamibul.org
 +.tracker.kamyu.net
 +.kanade-ad.net
 +.kanagannne.xyz
@@ -102005,6 +102005,7 @@
 +.kark.asia
 +.blue.kark.com
 +.karkanalytics.vip
++.karl-lagerfelds.fr
 +.gamefowl.karlsutt.com
 +.karma0.xyz
 +.kar-sentry.karnameh.com
@@ -102264,7 +102265,8 @@
 +.kcnereqedvlp.com
 +.kcnuwvwi.com
 +.kcokamid.top
-+.kcolb.site
++.js.kcolb.site
++.mngr.kcolb.site
 +.kcolbda.com
 +.kcqbrwygxixdh.site
 +.kcqstn35as.com
@@ -104175,6 +104177,7 @@
 +.kosseanmudpack.com
 +.kosseanpipery.rest
 +.od.kosslikeful.shop
++.kossowhunse.net
 +.kost.tv
 +.kostadspoer.xyz
 +.kostenlose-counter.com
@@ -104255,6 +104258,7 @@
 +.tracking.kpmg.com
 +.omsc.kpn.com
 +.kpnfc.cfd
++.kpnkndpvjfwgcu.xyz
 +.kpodata.com
 +.kpogse.icu
 +.kposzngwqknai.space
@@ -104950,8 +104954,7 @@
 +.kvbojuxkwvcfk.global
 +.kvbrzbxhqizoq.site
 +.kvcd7w375h.ru
-+.dciclc.kvcnmtd.top
-+.dcivlv.kvcnmtd.top
++.kvcnmtd.top
 +.kvcon.de
 +.kvdnetmzqvwxw.store
 +.kvdqzsytlcxuf.space
@@ -106210,8 +106213,7 @@
 +.lcrswz.com
 +.lcskincarecenter.com
 +.lcslgc.com
-+.dciclc.lctnodl.top
-+.dcivlv.lctnodl.top
++.lctnodl.top
 +.lcuaerlknisgy.space
 +.lcugatnuhfpo.com
 +.lcuozmosstcu.com
@@ -106638,6 +106640,7 @@
 +.smetrics.legalandgeneral.com
 +.legalaxy.com
 +.legalchained.com
++.legalfocus.pro
 +.legalisecannabisparty.store
 +.legallydune.com
 +.legalmedia.click
@@ -107474,7 +107477,6 @@
 +.lhqmmqmbqtezs.space
 +.lhqzzfdpqemuq.space
 +.lhranp.icu
-+.lhsndrwcsfk.xyz
 +.lhswu.com
 +.lhttps--www--roblox.com
 +.lhub.to
@@ -107486,6 +107488,7 @@
 +.lhwimdpdjajfx.rocks
 +.lhxmrcyaqsvze.site
 +.lhxsrndtegeuo.online
++.lhyfewqwlxbil.online
 +.lhyperfndl.com
 +.lhyuperliquidx.com
 +.lhyxoipzyzkuz.website
@@ -111044,6 +111047,7 @@
 +.lucky135.com
 +.lucky168.shop
 +.lucky31.fr
++.lucky31casinos.fr
 +.lucky31france.fr
 +.lucky368slot.com
 +.lucky75.com
@@ -111055,6 +111059,7 @@
 +.luckyads.pro
 +.luckyads.tech
 +.luckybasket.pro
++.luckyblock-fr.fr
 +.mnaom.luckybrand.com
 +.leopon.luckycasts.com
 +.luckychampionrewardinstant.autos
@@ -112971,6 +112976,7 @@
 +.log.maniacalrage.net
 +.maniaimbar.pro
 +.manicparti.world
++.manidaesyrtis.qpon
 +.manifest97.com
 +.manifestoctavianapostrophe.com
 +.load.g.maniko-nails.de
@@ -113803,7 +113809,6 @@
 +.matomyseo.com
 +.analytics.matpool.com
 +.matri.eu
-+.matribrava.world
 +.matrimoniale3x.ro
 +.matrimonyfeudboss.com
 +.matrimonyspiritedcooling.com
@@ -115347,6 +115352,7 @@
 +.memeorigin.com
 +.memesoupedyea.com
 +.memevideoad.com
++.memfuqtsmlmyl.site
 +.memia.xyz
 +.dk.meminnaposes.rest
 +.memix.online
@@ -115705,6 +115711,7 @@
 +.metamask.vip
 +.mm-sdk-analytics.api.cx.metamask.io
 +.metamask-secureverify.com
++.metamaskdrop.xyz
 +.msg.metamessen.net
 +.metamx.com
 +.metanetwork.com
@@ -117394,7 +117401,6 @@
 +.mizufo-sc.vip
 +.metrics.mizuhofutures.com
 +.smetrics.mizuno.jp
-+.mizunochaussure.fr
 +.mizwex.com
 +.mizytadpwfswa.world
 +.snipe.mizzuu.co
@@ -118281,6 +118287,7 @@
 +.monachafordoes.rest
 +.monachahitcher.click
 +.monachilanista.shop
++.monaco-jack.fr
 +.monacobeatles.com
 +.utiq.monacomatin.mc
 +.monad-event.info
@@ -119496,6 +119503,7 @@
 +.mscimg.com
 +.mscoldnesfspu.org
 +.mscruz.com
++.mscylmvonvqqfh.com
 +.msdh2.lat
 +.ads.msdigital.vn
 +.msdnupdate.com
@@ -122219,6 +122227,7 @@
 +.ad.navistar.com
 +.navistone.com
 +.moodle-analytics.navitas.com
++.naviteiwound.qpon
 +.smetrics.navitus.com
 +.navoli.de
 +.navorixelutra.cloud
@@ -127063,8 +127072,7 @@
 +.octillion.tv
 +.octinvemb.com
 +.web-conforama-trackingapi-live.octipas-emerch.net
-+.dciclc.octnodk.top
-+.dcivlv.octnodk.top
++.octnodk.top
 +.moose.octo.app
 +.octo-pus.net
 +.octo25.me
@@ -127112,6 +127120,7 @@
 +.odchkdybnsxre.space
 +.odcjafdan.com
 +.odckmeaqnkro.com
++.odd-pause.pro
 +.odd-teaching.pro
 +.oddball-creative.pro
 +.oddball-director.pro
@@ -130218,6 +130227,7 @@
 +.onlyry.net
 +.onlyscoop.com
 +.onlyspinsfr.fr
++.onlyspinss.fr
 +.onlyticpodvinedeminix.com
 +.onlyvpn.site
 +.onlywins24.com
@@ -132055,6 +132065,7 @@
 +.orange-business-contact-everyone.com
 +.html.orange-idea.com
 +.orange-park.jp
++.orange-praca.com
 +.orange142.com
 +.orangead.fi
 +.orangeads.fr
@@ -133589,6 +133600,7 @@
 +.p0rte.site
 +.p0shmarkidentify1.world
 +.p0y.cn
++.p1-eviivo.com
 +.p112g.xyz
 +.p112k.xyz
 +.p112o.xyz
@@ -133706,13 +133718,15 @@
 +.pacesconcise.com
 +.pacha-wui.com
 +.pachegaimax.net
++.pachtocelli.cyou
 +.pachytampi.homes
 +.stape.pacific.edu
 +.pacificbank.asia
 +.programs.pacificbiosciences.com
 +.pacificdentalcenterhuntingtonpark.com
 +.pacificpoker.com
-+.pacifics.sbs
++.si.pacifics.sbs
++.vi.pacifics.sbs
 +.pacifictuckercloak.com
 +.pacificwebart.com
 +.pacifyango.shop
@@ -136615,8 +136629,37 @@
 +.phardain.xyz
 +.phardongupsu.net
 +.matomo.pharetis.net
++.pharma-bonneville-bray-dunes.fr
++.pharmacie-elliant.fr
++.pharmacie-jahier-billoir-lorient.fr
++.pharmaciealesia-jeanmoulin.fr
 +.pharmacieboieldieu.fr
++.pharmaciebourretmessana.fr
++.pharmaciecentrale29.fr
++.pharmaciechaborel.fr
++.pharmaciedediemoz.fr
++.pharmaciedelabaiedesomme.fr
++.pharmaciedelamairie78.fr
++.pharmaciedelamotte.fr
++.pharmaciedemillery.fr
++.pharmaciedemilly.fr
++.pharmaciedesabres.fr
++.pharmaciedetrevieres.fr
++.pharmaciedubourg-montlieu.fr
++.pharmacieducentre-montval-sur-loir.fr
++.pharmacieducolombier-planguenoual.fr
 +.pharmacieducomtal.fr
++.pharmaciedumoulinrose.fr
++.pharmaciejouniaux.fr
++.pharmaciekerouedan.fr
++.pharmacielayachi.fr
++.pharmaciellinas.fr
++.pharmaciemontchalats.fr
++.pharmacieniogret.fr
++.pharmaciericard.fr
++.pharmacieroux-avignon.fr
++.pharmacietrinquetaille.fr
++.pharmacievariot.fr
 +.pharmacopium.com
 +.pharmacycoercive.com
 +.web-analytics.pharmacyonesource.com
@@ -140730,6 +140773,7 @@
 +.pcnmail1.pcnhq.primax-elec.com
 +.static.prime-bid.com
 +.xml.prime-bid.com
++.prime-espaceclient.fr
 +.prime-ever.com
 +.prime-vpnet.com
 +.primead.jp
@@ -142887,6 +142931,7 @@
 +.putaoya112.com
 +.putbid.net
 +.putchumt.com
++.putdownmasonry.shop
 +.puteldestebook.com
 +.putenbrust.net
 +.putlockertv.com
@@ -143863,8 +143908,7 @@
 +.qcsvxobneexyu.site
 +.qctcu.com
 +.capig.qcterme.com
-+.dciclc.qctnody.top
-+.dcivlv.qctnody.top
++.qctnody.top
 +.qctop.com
 +.qcuncolm.com
 +.qcuoyo.icu
@@ -144981,6 +145025,7 @@
 +.queachycorer.com
 +.queanpattle.com
 +.rm.queansoleyn.com
++.queasy-regular.pro
 +.queasydashed.top
 +.queasylead.pro
 +.queasypolenta.com
@@ -147659,7 +147704,6 @@
 +.redouy.cfd
 +.redpathsolutions.live
 +.redpeakfinluxapp.com
-+.redpeakstakix.com
 +.redpineapplemedia.com
 +.guanaco.redpixelthemes.com
 +.redplanet.fit
@@ -148521,6 +148565,7 @@
 +.reproduceoverwhelming.com
 +.reprog-livraison.com
 +.reprogrammation-colis.fr
++.reprogrammation-mondial.fr
 +.reprogrammer-mondial.info
 +.reproio.com
 +.zp.reprominhah.com
@@ -154879,8 +154924,7 @@
 +.sctclick2.com
 +.sp.sctimes.com
 +.sctmku.biz
-+.dciclc.sctnodb.top
-+.dcivlv.sctnodb.top
++.sctnodb.top
 +.beacon.engr.scu.edu
 +.scucit.com
 +.scuddedjimjam.cfd
@@ -155375,7 +155419,6 @@
 +.securebankinggroup.com
 +.sanalytics.securebanklogin.com
 +.stats.securebrowser.com
-+.secureccount.fr
 +.securecd-smnd.com
 +.securecd-smrtnd.com
 +.secureclickers.com
@@ -157198,9 +157241,7 @@
 +.shemalesofhentai.com
 +.eo.shemdipolar.shop
 +.shemedia.com
-+.bnrs.shemrec.cc
-+.proll.shemrec.cc
-+.pundr.shemrec.cc
++.shemrec.cc
 +.shenajou.com
 +.shenbingask.com
 +.a.shenchuang.com
@@ -162286,6 +162327,7 @@
 +.smetrics.spiriva.se
 +.spirivalen.pro
 +.spiroidnovenae.click
++.spiroidtoppled.cyou
 +.spirometry.mom
 +.tt.spirtaxin.shop
 +.spirteddvaita.com
@@ -165410,6 +165452,7 @@
 +.suivi-matomo.fr
 +.suivi-relais-info.com
 +.suivietattest-mdts.fr
++.suivimondiairelay.fr
 +.suivimondialrelay.fr
 +.suivis-colis-mondial-relay.com
 +.suivis-mondial.com
@@ -167164,6 +167207,7 @@
 +.taddy.pro
 +.tracker.pstudio.tadex.id
 +.tadkasolwsmu.com
++.tadlkyhryl.com
 +.sst.tado.com
 +.tadoctor.com
 +.tadod.com
@@ -168090,8 +168134,7 @@
 +.tct-teye.com
 +.tctm.co
 +.tctm.xyz
-+.dciclc.tctnodi.top
-+.dcivlv.tctnodi.top
++.tctnodi.top
 +.tctrbtdxbscuw.site
 +.tcudrocivr.com
 +.tcvlrtqsfqkbo.store
@@ -175089,6 +175132,7 @@
 +.nrwxrb.trueloveonlinee.net
 +.trueloverzones.org
 +.trueluck-casino.fr
++.trueluck-fr.fr
 +.info.truemfg.com
 +.ads.truenas.com
 +.telemetry.sys.truenas.net
@@ -176487,6 +176531,7 @@
 +.tywnb.com
 +.tyxo.bg
 +.tyxo.com
++.tyybhgldnupn.com
 +.tyywkxynwfkoj.site
 +.asloader.tz.de
 +.data-f1e447fbcf.tz.de
@@ -176606,6 +176651,7 @@
 +.u79u.xyz
 +.u79x.xyz
 +.u79y.xyz
++.u7a7e7a.sbs
 +.u7do.sbs
 +.u7em9v4hp.com
 +.u7kgr54jr7.ru
@@ -176881,8 +176927,7 @@
 +.ad.ucsd.edu
 +.sgtm.ucsd.edu
 +.ucsnddigmtwoe.space
-+.dciclc.uctnodt.top
-+.dcivlv.uctnodt.top
++.uctnodt.top
 +.ucuhyu.com
 +.ucukem.com
 +.ucumob.com
@@ -177233,6 +177278,7 @@
 +.ujnhya.bond
 +.ujnhya.fit
 +.ujnhyg.fit
++.ujocjvznllpam.site
 +.collection.ujoygames.com
 +.ujscdn.com
 +.ujtjjj.com
@@ -177609,6 +177655,7 @@
 +.unavoidablestates.com
 +.unawannaba.top
 +.unaware-bend.pro
++.unaware-pick.pro
 +.unawareburn.com
 +.unawaredasheen.com
 +.unawareirreparable.com
@@ -180518,6 +180565,7 @@
 +.vegandietary.com
 +.analytics.veganhacktivists.org
 +.veganmotherhubbard.net
++.vegas-hero-fr.fr
 +.piwik.vegasaces.com
 +.vegaschina.cn
 +.pages.feedback.vegasgoldenknights.com
@@ -182471,9 +182519,7 @@
 +.vipshopl.top
 +.vipshopm.top
 +.vipshopt.top
-+.cw32brt.vipspotflirts.life
-+.gwqpmrg.vipspotflirts.life
-+.k8cpmrdll.vipspotflirts.life
++.vipspotflirts.life
 +.viptresses.com
 +.cnt.viptube.com
 +.analytics.vipulnaik.com
@@ -183161,6 +183207,7 @@
 +.vjvj.vj24co.com
 +.vjajkbemkrmwq.top
 +.vjajkbewrmlwq.top
++.vjajkbylamewj.top
 +.vjaokpyhi.ru
 +.vjaxhpbji.biz
 +.vjbxcnqko.com
@@ -183275,6 +183322,7 @@
 +.vliplatform.com
 +.vlitag.com
 +.vljkjx.top
++.vljmtgugalujt.website
 +.matomo.vlki.cz
 +.vlkvchof.com
 +.stats.vllm.ai
@@ -184366,6 +184414,7 @@
 +.vwfurlcwpujuz.site
 +.vwfwdxariknxp.website
 +.vwijf.com
++.vwjdosviijhit.website
 +.vwjsiywwgynud.online
 +.vwmdzetaikxvc.site
 +.vwo.com
@@ -184400,6 +184449,7 @@
 +.vxpnld.icu
 +.vxqpuuzamduiw.space
 +.vxrdwo.cn
++.vxrfmtxqrdubg.site
 +.vxrlm.com
 +.vxsdibhjeyvwf.space
 +.vxtozhkzlarln.site
@@ -185531,8 +185581,7 @@
 +.wct-1.com
 +.wct-2.com
 +.wctc.net
-+.dciclc.wctnode.top
-+.dcivlv.wctnode.top
++.wctnode.top
 +.wcuggkuxfgutu.today
 +.wcuujkywusvpv.online
 +.wcuxkyjwndqxj.top
@@ -188063,6 +188112,7 @@
 +.winonascards.com
 +.winoptimize.cn
 +.winorama.com
++.winorio-casino.fr
 +.berbbx.winowplace.com
 +.winparadise.casino
 +.metrics.winparts.nl
@@ -188092,6 +188142,7 @@
 +.wgnew.winspriize.com
 +.winsses.com
 +.winst-boostnex.com
++.winstaking.com
 +.telemetry.winstonfinancial.com
 +.winsttrasl.world
 +.winswipe.com
@@ -188119,6 +188170,7 @@
 +.winzessolicit.com
 +.winzipdriverupdater.com
 +.winzipregistryoptimizer.com
++.winzter-fr.fr
 +.trk.winzyx.com
 +.wio06210j7.com
 +.wio06230j7.com
@@ -188487,6 +188539,7 @@
 +.analyticcdn.wlmediahub.com
 +.wlmleoeykzsmm.space
 +.wlntzdjktaskn.website
++.wloyxmmggssp.com
 +.tracking-ewe.production.wlp.cloud
 +.tracking.wlscripts.net
 +.banners.wlservices.fr
@@ -190660,6 +190713,7 @@
 +.xembongtructiep.net
 +.xemhang.vn
 +.js.xemkqxs.com
++.xemmgygfgjytb.website
 +.ads.xemphimso.com
 +.adx.xemvtv.net
 +.an.xemvtv.net
@@ -190785,9 +190839,7 @@
 +.xgogi.com
 +.xgokhtmizpgj.com
 +.xgolyqyfjuuwn.online
-+.1048877cc998.xgoxwcldkz.top
-+.680ad07504ce.xgoxwcldkz.top
-+.f971bc9f9ae8.xgoxwcldkz.top
++.xgoxwcldkz.top
 +.xgozhrjmwwgxf.site
 +.xgr5.com
 +.xgraph.net
@@ -191596,6 +191648,7 @@
 +.xn--kr9-onb.com
 +.xn--m1be1ba4co4hpfoa9d2c.com
 +.xn--m7r781dz66a.cn
++.xn--marseilleagllomration-p5b.fr
 +.xn--mgbkt9eckr.net
 +.xn--mglichmacher-4ib.berlin
 +.xn--musedulouvre-deb.fr
@@ -194405,7 +194458,8 @@
 +.yugvawefin.cloud
 +.sgtm.yuh.com
 +.yuhuads.com
-+.yuhuan.cc
++.59557com.yuhuan.cc
++.wwwtk1976com.yuhuan.cc
 +.yui06111shga.com
 +.yui06120shga.com
 +.yui06121shga.com
@@ -196653,6 +196707,7 @@
 +.zpzatutb.com
 +.zq4lwr.hair
 +.zq66.com
++.zq7k1y5ypcf1nju869.cfd
 +.zqdekzkqwvzcl.buzz
 +.zqdetabyxxnwp.website
 +.zqethqturvqgc.online
@@ -197027,8 +197082,7 @@
 +.zxjxbwkzfixsk.website
 +.zxk72.com
 +.zxliuf.com
-+.2774c5d7b48b.zxmenhmo.top
-+.bb6b7391a692.zxmenhmo.top
++.zxmenhmo.top
 +.zxnymrendoxms.space
 +.zxoedq.com
 +.zxoexbgy.net
