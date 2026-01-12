@@ -2,7 +2,7 @@ name: Cleanup Branch History
 
 on:
   schedule:
-    - cron: '0 1 1 */1 *'                       # Try to avoid race condition with main workflow
+    - cron: '0 1 * * *'                       # Try to avoid race condition with main workflow
   workflow_dispatch:
   push:                                         # For test
     branches: [dev]                             # For test
