@@ -131,7 +131,7 @@ jobs:
 
           # === 8. Bitwire-it ipblocklist ===
           echo "[8/8] bitwire-it ipblocklist"
-          for f in ip-list inbound outbound; do
+          for f in inbound outbound; do
             proc_ip "$BITWIRE_IT/${f}.txt" "$IPCIDR_DIR/bitwire-it/${f%.*}.mrs"
           done
 
