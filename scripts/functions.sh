@@ -183,71 +183,110 @@ norm_ip() {
 # ============================================================
 # Process Functions
 # ============================================================
-# Usage: proc_domain <url> <output.mrs> [separator]
+# Usage: proc_domain <url> <output.mrs> <format> [separator]
 # - Downloads, normalizes, and converts domain list
-# - If separator is omitted, use " " by default
+# - If [separator] is omitted, use " " by default
 proc_domain() {
-  local url="$1" out="$2" sep="${3:-[[:space:]]+}"
-  local txt="${out%.mrs}.txt"
+  local url="$1" out="$2" fmt="$3" sep="${4:-[[:space:]]+}"
   local base="${out##*/}"
-  local tmp="/tmp/domain_raw_${base%.mrs}.txt"
-
   echo "::group::  [D] $base"
-  time -p ( dl "$url" > "$tmp")
-  ls -lh $tmp
+
+  local ext
+  case "$fmt" in
+    yaml) ext="yaml" ;;
+    text) ext="txt" ;;
+    *)
+      echo "Error: unsupported format '$fmt'" >&2; return 1 ;;
+  esac
+
+  local tmp="/tmp/domain_raw_${base%.*}.${ext}"
+  time -p dl "$url" > "$tmp"
+  ls -lh "$tmp"
+
+  local rules="${out%.*}.${ext}"
+  if [ "$fmt" == "text" ]; then
+    time -p norm_domain "$sep" < "$tmp" > "$rules"
+  else
+    time -p cp "$tmp" "$rules"
+  fi
+  ls -lh "$rules"
   
-  time -p ( norm_domain "$sep" < "$tmp" > "$txt" )
-  ls -lh "$txt"
-  
-  time -p ( mihomo convert-ruleset domain text "$txt" "$out" )
+  time -p mihomo convert-ruleset domain "$fmt" "$rules" "$out"
   ls -lh "$out"
   echo "::endgroup::"
 }
 
-# Usage: proc_ip <url> <output.mrs> [separator]
+# Usage: proc_ip <url> <output.mrs> <format> [separator]
 # - Downloads, normalizes, and converts IP list
-# - If separator is omitted, use " " by default
+# - If [separator] is omitted, use " " by default
 proc_ip() {
-  local url="$1" out="$2" sep="${3:-[[:space:]]+}"
-  local txt="${out%.mrs}.txt"
+  local url="$1" out="$2" fmt="$3" sep="${4:-[[:space:]]+}"
   local base="${out##*/}"
-  local tmp="/tmp/ip_raw_${base%.mrs}.txt"
-  
   echo "::group::  [I] $base"
-  time -p ( dl "$url" > "$tmp" )
-  ls -lh $tmp
   
-  time -p ( norm_ip "$sep" < "$tmp" > "$txt" )
-  ls -lh "$txt"
+  local ext
+  case "$fmt" in
+    yaml) ext="yaml" ;;
+    text) ext="txt" ;;
+    *)
+      echo "Error: unsupported format '$fmt'" >&2; return 1 ;;
+  esac
 
-  time -p ( mihomo convert-ruleset ipcidr text "$txt" "$out" )
+  local tmp="/tmp/ip_raw_${base%.*}.${ext}"
+  time -p dl "$url" > "$tmp"
+  ls -lh "$tmp"
+
+  local rules="${out%.*}.${ext}"
+  if [ "$fmt" == "text" ]; then
+    time -p norm_ip "$sep" < "$tmp" > "$rules"
+  else
+    time -p cp "$tmp" "$rules"
+  fi
+  ls -lh "$rules"
+
+  time -p mihomo convert-ruleset ipcidr "$fmt" "$rules" "$out"
   ls -lh "$out"
   echo "::endgroup::"
 }
 
-# Usage: proc_mixed <url> <domain_output.mrs> <ip_output.mrs> [separator]
+# Usage: proc_mixed <url> <domain_output.mrs> <ip_output.mrs> <format> [separator]
 # - Downloads once, splits into domain and IP lists
-# - If separator is omitted, use " " by default
+# - If [separator] is omitted, use " " by default
 proc_mixed() {
-  local url="$1" dom_out="$2" ip_out="$3" sep="${4:-[[:space:]]+}"
-  local dom_txt="${dom_out%.mrs}.txt"
-  local ip_txt="${ip_out%.mrs}.txt"
-  local tmp="/tmp/mixed_raw_$$.txt"
-  
+  local url="$1" dom_out="$2" ip_out="$3" fmt="$4" sep="${5:-[[:space:]]+}"
   echo "::group::  [D+I] ${dom_out##*/} + ${ip_out##*/}"
-  time -p ( dl "$url" > "$tmp" )
-  ls -lh $tmp
   
-  time -p ( norm_domain "$sep" < "$tmp" > "$dom_txt" )
-  ls -lh $dom_txt
-  time -p ( norm_ip "$sep" < "$tmp" > "$ip_txt" )
-  ls -lh $ip_txt
+  local ext
+  case "$fmt" in
+    yaml) ext="yaml" ;;
+    text) ext="txt" ;;
+    *)
+      echo "Error: unsupported format '$fmt'" >&2; return 1 ;;
+  esac
+
+  local tmp="/tmp/mixed_raw_$$.txt"
+  time -p { dl "$url" > "$tmp"; }
+  ls -lh "$tmp"
+
+  local dom_rules="${dom_out%.*}.${ext}"
+  local ip_rules="${ip_out%.*}.${ext}"
+  if [ "$fmt" == "text" ]; then
+    time -p norm_domain "$sep" < "$tmp" > "$dom_rules"
+    ls -lh "$dom_rules"
+    time -p norm_ip "$sep" < "$tmp" > "$ip_rules"
+    ls -lh "$ip_rules"
+  else
+    time -p cp "$tmp" "$dom_rules"
+    ls -lh "$dom_rules"
+    time -p cp "$tmp" "$ip_rules"
+    ls -lh "$ip_rules"
+  fi
   rm -f "$tmp"
   
-  time -p ( mihomo convert-ruleset domain text "$dom_txt" "$dom_out" )
-  ls -lh $dom_out
-  time -p ( mihomo convert-ruleset ipcidr text "$ip_txt" "$ip_out" )
-  ls -lh $ip_out
+  time -p mihomo convert-ruleset domain "$fmt" "$dom_rules" "$dom_out"
+  ls -lh "$dom_out"
+  time -p mihomo convert-ruleset ipcidr "$fmt" "$ip_rules" "$ip_out"
+  ls -lh "$ip_out"
   echo "::endgroup::"
 }
 
