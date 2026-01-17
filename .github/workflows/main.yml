@@ -49,8 +49,8 @@ jobs:
           
           # Delete and recreate directories
           rm -rf "$DOMAIN_DIR" "$IPCIDR_DIR"
-          mkdir -p "$DOMAIN_DIR"/{hagezi,stamparm,oisd} \
-                   "$IPCIDR_DIR"/{hagezi,stamparm,firehol,bitwire-it}
+          mkdir -p "$DOMAIN_DIR"/{hagezi,stamparm,oisd,loyalsoldier} \
+                   "$IPCIDR_DIR"/{hagezi,stamparm,firehol,bitwire-it,loyalsoldier}
           
           # Install mihomo (from cached branch)
           install_mihomo
@@ -67,72 +67,84 @@ jobs:
           OISD="https://raw.githubusercontent.com/sjhgvr/oisd/main"
           FIREHOL="https://raw.githubusercontent.com/firehol/blocklist-ipsets/master"
           BITWIRE_IT="https://raw.githubusercontent.com/bitwire-it/ipblocklist/main"
+          LOYALSOLDIER="https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release"
 
           # (Optional) Override default values of `dl()` options
           # export DL_RETRY=3
           # export DL_RETRY_DELAY=5
 
-          # === 1. HaGeZi Wildcard Domains ===
-          echo "[1/8] HaGeZi wildcard domains"
+          # === 1. HaGeZi Domains ===
+          echo "[1/9] HaGeZi Domains"
           hagezi_wild="light multi:normal pro pro.mini pro.plus pro.plus.mini
             ultimate ultimate.mini tif tif.medium tif.mini doh
             doh-vpn-proxy-bypass dyndns spam-tlds spam-tlds-allow hoster"
           for item in $hagezi_wild; do
             src="${item%:*}" out="${item#*:}"
-            proc_domain "$HAGEZI/wildcard/${src}-onlydomains.txt" "$DOMAIN_DIR/hagezi/${out}.mrs"
+            proc_domain "$HAGEZI/wildcard/${src}-onlydomains.txt" "$DOMAIN_DIR/hagezi/${out}.mrs" "text"
           done
 
-          # === 2. HaGeZi Domains ===
-          echo "[2/8] HaGeZi domains"
           for f in nrd7 nrd14-8 nrd21-15 nrd28-22 nrd35-29 \
                    dga7 dga14 dga30; do
-            proc_domain "$HAGEZI/domains/${f}.txt" "$DOMAIN_DIR/hagezi/${f}.mrs"
+            proc_domain "$HAGEZI/domains/${f}.txt" "$DOMAIN_DIR/hagezi/${f}.mrs" "text"
           done
 
-          # === 3. HaGeZi IPs ===
-          echo "[3/8] HaGeZi IPs"
+          # === 2. HaGeZi IPs ===
+          echo "[2/9] HaGeZi IPs"
           for f in tif doh; do
-            proc_ip "$HAGEZI/ips/${f}.txt" "$IPCIDR_DIR/hagezi/${f}-ipcidr.mrs"
+            proc_ip "$HAGEZI/ips/${f}.txt" "$IPCIDR_DIR/hagezi/${f}-ipcidr.mrs" "text"
           done
 
-          # === 4. Stamparm Maltrail ===
-          echo "[4/8] Stamparm maltrail"
+          # === 3. Stamparm Maltrail ===
+          echo "[3/9] Stamparm maltrail"
           proc_domain "$STAMPARM/aux/master/maltrail-malware-domains.txt" \
-            "$DOMAIN_DIR/stamparm/maltrail-malware.mrs"
+            "$DOMAIN_DIR/stamparm/maltrail-malware.mrs" \
+            "text"
           proc_mixed "$STAMPARM/aux/master/maltrail-static-trails.txt" \
             "$DOMAIN_DIR/stamparm/maltrail-static-domains.mrs" \
             "$IPCIDR_DIR/stamparm/maltrail-static-ipcidr.mrs" \
-            ","                                                 # use comma as separator
+            "text" \
+            ","  # use comma as separator
 
-          # === 5. Stamparm Ipsum ===
-          echo "[5/8] Stamparm ipsum"
+          # === 4. Stamparm Ipsum ===
+          echo "[4/9] Stamparm ipsum"
           for i in 1 2 3 4; do
-            proc_ip "$STAMPARM/ipsum/master/levels/${i}.txt" \
-              "$IPCIDR_DIR/stamparm/ipsum-level${i}.mrs"
+            proc_ip "$STAMPARM/ipsum/master/levels/${i}.txt" "$IPCIDR_DIR/stamparm/ipsum-level${i}.mrs" "text"
           done
 
-          # === 6. OISD Domains ===
-          echo "[6/8] OISD domains"
+          # === 5. OISD Domains ===
+          echo "[5/9] OISD domains"
           for item in big:oisd_big small:oisd_small nsfw:oisd_nsfw nsfw_small:oisd_nsfw_small; do
             src="${item%:*}" out="${item#*:}"
-            proc_domain "$OISD/domainswild2_${src}.txt" "$DOMAIN_DIR/oisd/${out}.mrs"
+            proc_domain "$OISD/domainswild2_${src}.txt" "$DOMAIN_DIR/oisd/${out}.mrs" "text"
           done
 
-          # === 7. FireHOL IP Sets ===
-          echo "[7/8] FireHOL ipsets"
+          # === 6. FireHOL IP Sets ===
+          echo "[6/9] FireHOL ipsets"
           for f in firehol_level{1,2,3,4}.netset \
                    tor_exits.ipset \
                    tor_exits_{1,7,30}d.ipset \
                    firehol_anonymous.netset \
                    dm_tor.ipset \
                    et_tor.ipset; do
-            proc_ip "$FIREHOL/${f}" "$IPCIDR_DIR/firehol/${f%.*}.mrs"
+            proc_ip "$FIREHOL/${f}" "$IPCIDR_DIR/firehol/${f%.*}.mrs" "text"
           done
 
-          # === 8. Bitwire-it ipblocklist ===
-          echo "[8/8] bitwire-it ipblocklist"
+          # === 7. Bitwire-it ipblocklist ===
+          echo "[7/9] bitwire-it ipblocklist"
           for f in inbound outbound; do
-            proc_ip "$BITWIRE_IT/${f}.txt" "$IPCIDR_DIR/bitwire-it/${f%.*}.mrs"
+            proc_ip "$BITWIRE_IT/${f}.txt" "$IPCIDR_DIR/bitwire-it/${f%.*}.mrs" "text"
+          done
+
+          # === 8. Loyalsoldier clash-rules domains ===
+          echo "[8/9] Loyalsoldier clash-rules domains"
+          for f in apple direct gfw google greatfire icloud private proxy reject tld-not-cn; do
+            proc_domain "$LOYALSOLDIER/${f}.txt" "$DOMAIN_DIR/loyalsoldier/${f%.*}.mrs" "yaml"
+          done
+
+          # === 9. Loyalsoldier clash-rules ips ===
+          echo "[9/9] Loyalsoldier clash-rules ips"
+          for f in cncidr lancidr telegramcidr; do
+            proc_ip "$LOYALSOLDIER/${f}.txt" "$IPCIDR_DIR/loyalsoldier/${f%.*}.mrs" "yaml"
           done
 
           echo "[Done] Conversion completed"
