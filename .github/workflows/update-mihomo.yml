@@ -90,11 +90,12 @@ jobs:
         env:
           LATEST_VERSION: ${{ steps.check.outputs.latest }}
         run: |
-          git config --local user.name "${{ env.GIT_USER_NAME }}"
-          git config --local user.email "${{ env.GIT_USER_EMAIL }}"
-          
           mkdir cache-repo && cd cache-repo     # Create orphan branch directory explicitly
           git init
+          
+          git config --local user.name "${{ env.GIT_USER_NAME }}"
+          git config --local user.email "${{ env.GIT_USER_EMAIL }}"
+
           cp ../mihomo.deb .
           cp ../VERSION .
           
