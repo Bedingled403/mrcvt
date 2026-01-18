@@ -298,9 +298,11 @@ proc_mixed() {
 switch_to_rules_branch() {
   echo "[Git] Switching to rules branch"
   if git ls-remote --exit-code origin rules &>/dev/null; then
-    git fetch origin rules && git switch rules
+    git fetch --depth=1 origin rules:rules
+    git checkout rules
   else
-    git switch -c rules
+    git checkout --orphan rules
+    git reset --hard
   fi
 }
 
