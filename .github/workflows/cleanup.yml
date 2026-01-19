@@ -1,4 +1,4 @@
-name: Cleanup Branch History
+name: Cleanup
 
 on:
   schedule:
